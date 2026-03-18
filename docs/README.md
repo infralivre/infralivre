@@ -27,12 +27,12 @@ Estabelecer bases jurídicas claras que:
 Este repositório reúne o núcleo institucional do projeto:
 
 ```
-/site                 # Código do site oficial
-/MANIFESTO.md         # Manifesto completo
-/MANIFESTO_RESUMO.md  # Versão resumida
-/CONTRIBUTING.md      # Diretrizes de contribuição
-/GOVERNANCE.md        # Modelo de governança
-/docs/                # Materiais complementares
+/                             # Código do site oficial
+/docs/MANIFEST_FULL.md        # Manifesto completo
+/docs/MANIFEST.md             # Versão resumida
+/docs/CONTRIBUTING.md         # Diretrizes de contribuição
+/docs/GOVERNANCE.md           # Modelo de governança
+/docs/articles/               # Materiais complementares
 ```
 
 A proposta legislativa está em repositório separado.
