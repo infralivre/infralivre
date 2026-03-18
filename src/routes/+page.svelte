@@ -9,6 +9,8 @@
 <svelte:head>
 	<title>InfraLivre — Infraestrutura digital Livre, Aberta e Segura</title>
 	<meta name="description" content="InfraLivre: iniciativa pela construção de um marco jurídico adequado para o software livre e de código aberto no Brasil." />
+	<meta property="og:title" content="InfraLivre — Infraestrutura digital Livre, Aberta e Segura" />
+	<meta property="og:description" content="Iniciativa pela construção de um marco jurídico adequado para o software livre e de código aberto no Brasil." />
 </svelte:head>
 
 <Hero

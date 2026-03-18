@@ -8,13 +8,15 @@
 
 <svelte:head>
 	<title>O Problema — InfraLivre</title>
-	<meta name="description" content="Entenda o problema jurídico do software livre no Brasil e por que precisamos de um marco legal." />
+	<meta name="description" content="Entenda o problema jurídico estrutural que afeta o software livre no Brasil e por que precisamos de um marco jurídico adequado." />
+	<meta property="og:title" content="O Problema — InfraLivre" />
+	<meta property="og:description" content="O problema jurídico estrutural que afeta o software livre no Brasil." />
 </svelte:head>
 
 <Section>
 	<PageHeader
 		title="O Problema"
-		description="Por que a ausência de um marco legal para software livre é um problema para o Brasil."
+		description="Por que a ausência de um marco jurídico adequado para software livre é um risco crescente."
 	/>
 </Section>
 

@@ -8,13 +8,15 @@
 
 <svelte:head>
 	<title>A Proposta — InfraLivre</title>
-	<meta name="description" content="Conheça a proposta do InfraLivre para um marco legal do software livre no Brasil." />
+	<meta name="description" content="Conheça a proposta do InfraLivre: um marco jurídico com seis pilares para proteger o software livre no Brasil." />
+	<meta property="og:title" content="A Proposta — InfraLivre" />
+	<meta property="og:description" content="Um marco jurídico com seis pilares para proteger o software livre no Brasil." />
 </svelte:head>
 
 <Section>
 	<PageHeader
 		title="A Proposta"
-		description="Um marco legal para garantir a adoção sustentável de software livre na administração pública brasileira."
+		description="Um marco jurídico para garantir segurança, previsibilidade e sustentabilidade do software livre no Brasil."
 	/>
 </Section>
 

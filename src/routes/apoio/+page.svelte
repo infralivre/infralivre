@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Section from '$lib/components/shared/Section.svelte';
 	import PageHeader from '$lib/components/shared/PageHeader.svelte';
-	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import GitHubCta from '$lib/components/shared/GitHubCta.svelte';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 </script>
@@ -9,6 +9,8 @@
 <svelte:head>
 	<title>Como Apoiar — InfraLivre</title>
 	<meta name="description" content="Saiba como apoiar o InfraLivre na construção de um marco jurídico adequado para o software livre no Brasil." />
+	<meta property="og:title" content="Como Apoiar — InfraLivre" />
+	<meta property="og:description" content="Saiba como apoiar a construção de um marco jurídico adequado para o software livre no Brasil." />
 </svelte:head>
 
 <Section>
@@ -127,3 +129,5 @@
 		</p>
 	</div>
 </Section>
+
+<GitHubCta />

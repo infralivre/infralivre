@@ -16,7 +16,7 @@
 
 <section class={cn('py-16 md:py-24', className)}>
 	<Container>
-		<div class="rounded-lg bg-muted p-8 text-center md:p-12">
+		<div class="rounded-lg border border-border bg-muted p-8 text-center md:p-12">
 			<h2 class="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h2>
 			{#if description}
 				<p class="mx-auto mt-3 max-w-xl text-muted-foreground">{description}</p>
