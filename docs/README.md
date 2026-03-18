@@ -41,9 +41,12 @@ A proposta legislativa está em repositório separado.
 
 ## Como começar
 
-* Leia o manifesto resumido (`MANIFESTO_RESUMO.md`)
-* Aprofunde-se no manifesto completo (`MANIFESTO.md`)
-* Consulte as diretrizes em `CONTRIBUTING.md`
+* Leia o [manifesto resumido](./Manifesto/MANIFESTO.md)
+* Aprofunde-se no [manifesto completo](./Manifesto/MANIFESTO_COMPLETO.md)
+
+* Consulte as [como apoiar](./COMO_APOIAR.md)
+
+* Consulte as [como ajudar diretamente o projeto](CONTRIBUTING.md)
 
 ---
 
