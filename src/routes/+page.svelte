@@ -1,15 +1,89 @@
 <script lang="ts">
+	import Hero from '$lib/components/shared/Hero.svelte';
 	import Section from '$lib/components/shared/Section.svelte';
+	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import { Button } from '$lib/components/ui/button/index.js';
+	import * as Card from '$lib/components/ui/card/index.js';
 </script>
 
 <svelte:head>
-	<title>InfraLivre — Software livre para um Brasil livre</title>
-	<meta name="description" content="InfraLivre: movimento por um marco legal para o software livre no Brasil." />
+	<title>InfraLivre — Infraestrutura digital Livre, Aberta e Segura</title>
+	<meta name="description" content="InfraLivre: iniciativa pela construção de um marco jurídico adequado para o software livre e de código aberto no Brasil." />
 </svelte:head>
 
-<Section class="flex flex-col items-center justify-center text-center">
-	<h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">InfraLivre</h1>
-	<p class="mt-4 max-w-2xl text-lg text-muted-foreground sm:text-xl">
-		Software livre para um Brasil livre.
-	</p>
+<Hero
+	title="InfraLivre"
+	subtitle="Por uma Infraestrutura digital Livre, Aberta e Segura: Defendemos a criação de um marco jurídico adequado para o software livre e de código aberto no Brasil."
+>
+	<Button href="/manifesto" variant="default" size="lg">Leia o Manifesto</Button>
+	<Button href="/apoio" variant="outline" size="lg">Como Apoiar</Button>
+</Hero>
+
+<Section id="problema" class="border-t border-border">
+	<div class="max-w-2xl">
+		<h2 class="text-2xl font-bold tracking-tight sm:text-3xl">O Problema</h2>
+		<p class="mt-4 text-muted-foreground">
+			O software livre sustenta grande parte da infraestrutura digital moderna — governos,
+			empresas, serviços essenciais. Mas o ordenamento jurídico atual foi construído para
+			empresas centralizadas, com controle direto sobre seus produtos.
+		</p>
+		<p class="mt-4 text-muted-foreground">
+			Quando regulações digitais são aplicadas ao software livre sem distinção, mantenedores
+			e contribuidores ficam expostos a riscos jurídicos que não correspondem à sua atuação real.
+			Não se trata de resistência à regulação — trata-se de inadequação.
+		</p>
+		<div class="mt-6">
+			<Button href="/problema" variant="outline">Entenda o problema →</Button>
+		</div>
+	</div>
 </Section>
+
+<Section id="pilares" class="border-t border-border">
+	<h2 class="text-2xl font-bold tracking-tight sm:text-3xl">Por que isso importa</h2>
+	<div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+		<Card.Root>
+			<Card.Header>
+				<Card.Title>Segurança Jurídica</Card.Title>
+			</Card.Header>
+			<Card.Content>
+				<p class="text-sm text-muted-foreground">
+					Desenvolvedores e mantenedores precisam de limites claros de responsabilidade.
+					A regulação deve incidir onde há efetiva capacidade de controle.
+				</p>
+			</Card.Content>
+		</Card.Root>
+
+		<Card.Root>
+			<Card.Header>
+				<Card.Title>Infraestrutura Digital</Card.Title>
+			</Card.Header>
+			<Card.Content>
+				<p class="text-sm text-muted-foreground">
+					O software livre é base de infraestruturas críticas, serviços financeiros
+					e sistemas governamentais. Em muitos casos, não existem substitutos viáveis.
+				</p>
+			</Card.Content>
+		</Card.Root>
+
+		<Card.Root>
+			<Card.Header>
+				<Card.Title>Sustentabilidade</Card.Title>
+			</Card.Header>
+			<Card.Content>
+				<p class="text-sm text-muted-foreground">
+					Sem um marco jurídico adequado, o risco é a retração da colaboração,
+					o abandono de projetos e a fragilização da infraestrutura digital
+					que sustenta a economia.
+				</p>
+			</Card.Content>
+		</Card.Root>
+	</div>
+</Section>
+
+<CallToAction
+	title="Uma proposta construtiva"
+	description="O InfraLivre não propõe ausência de regras. Propõe regras adequadas — que reconheçam a realidade técnica do software livre."
+	href="/proposta"
+	label="Conheça a proposta"
+	class="border-t border-border"
+/>
