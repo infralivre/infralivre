@@ -19,7 +19,7 @@
 		description="O InfraLivre é uma iniciativa aberta que depende da participação ativa da comunidade. Apoiar o projeto não exige conhecimento técnico ou jurídico — grande parte do impacto vem da forma como o tema é discutido e compartilhado."
 	/>
 	<img
-		src="/images/9a6pcb9a6pcb9a6p.webp"
+		src="/images/02.webp"
 		alt="Ilustração mostrando diversas formas de apoiar o InfraLivre: debater sobre insegurança jurídica, compartilhar links diretos, seguir o projeto, manter foco construtivo, construir pontes sem polarização e contribuir via issues e pull requests."
 		class="mt-8 w-full rounded-lg border border-border"
 		width="1456"

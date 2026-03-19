@@ -203,6 +203,32 @@
 	font-size: 0.875em;
 }
 
+.prose table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1.5em;
+	font-size: 0.9375em;
+}
+
+.prose thead {
+	border-bottom: 2px solid var(--border);
+}
+
+.prose th {
+	padding: 0.625em 0.75em;
+	text-align: left;
+	font-weight: 600;
+}
+
+.prose td {
+	padding: 0.625em 0.75em;
+	border-top: 1px solid var(--border);
+}
+
+.prose tbody tr:hover {
+	background-color: var(--muted);
+}
+
 .prose hr {
 	border: none;
 	border-top: 1px solid var(--border);

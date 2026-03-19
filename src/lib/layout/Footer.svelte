@@ -18,11 +18,11 @@
 			<div>
 				<h3 class="text-sm font-medium">Navegação</h3>
 				<nav class="mt-2 flex flex-col gap-1.5">
+					<a href="/software-livre" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Software Livre</a>
 					<a href="/manifesto" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Manifesto</a>
 					<a href="/problema" class="text-sm text-muted-foreground transition-colors hover:text-foreground">O Problema</a>
 					<a href="/proposta" class="text-sm text-muted-foreground transition-colors hover:text-foreground">A Proposta</a>
 					<a href="/apoio" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Como Apoiar</a>
-					<a href="/sobre" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Sobre</a>
 				</nav>
 			</div>
 

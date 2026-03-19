@@ -19,7 +19,37 @@
 >
 	<Button href="/manifesto" variant="default" size="lg">Leia o Manifesto</Button>
 	<Button href="/apoio" variant="outline" size="lg">Como Apoiar</Button>
+
+	<img
+	src="/images/01.webp"
+	alt="Ilustração mostrando diversas pessoas colaborando em projetos de software livre e de código aberto, representando a comunidade global de desenvolvedores e usuários que contribuem para o ecossistema do software livre."
+	class="mt-8 w-full rounded-lg border border-border"
+	width="1456"
+	height="816"
+	loading="eager"
+/>
 </Hero>
+
+
+<Section id="software-livre" class="border-t border-border">
+	<div class="max-w-2xl">
+		<h2 class="text-2xl font-bold tracking-tight sm:text-3xl">Software Livre</h2>
+		<p class="mt-4 text-muted-foreground">
+			Software livre e de código aberto é todo software cujo código-fonte pode ser
+			livremente acessado, estudado, modificado e redistribuído. Ele sustenta mais de 90%
+			dos servidores web, a base do Android, a computação em nuvem e os principais
+			frameworks de inteligência artificial.
+		</p>
+		<p class="mt-4 text-muted-foreground">
+			Mesmo sem perceber, você usa software livre todos os dias — na internet, no celular,
+			no trabalho. Ele não é apenas uma alternativa técnica: é um modelo de produção de
+			conhecimento que garante independência tecnológica, segurança e inovação.
+		</p>
+		<div class="mt-6">
+			<Button href="/software-livre" variant="outline">Saiba mais sobre software livre →</Button>
+		</div>
+	</div>
+</Section>
 
 <Section id="problema" class="border-t border-border">
 	<div class="max-w-2xl">

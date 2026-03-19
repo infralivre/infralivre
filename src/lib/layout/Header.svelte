@@ -8,11 +8,11 @@
 
 	const navLinks = [
 		{ href: '/', label: 'Início' },
+		{ href: '/software-livre', label: 'Software Livre' },
 		{ href: '/manifesto', label: 'Manifesto' },
 		{ href: '/problema', label: 'Problema' },
 		{ href: '/proposta', label: 'Proposta' },
-		{ href: '/apoio', label: 'Apoio' },
-		{ href: '/sobre', label: 'Sobre' }
+		{ href: '/apoio', label: 'Apoio' }
 	] as const;
 
 	let mobileOpen = $state(false);
