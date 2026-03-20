@@ -4,10 +4,50 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Habilita API de transição global nativa dos browsers */
+@view-transition {
+	navigation: auto;
+}
+
+::view-transition-old(root) {
+	animation: fadeOutPage 0.2s ease-out both;
+}
+
+::view-transition-new(root) {
+	animation: fadeInPage 0.3s ease-out both;
+}
+
+/* Isola o cabeçalho das transições de página (Muda apenas com cores/dados e não desvanece a view) */
+::view-transition-old(site-header),
+::view-transition-new(site-header) {
+	animation: none;
+	mix-blend-mode: normal;
+}
+
+@keyframes fadeOutPage {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
 @keyframes fadeUp {
 	from {
 		opacity: 0;
 		transform: translateY(12px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInPage {
+	from {
+		opacity: 0;
+		transform: translateY(6px);
 	}
 	to {
 		opacity: 1;
