@@ -1,7 +1,20 @@
 <script lang="ts">
+	import { onNavigate } from '$app/navigation';
 	import '../app.css';
 	import Header from '$lib/layout/Header.svelte';
 	import Footer from '$lib/layout/Footer.svelte';
+	import { page } from '$app/state';
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 
 	let { children } = $props();
 </script>
@@ -20,8 +33,12 @@
 
 <div class="flex min-h-dvh flex-col bg-background text-foreground">
 	<Header />
-	<main id="conteudo" class="flex-1">
-		{@render children()}
-	</main>
+	
+	{#key page.url.pathname}
+		<main id="conteudo" class="flex-1 animate-[fadeInPage_0.4s_ease-out_both]">
+			{@render children()}
+		</main>
+	{/key}
+
 	<Footer />
 </div>
