@@ -70,17 +70,13 @@ E, como toda infraestrutura essencial, ele exige proteção adequada.
 
 Defendemos a criação de um Marco Jurídico do Software Livre e de Código Aberto, baseado nos seguintes pilares:
 
-### Segurança jurídica
-
-Definir de forma clara limites de responsabilidade, critérios de imputação jurídica e distinção entre criação e uso.
-
 ### Reconhecimento da descentralização
 
 Garantir proteção para projetos sem entidade jurídica central, compostos por múltiplos contribuidores.
 
-### Proteção ao voluntariado tecnológico
+### Proteção aos mantenedores
 
-Assegurar que contribuições voluntárias não configurem vínculo empregatício nem gerem obrigações indevidas.
+Assegurar que contribuições voluntárias e mantenedores sejam melhor protegidos contra judicialização indevida.
 
 ### Princípio da impossibilidade técnica
 

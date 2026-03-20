@@ -1,34 +1,30 @@
 ## A proposta
 
-O InfraLivre defende a criação de um **Marco Jurídico do Software Livre e de Código Aberto** — um enquadramento legal que alinhe responsabilidade à capacidade real de controle, reduza inseguranças jurídicas e preserve a sustentabilidade do ecossistema.
+O InfraLivre defende a criação de um **Marco Jurídico do Software Livre e de Código Aberto**, um enquadramento legal que alinhe responsabilidade à capacidade real de controle, reduza inseguranças jurídicas e preserve a sustentabilidade do ecossistema.
 
-Não se propõe ausência de regulação, mas sim uma **regulação compatível** com a realidade do software livre — técnica, jurídica e socialmente.
+Não se propõe ausência de regulação, mas sim uma **regulação compatível** com a realidade do software livre: técnica, jurídica e socialmente.
 
-## Os seis pilares
+## Os cinco pilares
 
 A proposta se estrutura em seis eixos fundamentais:
 
-### 1. Segurança jurídica
+### 1. Reconhecimento da Descentralização
 
-Definir de forma clara limites de responsabilidade, critérios de imputação jurídica e distinção entre criação e uso. Quem desenvolve software livre não pode ser equiparado a quem opera um serviço comercial.
+Garantir proteção para projetos sem entidade jurídica central, compostos por múltiplos contribuidores distribuídos. A lei precisa reconhecer que nem todo projeto tem, ou precisa ter, um "responsável" centralizado.
 
-### 2. Reconhecimento da descentralização
+### 2. Proteção aos Mantenedores
 
-Garantir proteção para projetos sem entidade jurídica central, compostos por múltiplos contribuidores distribuídos. A lei precisa reconhecer que nem todo projeto tem — ou precisa ter — um "responsável" centralizado.
+Assegurar que o trabalho dos Mantenedores não gerem obrigações indevidas. Milhares de pessoas contribuem para software livre de forma voluntária, onde equiparar ao trabalho em ongs e fundações de forma facilitada, permite que a legislação não possa penalizar os projetos por isso.
 
-### 3. Proteção ao voluntariado tecnológico
-
-Assegurar que contribuições voluntárias não configurem vínculo empregatício nem gerem obrigações indevidas. Milhares de pessoas contribuem para software livre de forma voluntária — a regulação não pode penalizá-las por isso.
-
-### 4. Princípio da impossibilidade técnica
+### 3. Princípio da Impossibilidade Técnica
 
 Impedir a imposição de obrigações que não podem ser cumpridas pela própria natureza do software livre. Não se pode exigir controle onde ele não existe.
 
-### 5. Separação entre desenvolvimento e operação
+### 4. Separação entre Desenvolvimento e Operação
 
-Diferenciar juridicamente quem desenvolve, quem distribui e quem utiliza. Essas são funções distintas com capacidades distintas — e devem ser tratadas como tal.
+Diferenciar juridicamente quem desenvolve, quem distribui e quem utiliza. Essas são funções distintas com capacidades distintas, e que devem ser tratadas como tal.
 
-### 6. Sustentabilidade do ecossistema
+### 5. Sustentabilidade do Ecossistema
 
 Criar condições reais para manutenção de projetos, financiamento e fortalecimento do desenvolvimento nacional. A infraestrutura digital aberta precisa de sustentabilidade para continuar existindo.
 
@@ -48,4 +44,8 @@ Sugestões, revisões e propostas podem ser feitas via *issues* e *pull requests
 
 ## Princípio fundamental
 
-O software livre deve ser reconhecido como **infraestrutura digital aberta de interesse público**. Essa definição não é simbólica — ela reflete sua função real na sociedade. E, como toda infraestrutura essencial, ele exige proteção adequada.
+O software livre deve ser reconhecido como **infraestrutura digital aberta de interesse público**.
+
+Essa definição não é simbólica.
+
+Ela reflete sua função real na sociedade, e como toda infraestrutura essencial, exige-se proteção adequada.
