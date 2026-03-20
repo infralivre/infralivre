@@ -5,6 +5,7 @@
 	import Menu from '@lucide/svelte/icons/menu';
 	import X from '@lucide/svelte/icons/x';
 	import Github from '@lucide/svelte/icons/github';
+	import Star from '@lucide/svelte/icons/star';
 
 	const navLinks = [
 		{ href: '/', label: 'Início' },
@@ -58,15 +59,16 @@
 					{/each}
 				</nav>
 
-				<!-- GitHub link -->
+				<!-- GitHub CTA -->
 				<a
 					href="https://github.com/infralivre/infralivre"
 					target="_blank"
 					rel="noopener"
-					class="hidden items-center justify-center rounded-md p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground md:inline-flex"
-					aria-label="GitHub"
+					class="ml-2 hidden items-center gap-1.5 rounded-full border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground shadow-sm transition-all hover:border-foreground/20 hover:shadow-md md:inline-flex"
 				>
-					<Github class="size-[1.125rem]" />
+					<Github class="size-3.5" />
+					<span>Apoie com uma</span>
+					<Star class="size-3 fill-amber-400 text-amber-400" />
 				</a>
 
 				<!-- Theme toggle -->
@@ -118,10 +120,12 @@
 					target="_blank"
 					rel="noopener"
 					onclick={closeMobile}
-					class="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+					class="mt-2 flex items-center gap-2 rounded-full border border-border bg-background px-3 py-2 text-sm font-medium text-foreground transition-all hover:border-foreground/20 hover:shadow-sm"
 				>
 					<Github class="size-4" />
-					GitHub
+					<span>Apoie com uma</span>
+					<Star class="size-3.5 fill-amber-400 text-amber-400" />
+					<span>no GitHub</span>
 				</a>
 			</nav>
 		{/if}

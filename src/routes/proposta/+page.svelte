@@ -18,6 +18,17 @@
 		title="A Proposta"
 		description="Um marco jurídico para garantir segurança, previsibilidade e sustentabilidade do software livre no Brasil."
 	/>
+	<p class="text-sm text-muted-foreground">
+		Versão resumida disponível: <a href="/proposta/resumo" class="underline underline-offset-2 hover:text-foreground">Leia o resumo →</a>
+	</p>
+	<img
+		src="/images/06.webp"
+		alt="Ilustração mostrando diversas pessoas colaborando em projetos de software livre e de código aberto, representando a comunidade global de desenvolvedores e usuários que contribuem para o ecossistema do software livre."
+		class="mt-8 w-full rounded-lg border border-border"
+		width="1456"
+		height="816"
+		loading="eager"
+	/>
 </Section>
 
 <ProseLayout>

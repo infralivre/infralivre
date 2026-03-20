@@ -21,8 +21,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://infralivre.org/problema/resumo</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://infralivre.org/proposta</loc>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infralivre.org/proposta/resumo</loc>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://infralivre.org/apoio</loc>

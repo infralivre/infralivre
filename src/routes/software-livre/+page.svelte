@@ -18,6 +18,14 @@
 		title="Software Livre e de Código Aberto"
 		description="Uma introdução ao modelo de desenvolvimento que sustenta a infraestrutura digital do mundo."
 	/>
+    <img
+		src="/images/05.webp"
+		alt="Ilustração mostrando um labirinto complexo representando o emaranhado jurídico que o software livre enfrenta no Brasil, simbolizando os desafios legais e burocráticos que dificultam o desenvolvimento e uso do software livre."
+		class="mt-8 w-full rounded-lg border border-border"
+		width="1456"
+		height="816"
+		loading="eager"
+	/>
 </Section>
 
 <ProseLayout>
