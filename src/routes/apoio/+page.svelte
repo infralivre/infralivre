@@ -16,9 +16,9 @@
 
 <svelte:head>
 	<title>Como Apoiar — InfraLivre</title>
-	<meta name="description" content="Saiba como apoiar o InfraLivre na construção de um marco jurídico adequado para o software livre no Brasil." />
+	<meta name="description" content="Saiba como apoiar o InfraLivre na construção de um marco jurídico adequado para a infraestrutura livre no Brasil." />
 	<meta property="og:title" content="Como Apoiar — InfraLivre" />
-	<meta property="og:description" content="Saiba como apoiar a construção de um marco jurídico adequado para o software livre no Brasil." />
+	<meta property="og:description" content="Saiba como apoiar a construção de um marco jurídico adequado para a infraestrutura livre no Brasil." />
 </svelte:head>
 
 <Section>

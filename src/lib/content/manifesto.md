@@ -1,118 +1,256 @@
 ## 1. Introdução
 
-A infraestrutura digital moderna, que sustenta governos, empresas e a vida cotidiana, depende amplamente de software livre e de código aberto.
+A infraestrutura digital moderna, que sustenta governos, empresas e a vida cotidiana, depende amplamente de sistemas livres e abertos.
 
-Sistemas operacionais, servidores, redes, bancos de dados e ferramentas essenciais existem e operam com base nesse modelo. Sem ele, grande parte do que hoje é considerado básico simplesmente não funcionaria.
+Software, serviços, redes e até arquiteturas de hardware operam, em diferentes níveis, com base em modelos colaborativos, auditáveis e distribuídos.
 
-Ainda assim, o software livre permanece, em grande medida, fora de um enquadramento jurídico compatível com sua realidade.
+Sistemas operacionais, servidores, protocolos de comunicação, redes e ferramentas essenciais existem e operam com base nesse modelo. Sem ele, grande parte do que hoje é considerado básico simplesmente não funcionaria.
+
+Ainda assim, essa infraestrutura permanece, em grande medida, fora de um enquadramento jurídico compatível com sua realidade.
 
 ## 2. Um problema estrutural ignorado
 
 O ordenamento jurídico atual foi construído para um mundo diferente:
 
 - empresas centralizadas
-- fornecedores claramente identificáveis
-- produtos com controle direto sobre seu uso
+- operadores claramente identificáveis
+- serviços com controle direto sobre seu funcionamento
 
-O software livre não segue essa lógica.
+A infraestrutura livre não segue essa lógica.
 
-Ele é desenvolvido de forma colaborativa, descentralizada, muitas vezes voluntária, e sem controle sobre como será utilizado.
+Ela é:
 
-Essa diferença não é um detalhe. É uma ruptura estrutural. E essa ruptura não está sendo reconhecida.
+- desenvolvida de forma colaborativa
+- operada de forma distribuída
+- utilizada sem controle centralizado
+- composta por múltiplas camadas independentes
+
+Essa diferença não é um detalhe.
+
+É uma ruptura estrutural, e essa ruptura não está sendo reconhecida.
 
 ## 3. A escalada da insegurança jurídica
 
-O avanço das regulações digitais está ampliando exigências como:
+O avanço das regulações digitais amplia exigências como:
 
 - identificação de responsáveis diretos
 - imposição de obrigações técnicas
 - exigência de garantias formais
+- capacidade de intervenção e controle
 
-Quando essas exigências são aplicadas ao software livre, surge um problema grave.
+Essas exigências são concebidas para serviços centralizados.
 
-Está sendo atribuída responsabilidade a quem não possui controle técnico sobre o uso do software. Isso expõe mantenedores, contribuidores e distribuidores a riscos que não correspondem à sua atuação real.
+Quando aplicadas indistintamente à infraestrutura livre, produzem distorções graves.
 
-Não se trata de resistência à regulação. Trata-se de inadequação da regulação existente.
+Passa-se a exigir controle onde não há controle possível.
+
+Passa-se a atribuir responsabilidade a quem não possui capacidade técnica de intervenção.
+
+Não se trata de resistência à regulação.
+
+Trata-se de inadequação da regulação à realidade técnica.
 
 ## 4. O risco real e crescente
 
-O software livre não é periférico. Ele é base estrutural.
+A infraestrutura livre não é periférica. Ela é base estrutural.
 
-Ele sustenta:
+Ela sustenta:
 
 - a internet
+- serviços digitais globais
 - sistemas corporativos
-- serviços em nuvem
 - infraestruturas públicas e privadas
 
 Se essa base se tornar juridicamente insegura, as consequências não serão pontuais.
 
-O que pode ocorrer é um processo progressivo de deterioração:
+O que se inicia é um processo progressivo de deterioração:
 
 - desenvolvedores deixando de contribuir por risco jurídico
-- projetos críticos sendo abandonados
-- empresas evitando o uso declarado dessas tecnologias
-- aumento de incerteza regulatória em cadeias produtivas inteiras
+- operadores evitando arquiteturas abertas
+- projetos críticos sendo abandonados ou descontinuados
+- empresas migrando para soluções fechadas por previsibilidade legal
+- cadeias produtivas operando sob incerteza
 
-Não um colapso imediato, mas um travamento gradual, silencioso e profundo da infraestrutura digital. Um ambiente onde o uso continua, mas sem segurança jurídica; a transparência é substituída por omissão; e decisões técnicas passam a ser guiadas pelo medo jurídico.
+Não ocorre um colapso imediato.
 
-Isso compromete não apenas a inovação, mas a própria estabilidade econômica e institucional.
+O que emerge é um travamento gradual, silencioso e profundo da infraestrutura digital.
 
-## 5. O princípio fundamental
+Um ambiente onde:
 
-O software livre deve ser reconhecido como **infraestrutura digital aberta de interesse público**.
+- o uso continua, mas sem segurança jurídica
+- a transparência é substituída por opacidade
+- decisões técnicas passam a ser guiadas por risco regulatório
 
-Essa definição não é simbólica. Ela reflete sua função real na sociedade.
+Isso compromete não apenas a inovação, mas a estabilidade econômica e institucional.
 
-E, como toda infraestrutura essencial, ele exige proteção adequada.
+## 5. A falha central: ausência de distinção
 
-## 6. O que propomos
+O problema não está na existência de regulação.
 
-Defendemos a criação de um Marco Jurídico do Software Livre e de Código Aberto, baseado nos seguintes pilares:
+Está na ausência de distinções fundamentais.
+
+Hoje, diferentes camadas são tratadas como se fossem uma só:
+
+- desenvolvimento
+- operação
+- uso
+
+E, de forma ainda mais crítica:
+
+- software
+- serviço
+- protocolo de rede
+- infraestrutura física
+
+Essa confusão leva a um erro sistêmico:
+
+aplicar obrigações de controle a estruturas que, por natureza, não exercem controle.
+
+## 6. O princípio fundamental
+
+A infraestrutura digital livre deve ser reconhecida como infraestrutura aberta de interesse público.
+
+Isso inclui:
+
+- software livre
+- serviços descentralizados
+- redes abertas
+- hardware auditável
+
+Essa definição não é simbólica.
+
+Ela reflete sua função real na sociedade.
+
+E implica um princípio essencial:
+
+nenhuma entidade deve ser responsabilizada por aquilo que não pode controlar.
+
+## 7. Os quatro domínios protegidos
+
+A proteção jurídica da infraestrutura digital livre deve abranger todas as suas camadas fundamentais.
+
+Não se trata apenas de software, mas de todo o ecossistema técnico que possibilita sua existência, operação e evolução.
+
+1. Software livre
+
+Direito de desenvolver, publicar, modificar e utilizar código sem imputação indevida.
+
+2. Serviços livres
+
+Direito de criar e utilizar sistemas distribuídos sem exigência de controle central inexistente.
+
+3. Rede livre
+
+Direito de criar e utilizar protocolos abertos.
+
+4. Hardware livre
+
+Direito de projetar, construir e utilizar hardware auditável e aberto.
+
+## 7. O que propomos
+
+Defendemos a criação de um Marco Jurídico da Infraestrutura Livre, baseado nos seguintes pilares:
 
 ### Reconhecimento da descentralização
 
-Garantir proteção para projetos sem entidade jurídica central, compostos por múltiplos contribuidores.
+Garantir proteção para sistemas sem entidade central, compostos por múltiplos agentes independentes.
 
-### Proteção aos mantenedores
+### Separação entre Desenvolvimento e operação
 
-Assegurar que contribuições voluntárias e mantenedores sejam melhor protegidos contra judicialização indevida.
+Diferenciar juridicamente:
+
+- desenvolvimento
+- operação
+- uso
+
+E, igualmente:
+
+- software
+- serviço
+- rede
+- hardware
+
+E assim, garantir que sistemas descentralizados e protocolos abertos possam existir, evoluir e ser adotados sem risco regulatório indevido.
 
 ### Princípio da impossibilidade técnica
 
-Impedir a imposição de obrigações que não podem ser cumpridas pela própria natureza do software livre.
+Impedir a imposição de obrigações que não podem ser cumpridas pela própria arquitetura do sistema.
 
-### Separação entre desenvolvimento e operação
+### Proteção aos agentes da infraestrutura livre
 
-Diferenciar juridicamente quem desenvolve, quem distribui e quem utiliza.
+Assegurar que:
+
+- desenvolvedores
+- mantenedores
+- contribuidores
+- operadores locais
+
+não sejam responsabilizados por efeitos sistêmicos fora de seu controle.
 
 ### Sustentabilidade do ecossistema
 
-Criar condições reais para manutenção de projetos, financiamento e fortalecimento do desenvolvimento nacional.
+Criar condições reais para:
 
-## 7. O custo de ignorar o problema
+- manutenção de projetos
+- financiamento
+- adoção institucional
+- desenvolvimento tecnológico nacional
 
-A ausência de um marco jurídico adequado não mantém o status atual. Ela agrava o problema.
+## 8. O custo de ignorar o problema
 
-Sem ação, o que se consolida é:
+A ausência de um marco jurídico adequado não preserva o status atual.
+
+Ela acelera sua deterioração.
+
+Sem ação, consolida-se:
 
 - insegurança jurídica permanente
 - retração da colaboração
 - aumento do risco para empresas
-- fragilização da infraestrutura digital
+- desincentivo à inovação aberta
+- concentração ainda maior em infraestruturas centralizadas
 
-A base sobre a qual a economia digital opera passa a existir em um estado de incerteza contínua. Isso não é sustentável.
+A base da economia digital passa a operar em estado contínuo de incerteza.
 
-## 8. Um caminho necessário
+Isso não é sustentável.
 
-Este manifesto não propõe ausência de regras. **Propõe regras adequadas.**
+## 9. Um caminho necessário
 
-Regras que reconheçam a realidade técnica, a natureza coletiva e os limites do controle no software livre.
+Este manifesto não propõe ausência de regulação.
 
-Ignorar essas características não fortalece a regulação. Apenas a torna ineficaz.
+Propõe precisão regulatória.
 
-## 9. Convocação
+Propõe reconhecer que diferentes arquiteturas exigem diferentes tratamentos jurídicos.
 
-Chamamos desenvolvedores, empresas, instituições acadêmicas, juristas e representantes públicos a reconhecer a gravidade da situação e a participar da construção de uma solução.
+Regular infraestruturas centralizadas é necessário.
 
-Por uma Infraestrutura digital Livre, Aberta e Segura!
+Mas aplicar essas mesmas regras à infraestrutura livre não a regula —
+a inviabiliza.
+
+## 10. Convocação
+
+Chamamos:
+
+- desenvolvedores
+- empresas
+- instituições acadêmicas
+- juristas
+- formuladores de políticas públicas
+
+a reconhecer a gravidade desta lacuna e a participar da construção de um marco jurídico adequado.
+
+A infraestrutura digital livre já existe.
+Ela já sustenta o presente.
+
+O que está em disputa é se ela poderá sustentar o futuro.
+
+## 11. Conclusão
+
+A liberdade digital não está apenas no código.
+
+Ela está na infraestrutura como um todo.
+
+Sem reconhecimento jurídico, essa infraestrutura permanece vulnerável.
+Com ele, torna-se base sólida para inovação, autonomia e estabilidade.
+
+Por uma infraestrutura digital livre, aberta e juridicamente segura.

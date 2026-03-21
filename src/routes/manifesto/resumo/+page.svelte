@@ -10,9 +10,9 @@
 
 <svelte:head>
 	<title>Resumo do Manifesto — InfraLivre</title>
-	<meta name="description" content="Versão resumida do manifesto InfraLivre sobre a necessidade de um marco jurídico para software livre no Brasil." />
+	<meta name="description" content="Versão resumida do manifesto InfraLivre sobre a necessidade de um marco jurídico para a infraestrutura livre no Brasil." />
 	<meta property="og:title" content="Resumo do Manifesto — InfraLivre" />
-	<meta property="og:description" content="Versão resumida do manifesto sobre a necessidade de um marco jurídico para software livre no Brasil." />
+	<meta property="og:description" content="Versão resumida do manifesto sobre a necessidade de um marco jurídico para a infraestrutura livre no Brasil." />
 </svelte:head>
 
 <Section class="pb-10">

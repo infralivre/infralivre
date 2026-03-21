@@ -1,8 +1,8 @@
-# A lacuna jurídica do software livre como infraestrutura crítica
+# A lacuna jurídica da infraestrutura livre e aberta
 
 ## Contexto
 
-A infraestrutura digital contemporânea é amplamente sustentada por software livre e de código aberto. Sistemas operacionais como o [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), servidores web como [Apache HTTP Server](https://httpd.apache.org/) e [Nginx](https://nginx.org/), bancos de dados como [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/), além de linguagens e bibliotecas amplamente utilizadas, constituem a base de funcionamento da economia digital.
+A infraestrutura digital contemporânea é amplamente sustentada por arquiteturas livres e abertas — o que abrange software livre, serviços descentralizados, redes abertas e hardware livre. Sistemas operacionais como o [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), servidores web como [Apache HTTP Server](https://httpd.apache.org/) e [Nginx](https://nginx.org/), bancos de dados como [PostgreSQL](https://www.postgresql.org/) e [MySQL](https://www.mysql.com/), além de linguagens, protocolos de rede e componentes de hardware, constituem a base de funcionamento da economia digital.
 
 Segundo levantamentos da [Linux Foundation](https://www.linuxfoundation.org/) e do [Open Source Security Foundation (OpenSSF)](https://openssf.org/), mais de 90% dos softwares modernos dependem, direta ou indiretamente, de componentes abertos.
 
@@ -29,21 +29,21 @@ Esse modelo é compatível com:
 - prestadores de serviço  
 - fabricantes com cadeia de controle definida  
 
-No entanto, ele **não descreve o funcionamento do software livre**.
+No entanto, ele **não descreve o funcionamento da infraestrutura livre**.
 
 No ecossistema aberto:
 
-- o código é publicado e replicado livremente  
-- qualquer agente pode utilizá-lo sem autorização posterior  
+- o código, o design de hardware ou a especificação do protocolo são publicados e replicados livremente  
+- qualquer agente pode utilizá-los sem autorização posterior  
 - modificações podem ser feitas por terceiros independentes  
-- não há vínculo necessário entre autor, operador e usuário  
+- não há vínculo necessário entre quem desenha/desenvolve, quem opera e quem usa
 
 Na prática:
 
-- não há controle sobre quem utiliza ou modifica o software  
+- não há controle sobre quem utiliza ou modifica a ferramenta  
 - não há como restringir usos específicos após a distribuição  
 - não há relação direta entre desenvolvedor, operador e usuário final  
-- publicar código **não equivale a operar um serviço**  
+- publicar código ou design **não equivale a operar um serviço**  
 
 Essa distinção é amplamente reconhecida em licenças como a [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.html), que explicitamente nega garantias e responsabilidades sobre usos posteriores.
 
@@ -59,13 +59,13 @@ O resultado:
 
 ## Evidência histórica do problema
 
-Esse desalinhamento não é recente — ele acompanha o software livre há décadas.
+Esse desalinhamento não é recente. Ele acompanha o ecossistema livre há décadas!
 
 ### 1. Incerteza jurídica e disputas estruturais
 
 Um caso emblemático foi o processo [SCO Group, Inc. v. Novell, Inc.](https://en.wikipedia.org/wiki/SCO_Group,_Inc._v._Novell,_Inc.), que gerou anos de incerteza sobre o uso empresarial do Linux, mesmo sem comprovação das alegações centrais.
 
-Outro exemplo relevante foi a disputa envolvendo [Oracle America, Inc. v. Google LLC](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.), que levantou questões fundamentais sobre interoperabilidade e reutilização de APIs — temas centrais para o desenvolvimento de software aberto.
+Outro exemplo relevante foi a disputa envolvendo [Oracle America, Inc. v. Google LLC](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.), que levantou questões fundamentais sobre interoperabilidade e reutilização de APIs — temas centrais para o desenvolvimento de ecossistemas tecnológicos abertos.
 
 Esses casos demonstram como **interpretações jurídicas desalinhadas com a realidade técnica podem gerar efeitos sistêmicos duradouros**.
 
@@ -107,7 +107,7 @@ Além disso, análises publicadas por iniciativas como o [Open Source Pledge](ht
 
 ## Relevância sistêmica
 
-O software livre é base de funcionamento de:
+A infraestrutura livre é base de funcionamento de:
 
 - infraestruturas críticas  
 - serviços financeiros  
@@ -141,9 +141,9 @@ Sem essa separação:
 - responsabilidades são deslocadas de forma indevida  
 - a regulação perde eficácia prática  
 
-O direito passa a operar com um modelo implícito de controle que **não existe no software livre**.
+O direito passa a operar com um modelo implícito de controle que **não existe nesse tipo de infraestrutura aberta**.
 
-Esse problema não é exclusivo do software, mas torna-se mais agudo nesse contexto devido à sua natureza distribuída e imaterial. No direito, há um princípio consolidado de que fabricantes de ferramentas de uso geral não são responsáveis pelos usos ilícitos feitos por terceiros, salvo quando há intenção ou indução direta.
+Esse problema não é exclusivo do software, mas torna-se mais agudo nesse contexto devido à natureza distribuída e muitas vezes imaterial (como em protocolos, serviços e designs abertos). No direito, há um princípio consolidado de que fabricantes de ferramentas de uso geral não são responsáveis pelos usos ilícitos feitos por terceiros, salvo quando há intenção ou indução direta.
 
 Esse entendimento foi discutido de forma emblemática no caso [Sony Corp. of America v. Universal City Studios, Inc. (Betamax)](https://en.wikipedia.org/wiki/Sony_Corp._of_America_v._Universal_City_Studios,_Inc.), no qual a Suprema Corte dos EUA decidiu que a fabricação de uma tecnologia com usos substancialmente legítimos não gera responsabilidade por usos indevidos realizados por terceiros.
 
@@ -179,7 +179,7 @@ O resultado é uma distorção regulatória, na qual a norma deixa de incidir so
 
 ## Por que o tratamento diferenciado é necessário
 
-O software livre constitui um modelo singular de produção de infraestrutura digital, baseado em:
+A infraestrutura livre constitui um modelo singular de produção tecnológica, baseado em:
 
 - colaboração distribuída  
 - ausência de controle central  
@@ -194,11 +194,11 @@ Esse modelo gera benefícios concretos:
 - auditabilidade  
 - inovação acelerada  
 
-No entanto, estudos recentes indicam que o modelo atual de governança e regulação não está alinhado com a realidade do software livre.
+No entanto, estudos recentes indicam que o modelo atual de governança e regulação não está alinhado com a realidade dessa infraestrutura livre.
 
-Relatório da [Linux Foundation](https://www.linuxfoundation.org/blog/the-state-of-open-source-software-in-2025) aponta que, embora o software livre seja a base de sistemas críticos, a maioria das organizações **não possui estruturas adequadas de governança e segurança para lidar com essa dependência**, criando uma lacuna estrutural de gestão e risco.
+Relatório da [Linux Foundation](https://www.linuxfoundation.org/blog/the-state-of-open-source-software-in-2025) aponta que, embora as ferramentas de código aberto e colaborativas sejam a base de sistemas críticos, a maioria das organizações **não possui estruturas adequadas de governança e segurança para lidar com essa dependência**, criando uma lacuna estrutural de gestão e risco.
 
-Esse desalinhamento reforça a necessidade de distinção jurídica entre desenvolvimento, operação e uso, uma vez que o modelo tradicional de responsabilização pressupõe controle direto, sendo algo que não existe no software livre.
+Esse desalinhamento reforça a necessidade de distinção jurídica entre desenvolvimento, operação e uso, uma vez que o modelo tradicional de responsabilização pressupõe controle direto, sendo algo que não existe de fato nas camadas abertas (como os repositórios públicos, os serviços federados autônomos ou o hardware open source).
 
 Onde a exigência de adaptação desse modelo a estruturas jurídicas baseadas em controle centralizado é **tecnicamente inviável**.
 

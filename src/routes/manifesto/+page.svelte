@@ -11,9 +11,9 @@
 
 <svelte:head>
 	<title>Manifesto — InfraLivre</title>
-	<meta name="description" content="O manifesto do InfraLivre: por que o Brasil precisa de um marco jurídico adequado para o software livre." />
+	<meta name="description" content="O manifesto do InfraLivre: por que o Brasil precisa de um marco jurídico adequado para a infraestrutura livre." />
 	<meta property="og:title" content="Manifesto — InfraLivre" />
-	<meta property="og:description" content="Por que o Brasil precisa de um marco jurídico adequado para o software livre." />
+	<meta property="og:description" content="Por que o Brasil precisa de um marco jurídico adequado para a infraestrutura livre." />
 </svelte:head>
 
 <Section class="pb-10">
@@ -47,7 +47,7 @@
 	<div class="mx-auto mt-12 max-w-5xl">
 		<img
 			src="/images/04.webp"
-			alt="Ilustração mostrando um labirinto complexo representando o emaranhado jurídico que o software livre enfrenta no Brasil."
+			alt="Ilustração mostrando um labirinto complexo representando o emaranhado jurídico que a infraestrutura livre enfrenta no Brasil."
 			class="w-full rounded-2xl border border-zinc-200 bg-zinc-50 object-cover shadow-2xl dark:border-zinc-800 dark:bg-zinc-900"
 			width="1456"
 			height="816"

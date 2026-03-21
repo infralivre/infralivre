@@ -11,9 +11,9 @@
 
 <svelte:head>
 	<title>O Problema — InfraLivre</title>
-	<meta name="description" content="Entenda o problema jurídico estrutural que afeta o software livre no Brasil e por que precisamos de um marco jurídico adequado." />
+	<meta name="description" content="Entenda o problema jurídico estrutural que afeta a infraestrutura livre no Brasil e por que precisamos de um marco jurídico adequado." />
 	<meta property="og:title" content="O Problema — InfraLivre" />
-	<meta property="og:description" content="O problema jurídico estrutural que afeta o software livre no Brasil." />
+	<meta property="og:description" content="O problema jurídico estrutural que afeta a infraestrutura livre no Brasil." />
 </svelte:head>
 
 <Section class="pb-10">
@@ -47,7 +47,7 @@
 	<div class="mx-auto mt-12 max-w-5xl">
 		<img
 			src="/images/03.webp"
-			alt="Ilustração mostrando um labirinto complexo representando o emaranhado jurídico que o software livre enfrenta no Brasil."
+			alt="Ilustração mostrando um labirinto complexo representando o emaranhado jurídico que a infraestrutura livre enfrenta no Brasil."
 			class="w-full rounded-2xl border border-zinc-200 bg-zinc-50 object-cover shadow-2xl dark:border-zinc-800 dark:bg-zinc-900"
 			width="1456"
 			height="816"

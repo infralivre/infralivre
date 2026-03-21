@@ -11,18 +11,18 @@
 
 <svelte:head>
 	<title>A Proposta — InfraLivre</title>
-	<meta name="description" content="Conheça a proposta do InfraLivre: um marco jurídico com seis pilares para proteger o software livre no Brasil." />
+	<meta name="description" content="Conheça a proposta do InfraLivre: um marco jurídico com seis pilares para proteger a infraestrutura livre no Brasil." />
 	<meta property="og:title" content="A Proposta — InfraLivre" />
-	<meta property="og:description" content="Um marco jurídico com seis pilares para proteger o software livre no Brasil." />
+	<meta property="og:description" content="Um marco jurídico com seis pilares para proteger a infraestrutura livre no Brasil." />
 </svelte:head>
 
 <Section class="pb-10">
 	<div class="mx-auto max-w-3xl text-center">
 		<h1 class="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-zinc-950 dark:text-zinc-50">
-			O Marco Legal do Software Livre
+			O Marco Legal da Infraestrutura Livre
 		</h1>
 		<p class="mt-6 text-xl leading-8 text-muted-foreground">
-			Garantindo segurança, previsibilidade e sustentabilidade jurídica para desenvolvedores, empresas e para toda a infraestrutura baseada no software livre que move o Brasil.
+			Garantindo segurança, previsibilidade e sustentabilidade jurídica para desenvolvedores, empresas e para toda a infraestrutura baseada em ecossistemas abertos que move o Brasil.
 		</p>
 		
 		<!-- Controle de Versão (Toggle) -->
@@ -57,7 +57,7 @@
 </Section>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger o software livre no Brasil." />
+	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger a infraestrutura livre no Brasil." />
 </div>
 
 <ProseLayout class="pt-0">
@@ -67,7 +67,7 @@
 </ProseLayout>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger o software livre no Brasil." />
+	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger a infraestrutura livre no Brasil." />
 </div>
 
 <CallToAction

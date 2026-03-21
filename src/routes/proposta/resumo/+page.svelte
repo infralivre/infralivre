@@ -10,7 +10,7 @@
 
 <svelte:head>
 	<title>A Proposta (Resumo) — InfraLivre</title>
-	<meta name="description" content="Versão resumida da proposta do InfraLivre para um marco jurídico do software livre no Brasil." />
+	<meta name="description" content="Versão resumida da proposta do InfraLivre para um marco jurídico da infraestrutura livre no Brasil." />
 	<meta property="og:title" content="A Proposta (Resumo) — InfraLivre" />
 </svelte:head>
 

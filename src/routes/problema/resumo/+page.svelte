@@ -10,7 +10,7 @@
 
 <svelte:head>
 	<title>O Problema (Resumo) — InfraLivre</title>
-	<meta name="description" content="Leia em 1 minuto o resumo de por que a atual legislação brasileira é um risco ao ecossistema do Software Livre." />
+	<meta name="description" content="Leia em 1 minuto o resumo de por que a atual legislação brasileira é um risco ao ecossistema da Infraestrutura Livre." />
 	<meta property="og:title" content="O Problema (Resumo) — InfraLivre" />
 </svelte:head>
 
@@ -44,7 +44,7 @@
 </Section>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title="O Problema (Resumo)" description="Leis corporativas esmagando criadores individuais. Um resumo do dilema existencial do software livre." />
+	<ShareButtons title="O Problema (Resumo)" description="Leis corporativas esmagando criadores individuais. Um resumo do dilema existencial da infraestrutura livre." />
 </div>
 
 <ProseLayout class="pt-2">
@@ -54,7 +54,7 @@
 </ProseLayout>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title="O Problema (Resumo)" description="Leis corporativas esmagando criadores individuais. Um resumo do dilema existencial do software livre." />
+	<ShareButtons title="O Problema (Resumo)" description="Leis corporativas esmagando criadores individuais. Um resumo do dilema existencial da infraestrutura livre." />
 </div>
 
 <CallToAction

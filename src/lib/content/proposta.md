@@ -1,8 +1,8 @@
 ## A proposta
 
-O InfraLivre defende a criação de um **Marco Jurídico do Software Livre e de Código Aberto**, um enquadramento legal que alinhe responsabilidade à capacidade real de controle, reduza inseguranças jurídicas e preserve a sustentabilidade do ecossistema.
+O InfraLivre defende a criação de um **Marco Jurídico da Infraestrutura Livre**, um enquadramento legal que proteja softwares livres, hardwares abertos, serviços descentralizados e redes livres. A proposta visa alinhar a responsabilidade à real capacidade de controle, reduzir inseguranças jurídicas e preservar a sustentabilidade dos ecossistemas.
 
-Não se propõe ausência de regulação, mas sim uma **regulação compatível** com a realidade do software livre: técnica, jurídica e socialmente.
+Não se defende a ausência total de regulação, mas uma regulação inteligente e tecnicamente justa em relação à realidade da infraestrutura livre: técnica, jurídica e socialmente.
 
 ## Os cinco pilares
 
@@ -14,11 +14,11 @@ Garantir proteção para projetos sem entidade jurídica central, compostos por 
 
 ### 2. Proteção aos Mantenedores
 
-Assegurar que o trabalho dos Mantenedores não gerem obrigações indevidas. Milhares de pessoas contribuem para software livre de forma voluntária, onde equiparar ao trabalho em ongs e fundações de forma facilitada, permite que a legislação não possa penalizar os projetos por isso.
+Assegurar que o trabalho dos Mantenedores não gere obrigações indevidas. Milhares de pessoas contribuem voluntariamente para tecnologias abertas; a legislação deve reconhecer e proteger os mantenedores dessas estruturas, não penalizando a construção do bem comum.
 
 ### 3. Princípio da Impossibilidade Técnica
 
-Impedir a imposição de obrigações que não podem ser cumpridas pela própria natureza do software livre. Não se pode exigir controle onde ele não existe.
+Impedir a imposição de obrigações que não podem ser cumpridas pela natureza da própria arquitetura técnica livre. É vedado exigir mecanismos de moderação restritos ou vigilância por parte do criador de um software livre, protocolo descentralizado ou hardware aberto.
 
 ### 4. Separação entre Desenvolvimento e Operação
 
@@ -44,8 +44,6 @@ Sugestões, revisões e propostas podem ser feitas via *issues* e *pull requests
 
 ## Princípio fundamental
 
-O software livre deve ser reconhecido como **infraestrutura digital aberta de interesse público**.
+A infraestrutura livre (software, serviço, rede e hardware) deve ser reconhecida como **bem comum digital de interesse público**.
 
-Essa definição não é simbólica.
-
-Ela reflete sua função real na sociedade, e como toda infraestrutura essencial, exige-se proteção adequada.
+Essa definição não é simbólica. Ela reflete o que esses ecossistemas realmente propiciam à sociedade; portanto, o direito deve conferir-lhes fomento e proteção.

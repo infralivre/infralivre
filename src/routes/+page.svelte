@@ -11,15 +11,15 @@
 </script>
 
 <svelte:head>
-	<title>InfraLivre — O Marco Jurídico do Software Livre no Brasil</title>
-	<meta name="description" content="Iniciativa da sociedade civil pela construção de um marco jurídico que proteja o software livre e de código aberto no Brasil." />
-	<meta property="og:title" content="InfraLivre — O Marco Jurídico do Software Livre" />
+	<title>InfraLivre — O Marco Jurídico da Infraestrutura Livre no Brasil</title>
+	<meta name="description" content="Iniciativa da sociedade civil pela construção de um marco jurídico que proteja o software livre, hardware aberto, serviços descentralizados e redes livres no Brasil." />
+	<meta property="og:title" content="InfraLivre — O Marco Jurídico da Infraestrutura Livre" />
 	<meta property="og:description" content="Protegendo quem desenvolve a infraestrutura digital do nosso país." />
 </svelte:head>
 
 <!-- 1. Hero — Punchline direto sobre O QUE É o projeto -->
 <Hero
-	title="O Marco Jurídico do Software Livre"
+	title="O Marco Jurídico da Infraestrutura Livre"
 	subtitle="O InfraLivre é uma iniciativa da sociedade civil para proteger mantenedores, dar segurança jurídica às empresas e preservar a base da infraestrutura digital do Brasil."
 >
 	<Button href="/proposta" variant="default" size="lg">
@@ -50,7 +50,7 @@
 		<div class="grid gap-8 text-center sm:grid-cols-3">
 			<div class="group animate-[fadeUp_0.5s_ease_both] rounded-xl border border-emerald-500/20 bg-emerald-500/5 px-4 py-6 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-emerald-500/60 hover:bg-emerald-500/10 hover:shadow-xl hover:shadow-emerald-500/20">
 				<p class="text-3xl font-bold tracking-tight text-emerald-600 transition-transform duration-300 group-hover:scale-110 dark:text-emerald-400 sm:text-4xl">90%+</p>
-				<p class="mt-2 text-sm text-muted-foreground transition-colors group-hover:text-foreground">dos servidores web rodam software livre</p>
+				<p class="mt-2 text-sm text-muted-foreground transition-colors group-hover:text-foreground">da web roda sobre software e infraestrutura livre</p>
 			</div>
 			<div class="group animate-[fadeUp_0.5s_ease_0.15s_both] rounded-xl border border-amber-500/20 bg-amber-500/5 px-4 py-6 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-amber-500/60 hover:bg-amber-500/10 hover:shadow-xl hover:shadow-amber-500/20">
 				<p class="text-3xl font-bold tracking-tight text-amber-600 transition-transform duration-300 group-hover:scale-110 dark:text-amber-400 sm:text-4xl">73%</p>
@@ -58,7 +58,7 @@
 			</div>
 			<div class="group animate-[fadeUp_0.5s_ease_0.3s_both] rounded-xl border border-red-500/20 bg-red-500/5 px-4 py-6 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-red-500/60 hover:bg-red-500/10 hover:shadow-xl hover:shadow-red-500/20">
 				<p class="text-3xl font-bold tracking-tight text-red-600 transition-transform duration-300 group-hover:scale-110 dark:text-red-400 sm:text-4xl">0</p>
-				<p class="mt-2 text-sm text-muted-foreground transition-colors group-hover:text-foreground">leis adequadas à realidade do FOSS no Brasil</p>
+				<p class="mt-2 text-sm text-muted-foreground transition-colors group-hover:text-foreground">leis adequadas à realidade tecnológica aberta no Brasil</p>
 			</div>
 		</div>
 	</div>
@@ -70,7 +70,7 @@
 		<span class="text-sm font-semibold uppercase tracking-wider text-primary">A Base</span>
 		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A Infraestrutura Invisível</h2>
 		<p class="mt-4 text-lg text-muted-foreground">
-			Antes de propor regras, precisamos entender o que estamos protegendo. Software livre (código aberto) não é um nicho técnico: é o motor produtivo que viabiliza o Android, a computação em nuvem, a inteligência artificial e a economia digital.
+			Antes de propor regras, precisamos entender o que estamos protegendo. Infraestrutura livre (software, serviços abertos, redes livres e hardware) não é um nicho técnico: é o motor produtivo que viabiliza conectividade local, computação em nuvem, inteligência artificial e a economia digital como um todo.
 		</p>
 		<p class="mt-4 text-lg text-muted-foreground">
 			Você usa seus componentes diariamente. Todo grande serviço privado funciona em cima de uma imensa malha colaborativa pública.
@@ -92,7 +92,7 @@
 		
 		<div class="my-8 rounded-lg border-l-4 border-amber-500 bg-amber-500/10 p-5 text-amber-900 dark:text-amber-200">
 			<p class="text-lg font-medium leading-relaxed">
-				O direito brasileiro hoje não separa o desenvolvedor de software livre de uma corporação centralizada.
+				O direito brasileiro hoje não separa o desenvolvedor de arquiteturas abertas da entidade corporativa centralizada.
 			</p>
 		</div>
 
@@ -116,7 +116,7 @@
 		<span class="text-sm font-semibold uppercase tracking-wider text-primary">Por que agir agora?</span>
 		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A inércia debilita os sistemas</h2>
 		<p class="mt-3 text-lg text-muted-foreground">
-			O acúmulo de leis que visam proteger tudo, não protege a sociedade; favorece sim a concentração de poder e a estagnação da inovação. O software livre é um ecossistema vivo, onde a burocracia é o vírus que mata a colaboração.
+			O acúmulo de leis que visam proteger tudo, não protege a sociedade; favorece sim a concentração de poder e a estagnação da inovação. A infraestrutura livre é um ecossistema vivo, onde a burocracia desajustada é o vírus que mata a colaboração de softwares, hardwares ou redes abertas.
 		</p>
 	</div>
 	<div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
