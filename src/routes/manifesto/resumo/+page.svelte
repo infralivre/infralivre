@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import ManifestoResumo from '$lib/content/manifesto-resumo.md';
 	import FileText from '@lucide/svelte/icons/file-text';
 	import Zap from '@lucide/svelte/icons/zap';
@@ -43,11 +44,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Manifesto InfraLivre (Resumo)" description="Os pontos cruciais da carta aberta à sociedade, em 1 minuto." />
+</div>
+
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none rounded-2xl border border-amber-500/20 bg-amber-50/50 p-6 sm:p-10 dark:border-amber-500/10 dark:bg-amber-950/10 dark:prose-invert">
 		<ManifestoResumo />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Manifesto InfraLivre (Resumo)" description="Os pontos cruciais da carta aberta à sociedade, em 1 minuto." />
+</div>
 
 <CallToAction
 	title="A raiz da questão"

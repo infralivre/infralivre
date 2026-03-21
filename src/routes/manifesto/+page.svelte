@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import ManifestoContent from '$lib/content/manifesto.md';
 	import FileText from '@lucide/svelte/icons/file-text';
@@ -55,11 +56,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Manifesto InfraLivre" description="Por que o ordenamento jurídico atual asfixia quem constrói a infraestrutura digital do Brasil." />
+</div>
+
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
 		<ManifestoContent />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Manifesto InfraLivre" description="Por que o ordenamento jurídico atual asfixia quem constrói a infraestrutura digital do Brasil." />
+</div>
 
 <CallToAction
 	title="A raiz da questão"

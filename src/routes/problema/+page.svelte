@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import ProblemaContent from '$lib/content/problema.md';
 	import AlertTriangle from '@lucide/svelte/icons/alert-triangle';
 	import Zap from '@lucide/svelte/icons/zap';
@@ -55,11 +56,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="O Problema" description="Leis construídas para megacorporações sendo aplicadas contra ecossistemas abertos no Brasil." />
+</div>
+
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
 		<ProblemaContent />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="O Problema" description="Leis construídas para megacorporações sendo aplicadas contra ecossistemas abertos no Brasil." />
+</div>
 
 <CallToAction
 	title="Temos uma solução viável"

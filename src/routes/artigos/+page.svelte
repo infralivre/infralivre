@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Section from '$lib/components/shared/Section.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import BookOpen from '@lucide/svelte/icons/book-open';
 	import ArrowRight from '@lucide/svelte/icons/arrow-right';
 	import Clock from '@lucide/svelte/icons/clock';

@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import PropostaContent from '$lib/content/proposta.md';
 	import ShieldCheck from '@lucide/svelte/icons/shield-check';
 	import Zap from '@lucide/svelte/icons/zap';
@@ -55,11 +56,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger o software livre no Brasil." />
+</div>
+
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
 		<PropostaContent />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="A Proposta" description="O marco jurídico definitivo para proteger o software livre no Brasil." />
+</div>
 
 <CallToAction
 	title="O Marco Legal precisa de você"

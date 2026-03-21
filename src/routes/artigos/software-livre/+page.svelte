@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import SoftwareLivreContent from '$lib/content/artigos/software-livre/software-livre.md';
 	import BookOpen from '@lucide/svelte/icons/book-open';
 	import ArrowLeft from '@lucide/svelte/icons/arrow-left';
@@ -56,11 +57,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Software Livre e de Código Aberto" description="O que é, onde está no seu dia a dia e por que é essencial para a infraestrutura digital moderna." />
+</div>
+
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
 		<SoftwareLivreContent />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="Software Livre e de Código Aberto" description="O que é, onde está no seu dia a dia e por que é essencial para a infraestrutura digital moderna." />
+</div>
 
 <CallToAction
 	title="E qual é o problema?"

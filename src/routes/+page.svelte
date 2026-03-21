@@ -92,12 +92,13 @@
 		
 		<div class="my-8 rounded-lg border-l-4 border-amber-500 bg-amber-500/10 p-5 text-amber-900 dark:text-amber-200">
 			<p class="text-lg font-medium leading-relaxed">
-				O direito brasileiro hoje não separa o autor do código de quem controla a aplicação final.
+				O direito brasileiro hoje não separa o desenvolvedor de software livre de uma corporação centralizada.
 			</p>
 		</div>
 
 		<p class="text-lg text-muted-foreground">
-			Ao aplicar diretrizes de grandes corporações (Big Techs) sob o desenvolvimento comunitário, o Estado obriga contribuidores voluntários a vigiar usos sobre os quais não possuem poder técnico.
+			Ao aplicar diretrizes de grandes corporações (Big Techs) sob o desenvolvimento comunitário, o Estado obriga contribuidores voluntários a vigiar usos sobre os quais não possuem poder técnico, capacidade financeira ou controle de governança.
+			<br>
 			Exigir o impossível apenas aumenta o inchaço burocrático e gera processos abusivos.
 		</p>
 		<div class="mt-8">
@@ -115,7 +116,7 @@
 		<span class="text-sm font-semibold uppercase tracking-wider text-primary">Por que agir agora?</span>
 		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A inércia debilita os sistemas</h2>
 		<p class="mt-3 text-lg text-muted-foreground">
-			A ausência de leis seguras não protege a sociedade; apenas estrangula o ecossistema e abandona infraestruturas cruciais.
+			O acúmulo de leis que visam proteger tudo, não protege a sociedade; favorece sim a concentração de poder e a estagnação da inovação. O software livre é um ecossistema vivo, onde a burocracia é o vírus que mata a colaboração.
 		</p>
 	</div>
 	<div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

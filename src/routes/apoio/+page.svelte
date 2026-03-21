@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import PageHeader from '$lib/components/shared/PageHeader.svelte';
 	import GitHubCta from '$lib/components/shared/GitHubCta.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import { Separator } from '$lib/components/ui/separator/index.js';
 	import MessageSquareQuote from '@lucide/svelte/icons/message-square-quote';
@@ -28,6 +29,10 @@
 		<p class="mt-6 text-xl leading-8 text-muted-foreground">
 			Apoiar não exige conhecimento técnico ou jurídico avançado. A maior parte do impacto vem de como o tema é pautado e compartilhado pela comunidade. Todo avanço começa no debate público.
 		</p>
+	</div>
+
+	<div class="mt-8 flex justify-center">
+		<ShareButtons title="Como Apoiar o InfraLivre" description="A maior parte do impacto vem de como o tema é pautado e compartilhado pela comunidade." />
 	</div>
 	
 	<div class="mt-12 mx-auto max-w-5xl">

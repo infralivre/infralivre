@@ -2,6 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
+	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import PropostaResumo from '$lib/content/proposta-resumo.md';
 	import Zap from '@lucide/svelte/icons/zap';
 	import FileText from '@lucide/svelte/icons/file-text';
@@ -42,11 +43,19 @@
 	</div>
 </Section>
 
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="A Proposta (Resumo)" description="Segurança jurídica e proteção aos mantenedores — sem amarras corporativas." />
+</div>
+
 <ProseLayout class="pt-2">
 	<div class="prose-zinc max-w-none rounded-2xl border border-zinc-200 bg-zinc-50 p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/50 dark:prose-invert sm:p-12">
 		<PropostaResumo />
 	</div>
 </ProseLayout>
+
+<div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
+	<ShareButtons title="A Proposta (Resumo)" description="Segurança jurídica e proteção aos mantenedores — sem amarras corporativas." />
+</div>
 
 <CallToAction
 	title="O Marco Legal precisa de você"
