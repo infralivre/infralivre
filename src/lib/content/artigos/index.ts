@@ -8,6 +8,8 @@ export interface Artigo {
 	image: string;
 	imageAlt: string;
 	category: string;
+	infrastructureType: "software" | "serviço" | "rede" | "hardware";
+	authors: { name: string; photo?: string }[];
 	readTime: string;
 	cta: {
 		title: string;
