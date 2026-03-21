@@ -1,13 +1,15 @@
 <script lang="ts">
-	import Hero from '$lib/components/shared/Hero.svelte';
 	import Section from '$lib/components/shared/Section.svelte';
+	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import Shield from '@lucide/svelte/icons/shield';
 	import Server from '@lucide/svelte/icons/server';
 	import Sprout from '@lucide/svelte/icons/sprout';
 	import ArrowRight from '@lucide/svelte/icons/arrow-right';
-	import BookOpen from '@lucide/svelte/icons/book-open';
+	import Box from '@lucide/svelte/icons/box';
+	import Wifi from '@lucide/svelte/icons/wifi';
+	import Cpu from '@lucide/svelte/icons/cpu';
 </script>
 
 <svelte:head>
@@ -18,30 +20,28 @@
 </svelte:head>
 
 <!-- 1. Hero — Punchline direto sobre O QUE É o projeto -->
-<Hero
-	title="O Marco Jurídico da Infraestrutura Livre"
-	subtitle="O InfraLivre é uma iniciativa da sociedade civil para proteger mantenedores, dar segurança jurídica às empresas e preservar a base da infraestrutura digital do Brasil."
->
-	<Button href="/proposta" variant="default" size="lg">
-		Conheça a proposta
-		<ArrowRight class="ml-2 size-4" />
-	</Button>
-	<Button href="/manifesto" variant="outline" size="lg">
-		<BookOpen class="mr-2 size-4" />
-		Ler o manifesto
-	</Button>
-</Hero>
-
-<!-- 2. Imagem destacada do Hero para um DOM mais limpo e visual ampliado -->
-<div class="mx-auto max-w-5xl px-4 pb-16 sm:px-6 md:pb-24">
-	<img
-		src="/images/01.webp"
-		alt="Ilustração mostrando colaboração no ecossistema open source"
-		class="w-full rounded-2xl border border-border bg-muted/30 object-cover shadow-2xl"
-		width="1456"
-		height="816"
-		loading="eager"
-	/>
+<div class="relative overflow-hidden bg-zinc-950 text-zinc-50 dark:bg-black">
+	<div class="py-16 sm:py-24 lg:py-32">
+		<div class="mx-auto max-w-5xl px-4 text-center sm:px-6">
+			<h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
+				O Marco Jurídico da <br/><span class="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">Infraestrutura Livre</span>
+			</h1>
+			<p class="mx-auto mt-6 max-w-3xl text-xl leading-8 text-zinc-300 sm:text-2xl">
+				Visualize a internet, seu banco, o controle de tráfego, o posto de saúde. <strong>Tudo está conectado.</strong> 
+				Sustentado por uma malha pública construída por milhares de voluntários. Contudo, leis feitas para o controle corporativo estão esmagando as próprias pessoas e fundações que nos mantêm online.
+			</p>
+			
+			<div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+				<a href="/proposta" class="inline-flex h-12 items-center justify-center rounded-lg bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold px-8 transition-colors">
+					A Proposta Definitiva
+					<ArrowRight class="ml-2 size-5" />
+				</a>
+				<a href="#anatomia" class="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-700 bg-zinc-900/50 hover:bg-zinc-800 text-zinc-50 font-medium px-8 backdrop-blur-sm transition-colors">
+					O que estamos defendendo?
+				</a>
+			</div>
+		</div>
+	</div>
 </div>
 
 <!-- 3. Strip de impacto (Z-pattern) -->
@@ -64,22 +64,59 @@
 	</div>
 </section>
 
-<!-- 4. Contexto da infraestrutura -->
-<Section id="contexto" class="border-t border-border">
-	<div class="max-w-3xl">
+<!-- 4. Contexto da infraestrutura & Blocos (Arco 2) -->
+<Section id="anatomia" class="border-t border-border">
+	<div class="mx-auto max-w-3xl text-center">
 		<span class="text-sm font-semibold uppercase tracking-wider text-primary">A Base</span>
-		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A Infraestrutura Invisível</h2>
+		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A Anatomia da Infraestrutura</h2>
 		<p class="mt-4 text-lg text-muted-foreground">
-			Antes de propor regras, precisamos entender o que estamos protegendo. Infraestrutura livre (software, serviços abertos, redes livres e hardware) não é um nicho técnico: é o motor produtivo que viabiliza conectividade local, computação em nuvem, inteligência artificial e a economia digital como um todo.
+			Você usa esses componentes diariamente de forma invisível. O "InfraLivre" existe porque não estamos defendendo apenas linhas de código paradas, mas <strong>ecossistemas produtivos vivos repartidos em quatro pilares da tecnologia livre.</strong>
 		</p>
-		<p class="mt-4 text-lg text-muted-foreground">
-			Você usa seus componentes diariamente. Todo grande serviço privado funciona em cima de uma imensa malha colaborativa pública.
-		</p>
-		<div class="mt-8">
-			<Button href="/artigos/software-livre" variant="outline" class="h-10 px-5">
-				Entenda seu impacto na sociedade
-				<ArrowRight class="ml-2 size-4" />
-			</Button>
+	</div>
+
+	<div class="mx-auto mt-16 max-w-5xl grid gap-8 md:grid-cols-2">
+		<!-- Software -->
+		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
+			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400">
+				<Box class="size-6 transition-transform group-hover:scale-110 group-hover:rotate-6" />
+			</div>
+			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Software Aberto</h3>
+			<p class="text-muted-foreground">
+				Bibliotecas, frameworks e sistemas operacionais (como Linux) que compõem 90% dos servidores modernos. Milhões de contribuintes escrevem o código base que permite que a internet sequer funcione.
+			</p>
+		</div>
+
+		<!-- Serviço -->
+		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
+			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 dark:bg-sky-500/20 dark:text-sky-400">
+				<Server class="size-6 transition-transform group-hover:scale-110 group-hover:rotate-6" />
+			</div>
+			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Serviços Descentralizados</h3>
+			<p class="text-muted-foreground">
+				Plataformas hospedadas de forma federada onde a comunidade governa e opera os servidores — evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
+			</p>
+		</div>
+
+		<!-- Rede -->
+		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
+			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-violet-500/10 text-violet-600 dark:bg-violet-500/20 dark:text-violet-400">
+				<Wifi class="size-6 transition-transform group-hover:scale-110 group-hover:-rotate-6" />
+			</div>
+			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Redes Livres</h3>
+			<p class="text-muted-foreground">
+				Protocolos de conexão autônomos e malhas comunitárias de internet (mesh networks) construídas para conectar áreas remotas. Infraestruturas onde a estabilidade dependa dos participantes, não de provedores privados corporativos.
+			</p>
+		</div>
+
+		<!-- Hardware -->
+		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
+			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400">
+				<Cpu class="size-6 transition-transform group-hover:scale-110 group-hover:-rotate-6" />
+			</div>
+			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Hardware Aberto</h3>
+			<p class="text-muted-foreground">
+				Diagramas de circuitos, placas, chips (como RISC-V) e impressões 3D com propriedades livres. Significa ter o direito a reparar seus próprios bens e impulsionar a educação científica democratizada além das restrições de patentes.
+			</p>
 		</div>
 	</div>
 </Section>
@@ -162,31 +199,16 @@
 </Section>
 
 <!-- 7. Inversão drástica: The Ultimate CTA -->
-<section class="border-t border-zinc-800 bg-zinc-950 py-20 text-center text-zinc-50 dark:border-zinc-200 dark:bg-zinc-50 dark:text-zinc-950">
-	<div class="mx-auto max-w-3xl px-4 sm:px-6">
-		<p class="text-sm font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">O que defendemos</p>
-		<h2 class="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-			Um Marco focado em competência e realidade viável
-		</h2>
-		<p class="mt-5 text-lg text-zinc-300 dark:text-zinc-600 sm:text-xl">
-			Os <strong class="font-semibold text-white dark:text-black">5 Pilares do InfraLivre</strong> estabelecem 
-			defesas, princípios e reconhecimentos que protegem os times de ponta contra exigências insanas.
-		</p>
-		
-		<div class="mt-10 flex flex-wrap items-center justify-center gap-4">
-			<a
-				href="/proposta"
-				class="inline-flex h-12 items-center justify-center rounded-lg bg-white px-8 text-base font-semibold text-zinc-950 shadow-sm transition-all hover:bg-zinc-200 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-800"
-			>
-				Ver a Proposta Completa
-				<ArrowRight class="ml-2 size-5" />
-			</a>
-			<a
-				href="/apoio"
-				class="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-800 bg-transparent px-8 text-base font-medium transition-colors hover:bg-zinc-900 dark:border-zinc-300 dark:hover:bg-zinc-100"
-			>
-				Quero Somar Forças
-			</a>
-		</div>
-	</div>
-</section>
+<CallToAction
+	title="Um Marco focado em competência e realidade viável"
+	description="Os 5 Pilares do InfraLivre estabelecem defesas, princípios e reconhecimentos que protegem os times de ponta contra exigências regulatórias insanas."
+	class="border-t border-zinc-800"
+>
+	<Button href="/proposta" size="lg" class="h-12 w-full gap-2 rounded-full px-8 text-base shadow-xl sm:w-auto">
+		Ver a Proposta Completa
+		<ArrowRight class="size-4" />
+	</Button>
+	<Button href="/apoio" variant="outline" size="lg" class="h-12 w-full gap-2 rounded-full border-zinc-700 bg-zinc-900/50 px-8 text-base text-zinc-300 hover:bg-zinc-800 hover:text-white sm:w-auto">
+		Quero Somar Forças
+	</Button>
+</CallToAction>
