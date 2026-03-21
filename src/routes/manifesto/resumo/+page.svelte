@@ -1,9 +1,10 @@
 <script lang="ts">
 	import Section from '$lib/components/shared/Section.svelte';
-	import PageHeader from '$lib/components/shared/PageHeader.svelte';
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ManifestoResumo from '$lib/content/manifesto-resumo.md';
+	import FileText from '@lucide/svelte/icons/file-text';
+	import Zap from '@lucide/svelte/icons/zap';
 </script>
 
 <svelte:head>
@@ -13,23 +14,44 @@
 	<meta property="og:description" content="Versão resumida do manifesto sobre a necessidade de um marco jurídico para software livre no Brasil." />
 </svelte:head>
 
-<Section>
-	<PageHeader
-		title="Resumo do Manifesto"
-		description="Uma versão curta e direta do manifesto. Leitura de 1 a 2 minutos."
-	/>
-	<p class="text-sm text-muted-foreground">
-		Quer a versão completa? <a href="/manifesto" class="underline underline-offset-2 hover:text-foreground">Leia o manifesto completo →</a>
-	</p>
+<Section class="pb-10">
+	<div class="mx-auto max-w-3xl text-center">
+		<h1 class="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-zinc-950 dark:text-zinc-50">
+			O Manifesto em 1 minuto
+		</h1>
+		<p class="mt-6 text-xl leading-8 text-muted-foreground">
+			Os pontos cruciais da nossa carta aberta à sociedade. A essência do porquê precisamos agir agora para proteger a inovação brasileira.
+		</p>
+		
+		<!-- Controle de Versão (Toggle) Invertido -->
+		<div class="mx-auto mt-10 flex max-w-fit items-center rounded-full border border-zinc-200 bg-zinc-100/50 p-1.5 shadow-inner dark:border-zinc-800 dark:bg-zinc-900/50">
+			<a 
+				href="/manifesto" 
+				class="group flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium text-zinc-500 transition-all hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+			>
+				<FileText class="size-4 transition-transform group-hover:scale-110 group-hover:text-primary" />
+				Leitura Completa
+			</a>
+			<a 
+				href="/manifesto/resumo" 
+				class="group flex items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-zinc-900 shadow-sm transition-all dark:bg-zinc-800 dark:text-zinc-50"
+			>
+				<Zap class="size-4 text-amber-500 transition-transform group-hover:scale-110" />
+				Resumo (1 min)
+			</a>
+		</div>
+	</div>
 </Section>
 
-<ProseLayout>
-	<ManifestoResumo />
+<ProseLayout class="pt-0">
+	<div class="prose-zinc max-w-none rounded-2xl border border-amber-500/20 bg-amber-50/50 p-6 sm:p-10 dark:border-amber-500/10 dark:bg-amber-950/10 dark:prose-invert">
+		<ManifestoResumo />
+	</div>
 </ProseLayout>
 
 <CallToAction
-	title="Entenda o contexto"
-	description="Veja em detalhes o problema jurídico que afeta o software livre no Brasil."
+	title="A raiz da questão"
+	description="O manifesto não é um lamento, é um chamado à realidade técnica. Entenda cada ponto de risco do atual sistema."
 	href="/problema"
-	label="O problema →"
+	label="Ler a Análise do Problema"
 />
