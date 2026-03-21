@@ -1,0 +1,16 @@
+{
+	"slug": "software-livre",
+	"title": "Software Livre e de Código Aberto",
+	"description": "Uma introdução ao modelo de desenvolvimento que sustenta a infraestrutura digital do mundo: o que é, onde está, como se organiza e por que importa.",
+	"ogDescription": "O que é software livre, como funciona e por que é essencial para a infraestrutura digital moderna.",
+	"image": "/images/05.webp",
+	"imageAlt": "Ilustração representando o ecossistema colaborativo do software livre e de código aberto.",
+	"category": "Fundamentos",
+	"readTime": "~15 min de leitura",
+	"cta": {
+		"title": "E qual é o problema?",
+		"description": "Apesar de sua importância, o software livre não possui um enquadramento jurídico adequado no Brasil. Entenda o risco.",
+		"href": "/problema",
+		"label": "Entenda o Problema"
+	}
+}

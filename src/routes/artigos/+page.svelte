@@ -2,7 +2,7 @@
 	import Section from '$lib/components/shared/Section.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
-	import BookOpen from '@lucide/svelte/icons/book-open';
+	import { artigos } from '$lib/content/artigos/index.js';
 	import ArrowRight from '@lucide/svelte/icons/arrow-right';
 	import Clock from '@lucide/svelte/icons/clock';
 </script>
@@ -23,47 +23,52 @@
 			Textos fundamentais para compreender o ecossistema do software livre, seus desafios jurídicos e por que ele é infraestrutura crítica da sociedade.
 		</p>
 	</div>
+
+	<div class="mt-8 flex justify-center">
+		<ShareButtons title="Artigos — InfraLivre" description="Artigos educativos sobre software livre, direito digital e infraestrutura aberta." />
+	</div>
 </Section>
 
 <Section class="pt-0">
 	<div class="mx-auto max-w-4xl">
 		<div class="grid gap-6">
-			<!-- Artigo: Software Livre -->
-			<a
-				href="/artigos/software-livre"
-				class="group relative flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-all duration-300 hover:shadow-xl hover:border-zinc-300 hover:-translate-y-0.5 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700 sm:flex-row"
-			>
-				<div class="relative h-48 w-full overflow-hidden sm:h-auto sm:w-72 sm:min-h-[220px]">
-					<img
-						src="/images/05.webp"
-						alt="Ilustração sobre software livre e código aberto"
-						class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-						loading="lazy"
-					/>
-					<div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent sm:bg-gradient-to-r"></div>
-				</div>
-				<div class="flex flex-1 flex-col justify-center p-6 sm:p-8">
-					<div class="flex items-center gap-3 text-xs text-muted-foreground">
-						<span class="inline-flex items-center gap-1 rounded-full border border-sky-200 bg-sky-50 px-2 py-0.5 font-medium text-sky-700 dark:border-sky-900/50 dark:bg-sky-950/30 dark:text-sky-400">
-							Fundamentos
-						</span>
-						<span class="inline-flex items-center gap-1">
-							<Clock class="size-3" />
-							~15 min de leitura
-						</span>
+			{#each artigos as artigo (artigo.slug)}
+				<a
+					href="/artigos/{artigo.slug}"
+					class="group relative flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-all duration-300 hover:shadow-xl hover:border-zinc-300 hover:-translate-y-0.5 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700 sm:flex-row"
+				>
+					<div class="relative h-48 w-full overflow-hidden sm:h-auto sm:w-72 sm:min-h-[220px]">
+						<img
+							src={artigo.image}
+							alt={artigo.imageAlt}
+							class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+							loading="lazy"
+						/>
+						<div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent sm:bg-gradient-to-r"></div>
 					</div>
-					<h2 class="mt-3 text-xl font-bold text-zinc-900 transition-colors group-hover:text-sky-700 dark:text-zinc-50 dark:group-hover:text-sky-400 sm:text-2xl">
-						Software Livre e de Código Aberto
-					</h2>
-					<p class="mt-2 text-sm leading-relaxed text-muted-foreground line-clamp-3">
-						O que é, onde está no seu dia a dia, como se organiza e por que ele é essencial para a infraestrutura digital moderna. Uma introdução completa ao ecossistema FOSS.
-					</p>
-					<div class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 transition-all group-hover:gap-2.5 dark:text-sky-400">
-						Ler artigo
-						<ArrowRight class="size-4 transition-transform group-hover:translate-x-1" />
+					<div class="flex flex-1 flex-col justify-center p-6 sm:p-8">
+						<div class="flex items-center gap-3 text-xs text-muted-foreground">
+							<span class="inline-flex items-center gap-1 rounded-full border border-sky-200 bg-sky-50 px-2 py-0.5 font-medium text-sky-700 dark:border-sky-900/50 dark:bg-sky-950/30 dark:text-sky-400">
+								{artigo.category}
+							</span>
+							<span class="inline-flex items-center gap-1">
+								<Clock class="size-3" />
+								{artigo.readTime}
+							</span>
+						</div>
+						<h2 class="mt-3 text-xl font-bold text-zinc-900 transition-colors group-hover:text-sky-700 dark:text-zinc-50 dark:group-hover:text-sky-400 sm:text-2xl">
+							{artigo.title}
+						</h2>
+						<p class="mt-2 text-sm leading-relaxed text-muted-foreground line-clamp-3">
+							{artigo.description}
+						</p>
+						<div class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 transition-all group-hover:gap-2.5 dark:text-sky-400">
+							Ler artigo
+							<ArrowRight class="size-4 transition-transform group-hover:translate-x-1" />
+						</div>
 					</div>
-				</div>
-			</a>
+				</a>
+			{/each}
 		</div>
 
 		<p class="mt-12 text-center text-sm text-muted-foreground">
