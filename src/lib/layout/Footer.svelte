@@ -18,7 +18,7 @@
 			<div>
 				<h3 class="text-sm font-medium">Navegação</h3>
 				<nav class="mt-2 flex flex-col gap-1.5">
-					<a href="/software-livre" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Software Livre</a>
+					<a href="/artigos" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Artigos</a>
 					<a href="/manifesto" class="text-sm text-muted-foreground transition-colors hover:text-foreground">Manifesto</a>
 					<a href="/problema" class="text-sm text-muted-foreground transition-colors hover:text-foreground">O Problema</a>
 					<a href="/proposta" class="text-sm text-muted-foreground transition-colors hover:text-foreground">A Proposta</a>

@@ -10,7 +10,7 @@
 
 	const navLinks = [
 		{ href: '/', label: 'Início' },
-		{ href: '/software-livre', label: 'Software Livre' },
+		{ href: '/artigos', label: 'Artigos' },
 		{ href: '/manifesto', label: 'Manifesto' },
 		{ href: '/problema', label: 'Problema' },
 		{ href: '/proposta', label: 'Proposta' },

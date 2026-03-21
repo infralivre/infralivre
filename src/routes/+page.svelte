@@ -76,7 +76,7 @@
 			Você usa seus componentes diariamente. Todo grande serviço privado funciona em cima de uma imensa malha colaborativa pública.
 		</p>
 		<div class="mt-8">
-			<Button href="/software-livre" variant="outline" class="h-10 px-5">
+			<Button href="/artigos/software-livre" variant="outline" class="h-10 px-5">
 				Entenda seu impacto na sociedade
 				<ArrowRight class="ml-2 size-4" />
 			</Button>
