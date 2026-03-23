@@ -7,7 +7,7 @@
 	"imageAlt": "Ilustração representando o ecossistema colaborativo do software livre e de código aberto.",
 	"category": "Fundamentos",
 	"infrastructureType": "software",
-	"authors": [{ "name": "Comunidade InfraLivre" }],
+	"authors": [{ "name": "Miguel Moroni" }],
 	"readTime": "~15 min de leitura",
 	"cta": {
 		"title": "E qual é o problema?",
