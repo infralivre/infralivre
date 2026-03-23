@@ -3,7 +3,7 @@
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
-	import ProblemaContent from '$lib/content/problema.md';
+	import ProblemContent from '$lib/content/problem-content.md';
 	import AlertTriangle from '@lucide/svelte/icons/alert-triangle';
 	import Zap from '@lucide/svelte/icons/zap';
 	import FileText from '@lucide/svelte/icons/file-text';
@@ -62,7 +62,7 @@
 
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
-		<ProblemaContent />
+			<ProblemContent />
 	</div>
 </ProseLayout>
 

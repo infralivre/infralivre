@@ -9,15 +9,15 @@
 	import User from '@lucide/svelte/icons/user';
 
 	let { data } = $props();
-	let artigo = $derived(data.artigo);
+	let article = $derived(data.article);
 	let Content = $derived(data.content);
 </script>
 
 <svelte:head>
-	<title>{artigo.title} — InfraLivre</title>
-	<meta name="description" content={artigo.ogDescription} />
-	<meta property="og:title" content="{artigo.title} — InfraLivre" />
-	<meta property="og:description" content={artigo.ogDescription} />
+	<title>{article.title} — InfraLivre</title>
+	<meta name="description" content={article.ogDescription} />
+	<meta property="og:title" content="{article.title} — InfraLivre" />
+	<meta property="og:description" content={article.ogDescription} />
 </svelte:head>
 
 <Section class="pb-10">
@@ -33,24 +33,24 @@
 		<div class="flex items-center justify-center gap-3 text-xs text-muted-foreground flex-wrap">
 			<span class="inline-flex items-center gap-1.5 rounded-full border border-sky-200 bg-sky-50 px-2.5 py-0.5 font-bold uppercase tracking-wider text-sky-700 dark:border-sky-900/50 dark:bg-sky-950/30 dark:text-sky-400">
 				<BookOpen class="size-3" />
-				{artigo.category}
+				{article.category}
 			</span>
 			<span class="inline-flex items-center gap-1">
 				<Clock class="size-3" />
-				{artigo.readTime}
+				{article.readTime}
 			</span>
 		</div>
 
 		<h1 class="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-zinc-950 dark:text-zinc-50">
-			{artigo.title}
+			{article.title}
 		</h1>
 		<p class="mt-6 text-xl leading-8 text-muted-foreground">
-			{artigo.description}
+			{article.description}
 		</p>
 
-		{#if artigo.authors && artigo.authors.length > 0}
+		{#if article.authors && article.authors.length > 0}
 			<div class="mt-8 flex items-center justify-center gap-6">
-				{#each artigo.authors as author}
+				{#each article.authors as author}
 					<div class="flex items-center gap-3">
 						{#if author.photo}
 							<img
@@ -75,8 +75,8 @@
 
 	<div class="mx-auto mt-12 max-w-5xl">
 		<img
-			src={artigo.image}
-			alt={artigo.imageAlt}
+			src={article.image}
+			alt={article.imageAlt}
 			class="w-full rounded-2xl border border-zinc-200 bg-zinc-50 object-cover shadow-2xl dark:border-zinc-800 dark:bg-zinc-900"
 			width="1456"
 			height="816"
@@ -86,7 +86,7 @@
 </Section>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title={artigo.title} description={artigo.ogDescription} />
+	<ShareButtons title={article.title} description={article.ogDescription} />
 </div>
 
 <ProseLayout class="pt-0">
@@ -96,12 +96,12 @@
 </ProseLayout>
 
 <div class="mx-auto flex max-w-3xl justify-center px-4 pb-8">
-	<ShareButtons title={artigo.title} description={artigo.ogDescription} />
+	<ShareButtons title={article.title} description={article.ogDescription} />
 </div>
 
 <CallToAction
-	title={artigo.cta.title}
-	description={artigo.cta.description}
-	href={artigo.cta.href}
-	label={artigo.cta.label}
+	title={article.cta.title}
+	description={article.cta.description}
+	href={article.cta.href}
+	label={article.cta.label}
 />

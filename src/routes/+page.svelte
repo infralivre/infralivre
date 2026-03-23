@@ -27,16 +27,16 @@
 				O Marco Jurídico da <br/><span class="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">Infraestrutura Livre</span>
 			</h1>
 			<p class="mx-auto mt-6 max-w-3xl text-xl leading-8 text-zinc-300 sm:text-2xl">
-				Visualize a internet, seu banco, o controle de tráfego, o posto de saúde. <strong>Tudo está conectado.</strong> 
+				Desde as redes sociais, seu banco, seu carro, até o posto de saúde. <strong>Tudo está conectado.</strong> 
 				Sustentado por uma malha pública construída por milhares de voluntários. Contudo, leis feitas para o controle corporativo estão esmagando as próprias pessoas e fundações que nos mantêm online.
 			</p>
 			
 			<div class="mt-10 flex flex-wrap items-center justify-center gap-4">
-				<a href="/proposta" class="inline-flex h-12 items-center justify-center rounded-lg bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold px-8 transition-colors">
-					A Proposta Definitiva
-					<ArrowRight class="ml-2 size-5" />
+				<a href="/proposta" class="group inline-flex h-12 items-center justify-center rounded-lg bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold px-8 transition-all hover:scale-105 active:scale-95 shadow-lg">
+					A Solução Definitiva
+					<ArrowRight class="ml-2 size-5 transition-transform group-hover:translate-x-1" />
 				</a>
-				<a href="#anatomia" class="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-700 bg-zinc-900/50 hover:bg-zinc-800 text-zinc-50 font-medium px-8 backdrop-blur-sm transition-colors">
+				<a href="#anatomia" onclick={(e) => { e.preventDefault(); document.getElementById('anatomia')?.scrollIntoView({ behavior: 'smooth' }); }} class="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-700 bg-zinc-900/50 hover:bg-zinc-800 text-zinc-50 font-medium px-8 backdrop-blur-sm transition-all hover:scale-105 active:scale-95">
 					O que estamos defendendo?
 				</a>
 			</div>
@@ -44,8 +44,22 @@
 	</div>
 </div>
 
+<section class="py-10 mb-10 md:py-14 md:mb-14">
+<div class="mx-auto max-w-5xl px-4 sm:px-6">
+<img
+		src="/images/01.webp"
+		alt="Ilustração mostrando diversas formas de apoiar o InfraLivre e a comunidade de tecnologia participando de debates públicos."
+		class="w-full rounded-2xl border border-border bg-muted/30 object-cover shadow-2xl"
+		width="1456"
+		height="816"
+		loading="eager"
+	/>
+</div>
+	
+</section>
+
 <!-- 3. Strip de impacto (Z-pattern) -->
-<section class="border-t border-border bg-muted/50 py-10 md:py-14">
+<Section class="border-t border-border bg-muted/50 py-10 md:py-14">
 	<div class="mx-auto max-w-5xl px-4 sm:px-6">
 		<div class="grid gap-8 text-center sm:grid-cols-3">
 			<div class="group animate-[fadeUp_0.5s_ease_both] rounded-xl border border-emerald-500/20 bg-emerald-500/5 px-4 py-6 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:border-emerald-500/60 hover:bg-emerald-500/10 hover:shadow-xl hover:shadow-emerald-500/20">
@@ -62,7 +76,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</Section>
 
 <!-- 4. Contexto da infraestrutura & Blocos (Arco 2) -->
 <Section id="anatomia" class="border-t border-border">
@@ -74,49 +88,97 @@
 		</p>
 	</div>
 
-	<div class="mx-auto mt-16 max-w-5xl grid gap-8 md:grid-cols-2">
-		<!-- Software -->
-		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
-			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400">
-				<Box class="size-6 transition-transform group-hover:scale-110 group-hover:rotate-6" />
+	<div class="mx-auto mt-16 max-w-5xl flex flex-col gap-12 md:gap-20">
+		<!-- Software (Texto na Esquerda, Imagem na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-emerald-500/50 group-hover/section:bg-emerald-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-emerald-500/30 dark:group-hover/section:bg-emerald-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-emerald-500/20 dark:text-emerald-400">
+					<Box class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-emerald-700 dark:text-zinc-50 dark:group-hover/section:text-emerald-400">Software Livre e Aberto</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Bibliotecas, frameworks, aplicativos e sistemas operacionais (como Linux) que compõem 90% dos servidores modernos. Milhões de contribuintes escrevem o código base que permitem que o mundo moderno funcione.
+				</p>
 			</div>
-			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Software Aberto</h3>
-			<p class="text-muted-foreground">
-				Bibliotecas, frameworks e sistemas operacionais (como Linux) que compõem 90% dos servidores modernos. Milhões de contribuintes escrevem o código base que permite que a internet sequer funcione.
-			</p>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-emerald-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-emerald-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/software-livre-1.jpg"
+					alt="Ilustração representando software livre e código aberto."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
 		</div>
 
-		<!-- Serviço -->
-		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
-			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 dark:bg-sky-500/20 dark:text-sky-400">
-				<Server class="size-6 transition-transform group-hover:scale-110 group-hover:rotate-6" />
+		<!-- Serviço (Imagem na Esquerda, Texto na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="order-first md:order-last relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-sky-500/50 group-hover/section:bg-sky-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-sky-500/30 dark:group-hover/section:bg-sky-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-sky-500/20 dark:text-sky-400">
+					<Server class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-sky-700 dark:text-zinc-50 dark:group-hover/section:text-sky-400">Serviços Descentralizados</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Plataformas hospedadas de forma federada onde a comunidade governa e opera os servidores, assim evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
+				</p>
 			</div>
-			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Serviços Descentralizados</h3>
-			<p class="text-muted-foreground">
-				Plataformas hospedadas de forma federada onde a comunidade governa e opera os servidores — evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
-			</p>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-sky-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-sky-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/servico-livre-1.jpg"
+					alt="Ilustração representando serviços descentralizados."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
 		</div>
 
-		<!-- Rede -->
-		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
-			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-violet-500/10 text-violet-600 dark:bg-violet-500/20 dark:text-violet-400">
-				<Wifi class="size-6 transition-transform group-hover:scale-110 group-hover:-rotate-6" />
+		<!-- Rede (Texto na Esquerda, Imagem na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-violet-500/50 group-hover/section:bg-violet-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-violet-500/30 dark:group-hover/section:bg-violet-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-violet-500/10 text-violet-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-violet-500/20 dark:text-violet-400">
+					<Wifi class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-violet-700 dark:text-zinc-50 dark:group-hover/section:text-violet-400">Redes Livres</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Protocolos de conexão autônomos e malhas comunitárias de internet (mesh networks) construídas para conectar áreas remotas. Infraestruturas onde a estabilidade dependa dos participantes, não de provedores privados corporativos.
+				</p>
 			</div>
-			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Redes Livres</h3>
-			<p class="text-muted-foreground">
-				Protocolos de conexão autônomos e malhas comunitárias de internet (mesh networks) construídas para conectar áreas remotas. Infraestruturas onde a estabilidade dependa dos participantes, não de provedores privados corporativos.
-			</p>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-violet-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-violet-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/redes-livres-1.jpg"
+					alt="Ilustração representando serviços descentralizados."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
 		</div>
 
-		<!-- Hardware -->
-		<div class="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all hover:-translate-y-1 hover:shadow-xl dark:border-zinc-800 dark:bg-zinc-900">
-			<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400">
-				<Cpu class="size-6 transition-transform group-hover:scale-110 group-hover:-rotate-6" />
+		<!-- Hardware (Imagem na Esquerda, Texto na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="order-first md:order-last relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-amber-500/50 group-hover/section:bg-amber-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-amber-500/30 dark:group-hover/section:bg-amber-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-amber-500/20 dark:text-amber-400">
+					<Cpu class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-amber-700 dark:text-zinc-50 dark:group-hover/section:text-amber-400">Hardware Aberto</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Diagramas de circuitos, placas, chips (como RISC-V) e impressões 3D com propriedades livres. Significa ter o direito a reparar seus próprios bens e impulsionar a educação científica democratizada além das restrições de patentes.
+				</p>
 			</div>
-			<h3 class="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50">Hardware Aberto</h3>
-			<p class="text-muted-foreground">
-				Diagramas de circuitos, placas, chips (como RISC-V) e impressões 3D com propriedades livres. Significa ter o direito a reparar seus próprios bens e impulsionar a educação científica democratizada além das restrições de patentes.
-			</p>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-amber-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-amber-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/hardware-livre-1.jpg"
+					alt="Ilustração representando hardware livre."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-amber-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
 		</div>
 	</div>
 </Section>
@@ -139,9 +201,9 @@
 			Exigir o impossível apenas aumenta o inchaço burocrático e gera processos abusivos.
 		</p>
 		<div class="mt-8">
-			<Button href="/problema" variant="default" class="h-10 px-5">
+			<Button href="/problema" variant="default" class="group h-10 px-5 transition-all hover:scale-105 active:scale-95">
 				Análise completa do problema
-				<ArrowRight class="ml-2 size-4" />
+				<ArrowRight class="ml-2 size-4 transition-transform group-hover:translate-x-1" />
 			</Button>
 		</div>
 	</div>
@@ -202,13 +264,9 @@
 <CallToAction
 	title="Um Marco focado em competência e realidade viável"
 	description="Os 5 Pilares do InfraLivre estabelecem defesas, princípios e reconhecimentos que protegem os times de ponta contra exigências regulatórias insanas."
+	href="/proposta"
+	label="Ver a Proposta Completa"
+	secondaryHref="/apoio"
+	secondaryLabel="Quero Somar Forças"
 	class="border-t border-zinc-800"
->
-	<Button href="/proposta" size="lg" class="h-12 w-full gap-2 rounded-full px-8 text-base shadow-xl sm:w-auto">
-		Ver a Proposta Completa
-		<ArrowRight class="size-4" />
-	</Button>
-	<Button href="/apoio" variant="outline" size="lg" class="h-12 w-full gap-2 rounded-full border-zinc-700 bg-zinc-900/50 px-8 text-base text-zinc-300 hover:bg-zinc-800 hover:text-white sm:w-auto">
-		Quero Somar Forças
-	</Button>
-</CallToAction>
+/>

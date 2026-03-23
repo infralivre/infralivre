@@ -33,7 +33,7 @@
 					href="https://github.com/infralivre/infralivre"
 					target="_blank"
 					rel="noopener"
-					class="group/btn gap-2 bg-zinc-900 text-zinc-50 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 hover:shadow-[0_0_25px_rgba(245,158,11,0.6)] dark:bg-zinc-200 dark:text-zinc-900 dark:hover:bg-zinc-900 hover:dark:text-zinc-100 dark:hover:shadow-[0_0_25px_rgba(245,158,11,0.6)] font-semibold"
+					class="group/btn gap-2 bg-zinc-900 text-zinc-50 transition-all duration-300 hover:scale-105 active:scale-95 hover:bg-zinc-800 hover:shadow-[0_0_25px_rgba(245,158,11,0.6)] dark:bg-zinc-200 dark:text-zinc-900 dark:hover:bg-zinc-900 hover:dark:text-zinc-100 dark:hover:shadow-[0_0_25px_rgba(245,158,11,0.6)] font-semibold"
 					size="lg"
 				>
 					<Star class="size-4 animate-[pulse_2s_ease-in-out_infinite] text-amber-400 transition-all duration-300 group-hover/btn:scale-[1.5] group-hover/btn:rotate-[15deg] group-hover/btn:text-amber-300 group-hover/btn:drop-shadow-[0_0_16px_rgba(245,158,11,1)]" fill="currentColor" />

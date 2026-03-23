@@ -1,6 +1,6 @@
 import type { Component } from 'svelte';
 
-export interface Artigo {
+export interface Article {
 	slug: string;
 	title: string;
 	description: string;
@@ -8,7 +8,7 @@ export interface Artigo {
 	image: string;
 	imageAlt: string;
 	category: string;
-	infrastructureType: "software" | "serviço" | "rede" | "hardware";
+	infrastructureType: "software" | "service" | "network" | "hardware";
 	authors: { name: string; photo?: string }[];
 	readTime: string;
 	cta: {
@@ -19,16 +19,16 @@ export interface Artigo {
 	};
 }
 
-const metaModules = import.meta.glob<Artigo>('./*/meta.json', { eager: true, import: 'default' });
+const metaModules = import.meta.glob<Article>('./*/meta.json', { eager: true, import: 'default' });
 const contentModules = import.meta.glob<{ default: Component }>('./*/*.md');
 
-export const artigos: Artigo[] = Object.values(metaModules);
+export const articles: Article[] = Object.values(metaModules);
 
-export function getArtigo(slug: string): Artigo | undefined {
-	return artigos.find((a) => a.slug === slug);
+export function getArticle(slug: string): Article | undefined {
+	return articles.find((a) => a.slug === slug);
 }
 
-export async function getArtigoContent(slug: string): Promise<Component | undefined> {
+export async function getArticleContent(slug: string): Promise<Component | undefined> {
 	const path = `./${slug}/${slug}.md`;
 	const loader = contentModules[path];
 	if (!loader) return undefined;

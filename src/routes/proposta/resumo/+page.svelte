@@ -3,7 +3,7 @@
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
-	import PropostaResumo from '$lib/content/proposta-resumo.md';
+	import ProposalSummary from '$lib/content/proposal-summary.md';
 	import Zap from '@lucide/svelte/icons/zap';
 	import FileText from '@lucide/svelte/icons/file-text';
 </script>
@@ -49,7 +49,7 @@
 
 <ProseLayout class="pt-2">
 	<div class="prose-zinc max-w-none rounded-2xl border border-zinc-200 bg-zinc-50 p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/50 dark:prose-invert sm:p-12">
-		<PropostaResumo />
+		<ProposalSummary />
 	</div>
 </ProseLayout>
 

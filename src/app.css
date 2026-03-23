@@ -184,6 +184,20 @@
 	margin-top: 1.75em;
 }
 
+.prose h4 {
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-top: 1.5em;
+}
+
+.prose h5 {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-top: 1.25em;
+}
+
 .prose p {
 	margin-top: 1.25em;
 }

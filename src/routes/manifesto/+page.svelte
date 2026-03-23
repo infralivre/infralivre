@@ -4,7 +4,7 @@
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
-	import ManifestoContent from '$lib/content/manifesto.md';
+	import ManifestoContent from '$lib/content/manifesto-content.md';
 	import FileText from '@lucide/svelte/icons/file-text';
 	import Zap from '@lucide/svelte/icons/zap';
 </script>

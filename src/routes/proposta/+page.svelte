@@ -3,7 +3,7 @@
 	import ProseLayout from '$lib/layout/ProseLayout.svelte';
 	import CallToAction from '$lib/components/shared/CallToAction.svelte';
 	import ShareButtons from '$lib/components/shared/ShareButtons.svelte';
-	import PropostaContent from '$lib/content/proposta.md';
+	import ProposalContent from '$lib/content/proposal-content.md';
 	import ShieldCheck from '@lucide/svelte/icons/shield-check';
 	import Zap from '@lucide/svelte/icons/zap';
 	import FileText from '@lucide/svelte/icons/file-text';
@@ -62,7 +62,7 @@
 
 <ProseLayout class="pt-0">
 	<div class="prose-zinc max-w-none dark:prose-invert">
-		<PropostaContent />
+			<ProposalContent />
 	</div>
 </ProseLayout>
 
