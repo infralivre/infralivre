@@ -9,28 +9,56 @@ Se implementado, o Marco posicionaria o Brasil na **vanguarda mundial do direito
 ## Os cinco pilares
 
 ### 1. Reconhecimento jurídico da infraestrutura livre
-Definição legal das quatro camadas (software, hardware, serviços, redes) e dos **quatro direitos básicos** que uma licença deve garantir para ser livre e aberta: usar, estudar, modificar e distribuir. Declaração de **bem comum digital de interesse público**, reconhecimento da descentralização como modelo legítimo, e validade de licenças livres perante o ordenamento brasileiro. Licenças meramente *source-available* não se qualificam. Elimina a raiz da incerteza jurídica criando **categorias próprias**.
+
+- Definição legal das quatro camadas: software livre, hardware aberto, serviços abertos e redes livres
+- **Quatro direitos básicos** de uma licença livre: usar, estudar, modificar e distribuir — licenças *source-available* não se qualificam
+- Declaração de **bem comum digital de interesse público**
+- Reconhecimento da descentralização como modelo legítimo de organização
+- Validade de licenças livres (cláusulas de isenção de garantia) perante o ordenamento brasileiro
+- Proteção defensiva contra patentes de terceiros: presunção de *prior art*, vedação de patentes como bloqueio, impugnação coletiva — *patent trolls* e *patent ambush* como **risco sistêmico**
+- Direito ao fork como **garantia fundamental**: proteção da viabilidade prática — vedação de uso de marcas, namespaces, plataformas ou certificados para impedir derivações legítimas
 
 ### 2. Separação funcional entre criação, operação e uso
-Tipificação tripartite: criação, operação e uso são atividades **juridicamente distintas**. Nenhum agente pode ser responsabilizado por atos em camada que não controla. Onde há controle efetivo — como em serviços abertos centralizados sobre dados e conteúdo — há obrigações legítimas, mas proporcionais à capacidade real do operador. Safe harbor para criadores e mantenedores. Vedação de sanções sobre código-fonte e artefatos abertos. A responsabilidade recai sobre **quem efetivamente possui e exerce controle**.
+
+- Criação, operação e uso são atividades **juridicamente distintas** com responsabilidades distintas
+- Nenhum agente pode ser responsabilizado por atos em camada que não controla
+- Onde há controle efetivo, há obrigações legítimas — mas proporcionais à capacidade real do operador
+- Safe harbor para criadores e mantenedores de infraestrutura livre
+- Vedação de sanções sobre código-fonte, designs e artefatos abertos enquanto artefatos
 
 ### 3. Princípio da compatibilidade arquitetural
-**Cláusula de blindagem**: toda regulação deve passar por teste de viabilidade arquitetural antes de incidir sobre infraestrutura livre. Vedação de obrigações estruturalmente impossíveis (varredura em código aberto, moderação centralizada de redes federadas, interceptação em redes mesh, bloqueio de firmware). Cláusula de adaptação exige que obrigações sejam não apenas tecnicamente compatíveis mas **materialmente exequíveis** pelo operador. Proteção à pesquisa de segurança. Cria segurança jurídica **prospectiva** — protege inclusive contra regulações futuras.
+
+- **Cláusula normativa vinculante**: obrigações que pressuponham controle centralizado são **presumidamente inaplicáveis** — eficácia imediata sobre legislação anterior, vigente e futura
+- **Direito de contestação judicial** com efeito suspensivo — **ônus de demonstrar exequibilidade recai sobre o regulador**
+- Vedação de obrigações estruturalmente impossíveis: varredura em código aberto, moderação centralizada de redes federadas, interceptação em redes mesh, bloqueio de firmware
+- Cláusula de adaptação: obrigações devem ser **materialmente exequíveis** pelo operador
+- Proteção à pesquisa de segurança como atividade de interesse público
+- **Proteção contra bloqueio colateral na internet**: bloqueios de DNS, IP, ASN ou BGP não podem alcançar colateralmente infraestrutura livre — princípio da **cirurgicidade** e legitimidade para suspensão imediata
+- **Vedação de bloqueio de protocolos abertos**: nenhuma ação pode bloquear, restringir ou degradar protocolos (BitTorrent, IPFS, Tor, Matrix, ActivityPub) por usos ilícitos de terceiros — protocolo é infraestrutura, não agente
+- **Proteção de repositórios de código e registros de pacotes**: ordens de remoção ou bloqueio devem ser cirúrgicas — vedado indisponibilizar plataforma inteira por conteúdo específico
+- **Proteção contra apreensão de domínios e revogação de certificados**: domínios e certificados que sirvam infraestrutura livre sob PIL não podem ser alcançados como efeito colateral — restituição imediata em caso de apreensão indevida
 
 ### 4. Regime regulatório proporcional e não discriminatório
-Proporcionalidade: o ecossistema da infraestrutura livre — de contribuidores individuais a empresas cujo modelo é construído sobre software e hardware aberto — não pode ser submetido a requisitos dimensionados para plataformas proprietárias com cadeias de controle verticalizadas. Reconhecimento de que controle técnico não implica capacidade de conformidade — conformidade proporcional e coletiva via organização custodiante. Distribuição de software sem gatekeepers obrigatórios. Certificação acessível para hardware aberto. Redes comunitárias como **categoria distinta** de telecom. Mandato de padrões abertos na administração pública. Interoperabilidade como direito.
+
+- Obrigações de conformidade **proporcionais à escala e natureza** do agente — não dimensionadas para plataformas proprietárias
+- Controle técnico não implica capacidade de conformidade — conformidade proporcional e coletiva via custodiante
+- Distribuição de software sem gatekeepers obrigatórios — direito de sideloading e distribuição direta
+- Certificação acessível para hardware aberto em pequenos lotes
+- Redes comunitárias como **categoria distinta** de telecomunicações
+- Mandato de padrões abertos na administração pública
+- **Proteção do contribuidor**: contribuição a PIL fora do escopo e horário de trabalho não pode ser reivindicada pelo empregador — cláusulas genéricas de cessão de PI nulas na parte excedente
+- **Proteção contra litigância predatória (anti-SLAPP)**: extinção antecipada de ações abusivas, inversão do ônus, honorários majorados, depósito prévio em ações repetitivas
 
 ### 5. Sustentabilidade e fomento do ecossistema
-Os quatro primeiros pilares protegem. O quinto **constrói**:
 
-- **Projeto de Infraestrutura Livre (PIL)**: nova figura jurídica de propósito específico — CNPJ próprio, constituição praticamente gratuita, regime de voluntariado (Lei 9.608/98), **vedação total de operações financeiras** (sem conta bancária, sem recebimento de doações, sem movimentação de recursos). Dois regimes de organização: **PIL Societário** (unipessoal ou com múltiplos sócios, para mantenedores solo ou equipes definidas) e **PIL Cooperativo** (cooperativa simplificada com um-membro-um-voto, para comunidades amplas). Titularidade de marcas e patentes livres com custos reduzidos no INPI. Presunção de hipossuficiência quando mantido por pessoas físicas. Figura **inédita no direito mundial**.
-- **Entidade custodiante obrigatória**: toda operação financeira (doações, reembolsos, editais, licitações) é executada por PJ convencional vinculada ao PIL — associação, OSCIP, fundação, cooperativa ou empresa comercial. A custodiante é PJ plena: assina contratos, contrata funcionários, firma acordos. Retribuição financeira a voluntários do PIL só é admitida via custodiante de tipo compatível (OSCIP, associação); com custodiante comercial, cabe apenas voluntariado gratuito.
-- **Extensão de proteções do Marco**: a entidade custodiante vinculada a um PIL usufrui das proteções dos pilares 1–4 para ações relacionadas ao projeto registrado. A extensão é **estritamente funcional** — atividades desvinculadas do PIL permanecem sob regime ordinário.
-- **Qualificação como "Empresa de Infraestrutura Livre"**: selo que confere acesso exclusivo ao **regime tributário diferenciado** — exige que a **totalidade dos produtos e serviços** da custodiante constitua infraestrutura livre (100% livre). Consolida-se pelo par CNPJ-custodiante + CNPJs-PIL. Independe do tipo de PJ. Revogável. Sem o selo, a PJ permanece sob regime tributário ordinário.
-- **Custódia fiscal para projetos sem PIL**: organização custodiante que abriga integralmente projetos que não possuam ou não desejem constituir PIL.
-- **Liberdade de existência**: nenhum projeto é obrigado a se formalizar por existir. Para acessar mecanismos públicos, formaliza-se via PIL ou custódia fiscal — caminhos projetados para serem acessíveis.
-- **Regime tributário diferenciado**: exclusivo para **Empresas de Infraestrutura Livre**. Dedução majorada de despesas operacionais (160–200%, nos moldes da Lei do Bem), isenção de importação, isenção sobre serviços digitais, extensão de incentivos fiscais de inovação. Sem o selo, regime ordinário.
-- **Fundo Nacional de Infraestrutura Livre**: financiamento público direto ao ecossistema — de projetos comunitários a empresas de infraestrutura aberta. Adaptação de editais de CT&I. Preferência em licitações. Governo como contribuinte, não apenas consumidor.
+- **Projeto de Infraestrutura Livre (PIL)**: nova figura jurídica — CNPJ próprio, constituição gratuita, **vedação total de operações financeiras**, dois regimes (societário e cooperativo), titularidade de marcas e patentes, presunção de hipossuficiência.
+- **Entidade custodiante**: PJ convencional vinculada ao PIL executa toda operação financeira — associação, OSCIP, fundação, cooperativa ou empresa. Retribuição a voluntários só via custodiante de tipo compatível
+- **Extensão de proteções do Marco** à custodiante para ações relacionadas ao PIL — extensão estritamente funcional
+- **Empresa de Infraestrutura Livre**: selo de acesso ao regime tributário diferenciado — exige **100% dos produtos e serviços** como infraestrutura livre (serviços acessórios como suporte, consultoria e treinamento são admitidos). Par CNPJ-custodiante + CNPJs-PIL. Revogável
+- **Continuidade de infraestrutura crítica**: regime de sucessão de governança para PILs abandonados, proteção contra apropriação, conversão em projeto preservado
+- **Regime tributário diferenciado**: exclusivo para Empresas de Infraestrutura Livre — dedução majorada (160–200%, modelo Lei do Bem), isenção de importação, isenção sobre serviços digitais, isenção de CSLL
+- **Fundo Nacional de Infraestrutura Livre**: financiamento público direto, adaptação de editais de CT&I, preferência em licitações, governo como contribuinte
+- Nenhum projeto é obrigado a se formalizar por existir — PIL e custódia fiscal são caminhos opcionais de acesso
 
 ## Alcance
 

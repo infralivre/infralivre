@@ -15,8 +15,8 @@ Ainda assim, normas vêm sendo aplicadas de forma indistinta, atribuindo a criad
 O desalinhamento entre norma e realidade técnica se manifesta em cinco eixos convergentes:
 
 1. **Incerteza jurídica** — disputas de PI paralisam o software (SCO v. Linux, Oracle v. Google), licenças de hardware nunca foram testadas em tribunal, operadores de serviços abertos não sabem qual jurisdição os alcança, redes comunitárias existem em limbo regulatório
-2. **Responsabilização indevida** — desenvolvedores criminalizados por código publicado (Tornado Cash), projetistas tratados como fabricantes (CRA), operadores de instâncias notificados por conteúdo federado (NetzDG), voluntários de redes Wi-Fi processados por atos de terceiros (Störerhaftung)
-3. **Obrigações incompatíveis** — varredura obrigatória em código aberto (Chat Control), prazos corporativos impostos a voluntários (NIS2), moderação centralizada exigida de redes federadas (DSA), interceptação em redes mesh sem ponto central
+2. **Responsabilização indevida** — desenvolvedores criminalizados por código publicado (Tornado Cash), projetistas tratados como fabricantes (CRA), operadores de instâncias notificados por conteúdo federado (NetzDG), voluntários de redes Wi-Fi processados por atos de terceiros (Störerhaftung), litigância predatória de *patent trolls* contra fundações (GNOME v. Rothschild), cláusulas genéricas de cessão de PI que alcançam contribuições fora do escopo de trabalho
+3. **Obrigações incompatíveis** — varredura obrigatória em código aberto (Chat Control), prazos corporativos impostos a voluntários (NIS2), moderação centralizada exigida de redes federadas (DSA), interceptação em redes mesh sem ponto central, bloqueio colateral de infraestrutura livre por ações de DNS/IP contra terceiros (Roskomnadzor/Telegram), remoção de repositórios por notificação extrajudicial (youtube-dl/DMCA)
 4. **Barreiras operacionais** — app stores como gatekeepers, certificação de hardware proibitiva, requisitos de estrutura jurídica para operar serviços abertos, licenciamento de espectro que impede redes mesh de escalar
 5. **Fragilidade econômica** — tributação que penaliza importação de componentes e operação de serviços abertos, editais que exigem CNPJ e excluem projetos comunitários, inexistência de figura jurídica para projetos descentralizados e transnacionais, menos de 5% dos projetos críticos com financiamento suficiente, sobrecarga de mantenedores e empresas que sustentam o ecossistema
 
@@ -32,7 +32,7 @@ Em modelos centralizados comerciais, esses papéis se sobrepõem. Na infraestrut
 
 ## As consequências
 
-Os efeitos já são visíveis: instâncias Mastodon fechadas por impossibilidade regulatória, nós Freifunk desativados por medo de responsabilização, ataques como XZ Utils e Log4Shell explorando a exaustão de mantenedores, fragmentação jurisdicional de redes federadas e concentração crescente em fornecedores proprietários.
+Os efeitos já são visíveis: instâncias Mastodon fechadas por impossibilidade regulatória, nós Freifunk desativados por medo de responsabilização, ataques como XZ Utils e Log4Shell explorando a exaustão de mantenedores, fragmentação jurisdicional de redes federadas, concentração crescente em fornecedores proprietários, bloqueios colaterais de IP e DNS que derrubam infraestrutura livre, remoção de repositórios de código por notificação extrajudicial, litigância predatória consumindo recursos de fundações e projetos, e contribuidores que deixam de participar por receio de cláusulas de cessão de PI.
 
 Se o enquadramento não for adaptado, as tendências convergem para erosão da base de mantenedores, aumento de superfície de ataque, consolidação de dependência proprietária e perda de soberania tecnológica.
 

@@ -195,6 +195,34 @@ Na Espanha, a rede [Guifi.net](https://guifi.net/) enfrentou desafios regulatór
 
 No México, a [Rhizomatica](https://www.rhizomatica.org/) — que opera redes de telefonia celular comunitária em regiões indígenas — só conseguiu operar legalmente após obter uma concessão experimental do [Instituto Federal de Telecomunicaciones (IFT)](http://www.ift.org.mx/) em 2014, um processo que levou anos de advocacy. A maioria das comunidades que necessitam de conectividade não tem acesso a esse tipo de exceção regulatória.
 
+#### Casos Gerais:
+
+##### Litigância predatória como instrumento de pressão
+
+Além da responsabilização penal e civil direta, mantenedores e projetos de infraestrutura livre enfrentam um padrão crescente de **litigância predatória** — ações judiciais manifestamente infundadas ou desproporcionais cujo objetivo não é obter reparação legítima, mas **silenciar, intimidar ou onerar financeiramente** quem não tem recursos para se defender.
+
+Em 2019, a [GNOME Foundation](https://blogs.gnome.org/foundation/2019/10/21/) foi processada pela [Rothschild Patent Imaging](https://www.eff.org/deeplinks/2019/12/how-patent-sorting-photos-got-used-sue-free-software-group) por funcionalidade trivial no [Shotwell](https://wiki.gnome.org/Apps/Shotwell) (organizador de fotos livre) — demonstrando que **projetos mantidos por voluntários e pequenas fundações são alvos preferenciais** de *patent trolls*, precisamente porque não possuem recursos para litígio prolongado. A GNOME gastou centenas de milhares de dólares defendendo-se de reivindicação patentária sobre funcionalidade que já existia há anos no ecossistema livre. Em outros casos, empresas utilizam práticas de **emboscada de padrões** (*patent ambush*) — participam de processos de padronização aberta, deixam que técnicas sejam adotadas amplamente, e então revelam que detiveram patentes sobre elas todo o tempo. A [Qualcomm](https://en.wikipedia.org/wiki/Qualcomm#Litigation_and_regulatory_issues) enfrentou investigações por práticas semelhantes em padrões de telecomunicações, e a [Rambus](https://en.wikipedia.org/wiki/Rambus#Lawsuits) foi processada por *patent ambush* em padrões de memória. Essas práticas são particularmente destrutivas quando aplicadas a infraestrutura livre publicada sob licença aberta — porque a abertura que viabiliza a adoção massiva é precisamente o que torna o ecossistema vulnerável à emboscada: técnicas amplamente implementadas por serem livres tornam-se alvo de reivindicação patentária retroativa.
+
+Na ausência de proteção defensiva específica, projetos menores simplesmente **cedem ou pagam licenciamento** para evitar litígio — financiando o modelo predadório e enfraquecendo o ecossistema. A [EFF](https://www.eff.org/issues/stupid-patent-month) documenta sistematicamente patentes abusivas que alcançam software livre. A [LOT Network](https://lotnet.com/) oferece proteção entre membros, mas é voltada a empresas de grande porte — não a fundações ou mantenedores individuais.
+
+O padrão se repete em escala: *patent trolls* como a [Rothschild Patent Imaging](https://www.eff.org/deeplinks/2019/10/gnome-foundation-faces-patent-troll), [Intellectual Ventures](https://en.wikipedia.org/wiki/Intellectual_Ventures), e outros movem dezenas de ações contra projetos menores, apostando que o custo de defesa é superior ao custo de acordo. A [Unified Patents](https://www.unifiedpatents.com/) documenta que mais de 50% dos casos de *patent trolling* visam empresas com receita inferior a US$ 10 milhões — exatamente o perfil de projetos e empresas do ecossistema de infraestrutura livre.
+
+Fora do contexto de patentes, a litigância predatória também se manifesta em **ações de difamação, violação de marca e atos supostos de concorrência desleal** contra mantenedores que publicam comparações, auditorias de segurança ou alternativas livres a soluções proprietárias. A [EFF](https://www.eff.org/issues/slapp) e a [Public Participation Project](https://anti-slapp.org/) documentam que **ações tipo SLAPP** (*Strategic Lawsuits Against Public Participation*) são usadas para suprimir expressão legítima — e projetos de infraestrutura livre, mantidos por voluntários sem departamento jurídico, são **alvos particularmente vulneráveis**.
+
+Nos EUA, mais de 30 estados possuem legislação anti-SLAPP que permite extinção antecipada de ações abusivas. No Brasil e na maioria dos países, **não existe mecanismo equivalente** — e o CPC (Arts. 79–81) sobre litigância de má-fé é insuficiente porque opera *post factum*: o dano ao projeto já se consumou pelo custo de defesa antes de qualquer sanção ao litigante abusivo.
+
+##### Contribuidores como alvo de cláusulas contratuais abusivas
+
+Uma dimensão frequentemente invisibilizada da responsabilização indevida atinge não os projetos, mas seus **contribuidores individuais** — via relações de trabalho.
+
+Contratos de trabalho em tecnologia rotineiramente incluem **cláusulas genéricas de cessão de propriedade intelectual** que atribuem ao empregador a titularidade sobre toda criação intelectual do funcionário — frequentemente sem delimitar escopo, horário ou uso de recursos. Quando um desenvolvedor contribui para projetos de infraestrutura livre **fora do horário de trabalho, sem usar recursos da empresa e sem relação com o objeto do contrato**, essas cláusulas podem alcançar contribuições que não têm qualquer vínculo com a relação laboral.
+
+Esse padrão é documentado na prática. O caso [Alcatel-Lucent v. Brown (2011)](https://en.wikipedia.org/wiki/Alcatel-Lucent_v._Microsoft_Corp.) nos EUA e disputas relacionadas demonstraram a extensão com que claúsulas de cessão de PI podem ser interpretadas de forma ampla. Na Califórnia, o [California Labor Code §2870](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2870.&lawCode=LAB) protege explicitamente criações do empregado realizadas fora do trabalho, sem recursos da empresa e sem relação com o negócio — mas **a maioria dos estados americanos e praticamente nenhuma jurisdição fora dos EUA possui proteção equivalente**.
+
+No Brasil, a [Lei 9.279/96 (Lei de Propriedade Industrial)](https://www.planalto.gov.br/ccivil_03/leis/l9279.htm) distingue entre invenção de serviço (Art. 88), invenção mista (Art. 91) e invenção livre (Art. 90) — mas a aplicação prática é limitada ao contexto de patentes, e cláusulas contratuais genéricas de cessão de PI em software e código não são disciplinadas com a mesma clareza.
+
+Pesquisa da [GitHub Developer Survey](https://github.blog/developer-skills/github/developer-experience-what-s-new-in-the-2024-survey/) e da [Stack Overflow Developer Survey](https://survey.stackoverflow.co/) indica que a maioria dos contribuidores de infraestrutura livre é empregada em empresas de tecnologia. A [Linux Foundation](https://www.linuxfoundation.org/research) documenta que uma parcela significativa das contribuições ao kernel Linux e a outros projetos críticos é feita **fora do escopo laboral** — em tempo pessoal, com equipamento pessoal e sem relação com o empregador. Cláusulas genéricas de cessão de PI criam uma **barreira silenciosa** à participação no ecossistema: o contribuidor não sabe se pode contribuir sem risco legal, e na dúvida, **não contribui**. O efeito supressor é incalculável porque é invisível — não se mede quem deixou de participar.
+
 #### O padrão estrutural
 
 Em todas as camadas, o padrão se repete:
@@ -258,6 +286,30 @@ A [Diretiva de Retenção de Dados](https://en.wikipedia.org/wiki/Data_Retention
 
 A [Internet Society (ISOC)](https://www.internetsociety.org/) e a [APC](https://www.apc.org/) documentam que obrigações de telecomunicações projetadas para operadoras comerciais, quando aplicadas a redes comunitárias, **não apenas são desproporcionais — são estruturalmente incompatíveis** com o modelo aberto.
 
+#### Bloqueio colateral de infraestrutura da internet
+
+Uma dimensão do problema frequentemente ignorada é o **dano colateral** que ações regulatórias na internet causam à infraestrutura livre — não como alvo, mas como vítima incidental.
+
+Bloqueios de DNS, IP e ASN executados por agências reguladoras e tribunais contra serviços específicos alcançam colateralmente **infraestrutura livre hospedada na mesma infraestrutura de rede**. O caso mais emblemático ocorreu em 2018, quando a [Roskomnadzor](https://en.wikipedia.org/wiki/Roskomnadzor) (agência reguladora russa) bloqueou mais de **18 milhões de endereços IP** da Amazon Web Services e Google Cloud para tentar derrubar o [Telegram](https://en.wikipedia.org/wiki/Telegram_(software)) — derrubando colateralmente centenas de serviços legítimos hospedados na mesma infraestrutura de nuvem, incluindo repositórios de código, registros de pacotes e APIs de projetos de infraestrutura livre.
+
+O Brasil enfrentou padrão semelhante com os [bloqueios judiciais do WhatsApp](https://portal.stf.jus.br/processos/detalhe.asp?incidente=4975500) (2015–2016), quando decisões de primeiro grau determinaram a suspensão do aplicativo em todo o território nacional afetando milhões de usuários de infraestruturas lícitas. O STF julgou ambos os casos (ADPF 403 e ADI 5527) e reconheceu que **bloquear infraestrutura inteira por atos de usuários específicos é desproporcional** — mas o princípio não foi estendido a bloqueios por IP, DNS ou ASN que causem dano colateral equivalente a infraestrutura livre.
+
+Em 2022, [sanções ao Tornado Cash](https://home.treasury.gov/news/press-releases/jy0916) pelo OFAC americano alcançaram não apenas os *smart contracts* sancionados, mas afetaram repositórios de código relacionados no GitHub — com o [GitHub removendo temporariamente o perfil do desenvolvedor Alexey Pertsev](https://www.theverge.com/2022/8/10/23299936/github-tornado-cash-developer-sanctions-removed) e restringindo acesso a código-fonte publicado sob licença livre. O bloqueio alcançou **artefatos de código** — não serviços operados — e demonstrou que ações regulatórias na internet podem destruir infraestrutura livre como efeito colateral.
+
+O padrão se repete em múltiplas jurisdições. O TJUE decidiu no caso [UPC Telekabel Wien v. Constantin Film (C-314/12, 2014)](https://curia.europa.eu/juris/liste.jsf?num=C-314/12) que bloqueios devem ser *strictly targeted* — mas na prática, bloqueios por IP e DNS são **inerentemente indiscriminados** quando operam sobre infraestrutura compartilhada (CDN, cloud, hosting). A infraestrutura livre — repositórios, mirrors, registros de pacotes, APIs, serviços federados — é particularmente vulnerável porque depende de camadas de rede que **não controla e sobre as quais não tem visibilidade quando ações regulatórias são executadas**.
+
+#### Bloqueio e indisponibilização de repositórios de código e registros de pacotes
+
+Uma frente específica e crescente do problema é a vulnerabilidade de **repositórios de código-fonte e registros de pacotes** a ações regulatórias que os alcançam direta ou colateralmente.
+
+O caso mais documentado é o do [GitHub e as sanções americanas](https://github.blog/news-insights/policy-news-and-insights/github-and-trade-controls/): desenvolvedores do Irã, Síria, Coreia do Norte e Crimeia tiveram contas restritas e repositórios bloqueados a partir de 2019 em cumprimento a sanções do OFAC — mesmo quando o código publicado era infraestrutura livre utilizada globalmente. A [Software Freedom Conservancy](https://sfconservancy.org/) alertou que a concentração de código-fonte em uma única plataforma americana cria um **ponto único de falha jurisdicional** para todo o ecossistema.
+
+Em 2020, o GitHub removeu repositórios do [youtube-dl](https://en.wikipedia.org/wiki/Youtube-dl) após notificação DMCA da [RIAA (Recording Industry Association of America)](https://www.riaa.com/) — ferramenta livre e legal de download de vídeos públicos, usada extensivamente em pesquisa acadêmica e arquivamento cultural. A remoção gerou reação massiva do ecossistema e foi revertida após análise da [EFF](https://www.eff.org/deeplinks/2020/11/github-reinstates-youtube-dl-after-eff-intervention) — mas demonstrou que **código-fonte publicado sob licença livre pode ser indisponibilizado por notificação extrajudicial** de terceiro que alega violação, sem decisão judicial e sem contraditório prévio.
+
+Registros de pacotes também são vulneráveis. O [incidente left-pad (2016)](https://en.wikipedia.org/wiki/Npm_left-pad_incident) demonstrou que a remoção de um único pacote do [npm](https://www.npmjs.com/) pode quebrar **milhares de builds** de projetos dependentes em cascata. Embora o left-pad tenha sido removido pelo próprio autor, o incidente evidenciou a fragilidade: ordens judiciais ou administrativas de remoção de pacotes específicos em registros centralizados (npm, PyPI, crates.io, Docker Hub, Maven Central) têm **efeito sistêmico potencialmente destrutivo** sobre toda a cadeia de dependências do ecossistema.
+
+Em contextos de apreensão de domínios, o [ICE (Immigration and Customs Enforcement)](https://en.wikipedia.org/wiki/ICE_domain_seizures) dos EUA apreendeu domínios de websites sem decisão judicial prévia em múltiplas ocasiões, e a prática já alcançou serviços de hospedagem de código. A [EFF](https://www.eff.org/issues/domain-name-seizures) documenta que apreensões de domínio e revogações de certificados digitais podem **tornar infraestrutura livre inacessível** sem que o projeto tenha praticado qualquer ilícito — bastando que o domínio ou o provedor de hospedagem seja alcançado por ação contra terceiro.
+
 #### O padrão transversal
 
 Em todas as camadas, o problema é o mesmo: a regulação não apenas erra o alvo (seção 2) ou gera incerteza (seção 1) — ela impõe obrigações que são **arquiteturalmente impossíveis de cumprir**, independentemente de quem as assuma.
@@ -266,6 +318,7 @@ Em todas as camadas, o problema é o mesmo: a regulação não apenas erra o alv
 - no hardware, bloqueio de firmware contradiz o princípio do modelo aberto  
 - nos serviços, moderação centralizada é impossível em redes federadas e desproporcional para operadores de serviços abertos — voluntários ou empresariais  
 - nas redes, interceptação e identificação anulam a arquitetura mesh  
+- na internet, bloqueios de IP, DNS e protocolo causam dano colateral massivo à infraestrutura livre hospedada em infraestrutura compartilhada — e remoções em repositórios e registros de pacotes têm efeito sistêmico em cascata  
 
 O resultado é que a regulação, ao não distinguir entre sistemas centralizados e descentralizados, cria uma **incompatibilidade estrutural** que, na prática, inviabiliza ou criminaliza arquiteturas abertas.
 
@@ -329,9 +382,10 @@ A [Web Foundation](https://webfoundation.org/) e a [Alliance for Affordable Inte
 Em todas as camadas, o resultado é o mesmo: **o desenho regulatório favorece estruturalmente quem já é grande, estabelecido e centralizado**.
 
 - no software, a distribuição é intermediada por gatekeepers, e code signing penaliza projetos comunitários e empresas de menor porte
-- no hardware, certificação e acesso a componentes criam barreiras que atingem desde projetistas individuais até fabricantes de hardware aberto
+- no hardware, certificação, acesso a componentes e vulnerabilidade a *patent trolls* criam barreiras que atingem desde projetistas individuais até fabricantes de hardware aberto
 - nos serviços, requisitos de estrutura jurídica e localização de dados desincentivam a operação aberta — voluntária ou empresarial
 - nas redes, licenciamento de telecom e limites de espectro impedem que alternativas comunitárias escalem
+- nos contribuidores, cláusulas genéricas de cessão de PI em contratos de trabalho criam barreira silenciosa à participação no ecossistema
 
 Essas barreiras não precisam criminalizar a infraestrutura aberta para suprimi-la. Basta que tornem **mais fácil, mais barato e menos arriscado usar e operar alternativas proprietárias** — e o resultado é o mesmo: concentração tecnológica, dependência estrutural e exclusão de modelos abertos.
 
@@ -475,8 +529,10 @@ As cinco seções anteriores documentam um ecossistema sob pressão em múltipla
 
 As evidências apresentadas mostram que os efeitos não são hipotéticos:
 
-- **Abandono e retração**: instâncias Mastodon fechadas na Alemanha, França e Áustria por impossibilidade regulatória (seção 2); nós Freifunk desativados por medo de responsabilização (seção 2); mantenedores abandonando projetos por burnout e sobrecarga (seção 5)  
+- **Abandono e retração**: instâncias Mastodon fechadas na Alemanha, França e Áustria por impossibilidade regulatória (seção 2); nós Freifunk desativados por medo de responsabilização (seção 2); mantenedores abandonando projetos por burnout e sobrecarga (seção 5); contribuidores que deixam de participar por receio de cláusulas contratuais de cessão de PI (seção 2)  
 - **Ataques à cadeia de suprimentos**: o incidente XZ Utils demonstrou que a exaustão de mantenedores pode ser explorada em ataques sofisticados (seção 5); o Log4Shell revelou a fragilidade de componentes críticos mantidos por equipes mínimas  
+- **Litigância predatória e patent trolling**: GNOME Foundation gastou US$ 150.000+ defendendo-se de patent troll (seção 2); ações tipo SLAPP usadas para silenciar mantenedores e auditorias de segurança (seção 2); mais de 50% dos casos de patent trolling visam entidades com receita inferior a US$ 10 milhões (seção 1)  
+- **Bloqueio colateral de infraestrutura**: 18 milhões de IPs bloqueados na Rússia para derrubar o Telegram, afetando centenas de serviços legítimos (seção 3); repositórios do youtube-dl removidos do GitHub por notificação extrajudicial (seção 3); desenvolvedores do Irã, Síria e Crimeia com contas GitHub restritas por sanções (seção 3)  
 - **Fragmentação jurisdicional**: operadores de serviços federados bloqueando federação cross-border por incerteza regulatória (seção 1); redes comunitárias inviabilizadas por labirintos burocráticos (seção 4)  
 - **Concentração tecnológica**: barreiras de conformidade que favorecem fornecedores proprietários (seção 4); tributação que penaliza construção aberta (seção 5); regulação que empurra usuários de volta para plataformas centralizadas (seção 4)  
 
