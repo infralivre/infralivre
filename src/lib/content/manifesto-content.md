@@ -2,11 +2,11 @@
 
 A infraestrutura digital contemporânea depende, em todas as suas camadas, de arquiteturas livres e abertas.
 
-**Software livre** — sistemas operacionais, servidores, bancos de dados, linguagens de programação, bibliotecas — constitui a base sobre a qual mais de 90% da economia digital opera. **Hardware aberto** — arquiteturas como RISC-V, plataformas como Arduino e Raspberry Pi — possibilita que dispositivos sejam projetados e fabricados sem dependência proprietária. **Serviços descentralizados** — protocolos federados como ActivityPub, Matrix, XMPP — permitem comunicação e colaboração sem controle centralizado. **Redes livres** — redes comunitárias, protocolos mesh, firmwares abertos — fornecem conectividade onde operadoras comerciais não chegam.
+**Software livre** — sistemas operacionais, servidores, bancos de dados, linguagens de programação, bibliotecas — constitui a base sobre a qual mais de 90% da economia digital opera. **Hardware aberto** — arquiteturas como RISC-V, plataformas como Arduino e Raspberry Pi — possibilita que dispositivos sejam projetados e fabricados sem dependência proprietária. **Serviços abertos** — tanto serviços baseados em software livre operados de forma centralizada (Nextcloud, GitLab CE, Moodle, WordPress, Jitsi) quanto protocolos federados (ActivityPub, Matrix, XMPP) — permitem comunicação e colaboração com código auditável, sob controle do operador. **Redes livres** — redes comunitárias, protocolos mesh, firmwares abertos — fornecem conectividade onde operadoras comerciais não chegam.
 
 Essas quatro camadas não são periféricas. Juntas, constituem a **infraestrutura crítica da sociedade digital** — da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros, infraestruturas de saúde e mecanismos de participação democrática.
 
-Ainda assim, essa infraestrutura opera sob um **vácuo jurídico crescente**. Os ordenamentos jurídicos — o brasileiro e outros — não foram concebidos para lidar com suas características estruturais: desenvolvimento distribuído e global, ausência de hierarquia definida, participação voluntária e descentralizada, impossibilidade prática de controle sobre o uso final, e inexistência de relação direta entre quem cria, quem opera e quem usa.
+Ainda assim, essa infraestrutura opera sob um **vácuo jurídico crescente**. Os ordenamentos jurídicos — o brasileiro e outros — não foram concebidos para lidar com suas características estruturais: desenvolvimento distribuído e global, ausência de hierarquia definida, participação voluntária e descentralizada, modelos empresariais construídos sobre infraestrutura aberta, impossibilidade prática de controle sobre o uso final, e inexistência de relação direta entre quem cria, quem opera e quem usa.
 
 ## 2. O problema estrutural
 
@@ -36,9 +36,9 @@ No centro do problema está a confusão entre três papéis que, na infraestrutu
 | **Operação** | quem implanta e mantém | quem fabrica e distribui | quem opera a instância | quem mantém os nós |
 | **Uso** | quem executa o software | quem utiliza o dispositivo | quem publica e consome | quem se conecta |
 
-Em modelos centralizados, esses papéis se sobrepõem: quem cria a plataforma também a opera e controla o uso. Na infraestrutura livre, eles são **separados por design** — e nenhum agente possui controle sobre os demais.
+Em modelos comerciais, esses papéis se sobrepõem: quem cria a plataforma também a opera e controla o uso. Na infraestrutura livre, eles são **separados por design** — e nenhum agente possui controle sobre os demais.
 
-A legislação, ao não reconhecer essa separação, atribui ao criador responsabilidades de operador. Impõe ao operador voluntário obrigações de plataforma corporativa. Exige de redes comunitárias o que exige de operadoras de telecomunicações.
+A legislação, ao não reconhecer essa separação, atribui ao criador responsabilidades de operador. Impõe ao operador de infraestrutura livre — voluntário, comunitário ou empresarial — obrigações de plataforma proprietária com cadeia de controle verticalizada. Exige de redes comunitárias o que exige de operadoras de telecomunicações.
 
 Há precedente jurídico consolidado para tratar essa distinção. No caso **Sony v. Universal (Betamax)**, a Suprema Corte dos EUA decidiu que quem fabrica ferramenta de uso geral com usos substancialmente legítimos não é responsável por usos ilícitos de terceiros. Em **MGM v. Grokster**, a Corte distinguiu entre fornecer ferramenta e **induzir ativamente** seu uso ilícito.
 
@@ -76,7 +76,7 @@ Não ocorre um colapso imediato. O que emerge é um **travamento gradual, silenc
 
 ## 6. O que propomos
 
-Defendemos a criação de um **Marco Jurídico da Infraestrutura Livre** — um enquadramento legal abrangente que reconheça e proteja software livre, hardware aberto, serviços descentralizados e redes livres como infraestrutura crítica.
+Defendemos a criação de um **Marco Jurídico da Infraestrutura Livre** — um enquadramento legal abrangente que reconheça e proteja software livre, hardware aberto, serviços abertos e redes livres como infraestrutura crítica.
 
 Não propomos ausência de regulação. Propomos **regulação compatível com a realidade técnica**.
 
@@ -84,7 +84,7 @@ A proposta se estrutura em **cinco pilares** que respondem diretamente às cinco
 
 ### Pilar 1 — Reconhecimento jurídico da infraestrutura livre
 
-Definição legal das quatro camadas. Declaração de interesse público. Reconhecimento da descentralização como modelo legítimo. Validade de licenças livres perante o ordenamento brasileiro.
+Definição legal das quatro camadas e dos **quatro direitos básicos** que uma licença deve garantir para ser livre e aberta: usar, estudar, modificar e distribuir. Declaração de interesse público. Reconhecimento da descentralização como modelo legítimo. Validade de licenças livres perante o ordenamento brasileiro. Licenças meramente *source-available* não se qualificam.
 
 **Elimina a raiz da incerteza** criando categorias próprias com tratamento próprio.
 
@@ -104,15 +104,13 @@ Teste de viabilidade arquitetural para toda regulação que incida sobre infraes
 
 Proporcionalidade à escala e natureza do agente regulado. Distribuição de software sem gatekeepers obrigatórios. Certificação acessível para hardware aberto. Redes comunitárias como categoria distinta de telecom. Padrões abertos na administração pública. Interoperabilidade como direito.
 
-**Remove a discriminação estrutural contra modelos abertos e comunitários.**
+**Remove a discriminação estrutural contra modelos abertos — comunitários ou empresariais.**
 
 ### Pilar 5 — Sustentabilidade e fomento do ecossistema
 
 Os quatro primeiros pilares **protegem**. O quinto **constrói**.
 
-Inclui a criação do **Projeto de Infraestrutura Livre (PIL)** — uma figura jurídica inédita, de propósito específico, com CNPJ próprio, constituição praticamente gratuita, separação patrimonial, regime de voluntariado e vedação de atividade comercial. O PIL existe *para e pelo* projeto livre. Não existe, no direito mundial, uma figura equivalente.
-
-Além do PIL: custódia fiscal para projetos que não justifiquem constituição individual. Regime tributário diferenciado. Fundo Nacional de Infraestrutura Livre. Adaptação de editais de CT&I. Preferência em licitações. Governo como contribuinte, não apenas consumidor.
+Criação do **Projeto de Infraestrutura Livre (PIL)** — figura jurídica inédita, de governança pura, com CNPJ próprio mas **sem capacidade financeira**. Dois regimes de organização: **PIL Societário** (unipessoal ou com sócios) e **PIL Cooperativo** (governança democrática para comunidades amplas). Toda operação financeira é conduzida por **entidade custodiante** — PJ convencional plena vinculada ao PIL, que herda as proteções do Marco (pilares 1–4) para ações relacionadas ao projeto. Custodiantes cuja **totalidade de produtos e serviços** constitua infraestrutura livre podem se qualificar como **Empresa de Infraestrutura Livre** — selo exclusivo de acesso ao regime tributário diferenciado. Fundo Nacional de Infraestrutura Livre. Adaptação de editais de CT&I. Preferência em licitações. Governo como contribuinte, não apenas consumidor.
 
 **Cria condições positivas para que a infraestrutura livre prospere — não apenas sobreviva.**
 
@@ -136,8 +134,8 @@ Um Marco Jurídico da Infraestrutura Livre posicionaria o Brasil como o **primei
 
 Chamamos:
 
-- desenvolvedores e mantenedores
-- empresas e instituições
+- desenvolvedores, mantenedores e contribuidores individuais
+- empresas e instituições que constroem sobre infraestrutura livre
 - juristas e acadêmicos
 - formuladores de políticas públicas
 - operadores de infraestrutura livre

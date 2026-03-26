@@ -8,7 +8,7 @@ A infraestrutura digital contemporânea depende, em todas as suas camadas, de ar
 
 **Hardware aberto** — arquiteturas como [RISC-V](https://riscv.org/), plataformas como [Arduino](https://www.arduino.cc/) e [Raspberry Pi](https://www.raspberrypi.org/), designs publicados sob [CERN Open Hardware Licence](https://ohwr.org/cernohl) e iniciativas como o [Open Compute Project](https://www.opencompute.org/) — possibilita que dispositivos sejam projetados, auditados e fabricados sem dependência de fornecedores proprietários.
 
-**Serviços descentralizados** — protocolos federados como [ActivityPub](https://www.w3.org/TR/activitypub/) (base do [Mastodon](https://joinmastodon.org/)), [Matrix](https://matrix.org/) e [XMPP](https://xmpp.org/), além de plataformas como [PeerTube](https://joinpeertube.org/) e [Nextcloud](https://nextcloud.com/) — permitem que comunicação, colaboração e publicação de conteúdo funcionem sem controle centralizado.
+**Serviços abertos** — tanto serviços baseados em software livre operados de forma centralizada (como instâncias self-hosted de [Nextcloud](https://nextcloud.com/), [GitLab CE](https://about.gitlab.com/install/), [Moodle](https://moodle.org/), [WordPress](https://wordpress.org/), [Jitsi](https://jitsi.org/)) quanto serviços fundados em protocolos federados e descentralizados (como [ActivityPub](https://www.w3.org/TR/activitypub/) (base do [Mastodon](https://joinmastodon.org/)), [Matrix](https://matrix.org/) e [XMPP](https://xmpp.org/), além de plataformas como [PeerTube](https://joinpeertube.org/)) — permitem que comunicação, colaboração e publicação de conteúdo funcionem com código auditável e sob controle do operador, seja ele uma organização, uma comunidade ou um indivíduo. A distinção entre centralizado e descentralizado é arquitetural, não de abertura: ambos os modelos compartilham a característica de que **o código é livre e qualquer pessoa pode operar sua própria instância**.
 
 **Redes livres** — redes comunitárias como [Freifunk](https://freifunk.net/) e [Guifi.net](https://guifi.net/), protocolos mesh como [Meshtastic](https://meshtastic.org/), infraestruturas de IoT baseadas em [LoRaWAN](https://lora-alliance.org/about-lorawan/) e firmwares como [OpenWrt](https://openwrt.org/) — fornecem conectividade onde operadoras comerciais não chegam e garantem autonomia operacional sobre a infraestrutura de rede.
 
@@ -34,7 +34,7 @@ Na infraestrutura livre, quem cria não controla quem opera, e quem opera não c
 
 Essa separação estrutural entre criação, operação e uso é reconhecida pelas próprias licenças do ecossistema — como a [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.html), a [MIT](https://opensource.org/license/mit/) e a [CERN-OHL](https://ohwr.org/cernohl) — que explicitamente negam garantias e responsabilidades sobre usos posteriores.
 
-Ainda assim, normas vêm sendo aplicadas de forma indistinta, atribuindo a criadores e operadores voluntários responsabilidades que **pressupõem um controle que eles não possuem e não podem possuir**.
+Ainda assim, normas vêm sendo aplicadas de forma indistinta, atribuindo a criadores, operadores e empresas que mantêm infraestrutura livre responsabilidades que **pressupõem um controle que eles não possuem e não podem possuir**.
 
 O desalinhamento se manifesta em cinco dimensões convergentes:
 
@@ -54,7 +54,7 @@ Esse desalinhamento não é recente. Ele acompanha o ecossistema livre há déca
 
 ### 1. Incerteza jurídica e disputas estruturais sobre infraestrutura livre
 
-A história da infraestrutura livre é pontuada por disputas jurídicas que revelam a incompatibilidade entre modelos regulatórios tradicionais e o funcionamento real do ecossistema aberto. Essa incerteza não se limita ao software — ela atravessa **todas as quatro camadas**: software livre, hardware aberto, serviços descentralizados e redes livres.
+A história da infraestrutura livre é pontuada por disputas jurídicas que revelam a incompatibilidade entre modelos regulatórios tradicionais e o funcionamento real do ecossistema aberto. Essa incerteza não se limita ao software — ela atravessa **todas as quatro camadas**: software livre, hardware aberto, serviços abertos e redes livres.
 
 #### Software livre
 
@@ -100,21 +100,25 @@ A [OSHWA](https://www.oshwa.org/2023/02/17/open-source-hardware-and-the-eu-cra/)
 
 No âmbito de controles de exportação, designs de chips — incluindo arquiteturas abertas como [RISC-V](https://riscv.org/) — podem ser alcançados pelas restrições do [CHIPS and Science Act](https://www.congress.gov/bill/117th-congress/house-bill/4346) (EUA) e pelos controles de exportação de semicondutores impostos ao longo de 2022–2024. A [Wassenaar Arrangement](https://www.wassenaar.org/) também cobre tecnologias de semicondutores, criando **incerteza sobre se a publicação aberta de designs de chips constitui "exportação" de tecnologia controlada**.
 
-#### Serviços descentralizados
+#### Serviços abertos
 
-##### Indefinição jurisdicional
+Serviços abertos — tanto os operados de forma centralizada (uma instância [Nextcloud](https://nextcloud.com/), um servidor [GitLab CE](https://about.gitlab.com/install/), uma instalação [Moodle](https://moodle.org/) ou [WordPress](https://wordpress.org/)) quanto os baseados em protocolos federados ([Mastodon](https://joinmastodon.org/), [Matrix](https://matrix.org/), [PeerTube](https://joinpeertube.org/)) — enfrentam incerteza jurídica em múltiplas frentes.
 
-Serviços federados como [Mastodon](https://joinmastodon.org/), [Matrix](https://matrix.org/) e [PeerTube](https://joinpeertube.org/) operam através de instâncias distribuídas em múltiplas jurisdições. Um usuário na França pode interagir com conteúdo hospedado na Alemanha, replicado em um servidor no Brasil, através de um protocolo desenvolvido nos EUA. A questão de **qual legislação se aplica** — e a quem — permanece largamente indefinida.
+##### Indefinição jurisdicional e de enquadramento
 
-O [Regulamento Geral de Proteção de Dados (GDPR)](https://gdpr.eu/) da UE ilustra essa incerteza: quando um operador de instância Mastodon na Alemanha federa com instâncias fora da UE, ele é o "controlador de dados" do conteúdo federado que transita pelo seu servidor? Deve firmar acordos de processamento de dados com cada instância federada? A [European Data Protection Board (EDPB)](https://edpb.europa.eu/) não emitiu orientações específicas para serviços federados, deixando operadores voluntários em **limbo jurídico**.
+Serviços federados operam através de instâncias distribuídas em múltiplas jurisdições. Um usuário na França pode interagir com conteúdo hospedado na Alemanha, replicado em um servidor no Brasil, através de um protocolo desenvolvido nos EUA. A questão de **qual legislação se aplica** — e a quem — permanece largamente indefinida.
 
-A [Article 19](https://www.article19.org/) e o [CDT](https://cdt.org/) documentam que a ausência de enquadramento jurídico para serviços distribuídos cria um cenário onde operadores conservadores simplesmente bloqueiam toda federação com instâncias de fora do seu bloco regulatório — **fragmentando a rede e anulando o propósito da descentralização**.
+Mas serviços centralizados baseados em software livre também enfrentam incerteza: quem opera uma instância [Jitsi](https://jitsi.org/) aberta ao público é uma "plataforma de comunicação"? Um [Moodle](https://moodle.org/) educacional é um "serviço digital" sujeito às mesmas obrigações de uma plataforma comercial de ensino? O código é o mesmo — a diferença está em quem opera e com que finalidade, mas a legislação **não reconhece essa distinção**.
 
-##### Status jurídico do operador voluntário
+O [Regulamento Geral de Proteção de Dados (GDPR)](https://gdpr.eu/) da UE ilustra a incerteza em ambos os modelos: um operador de instância Mastodon na Alemanha que federa com instâncias fora da UE fica em limbo sobre se é "controlador de dados" do conteúdo federado. Um operador de Nextcloud que oferece armazenamento — seja voluntário, comunitário ou uma empresa de TI — enfrenta as mesmas obrigações de conformidade que um provedor de cloud corporativo. A [European Data Protection Board (EDPB)](https://edpb.europa.eu/) não emitiu orientações específicas nem para serviços federados, nem para serviços abertos operados fora do modelo de plataforma proprietária, deixando todo o ecossistema em **limbo jurídico**.
 
-Na maioria das jurisdições, não existe uma categoria jurídica adequada para o operador voluntário de infraestrutura pública digital. Um administrador de instância Matrix não é um "provedor de serviços de telecomunicações", não é uma "plataforma digital" nos termos do [DSA](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package), e não é um "provedor de aplicações de internet" nos termos do [Marco Civil da Internet (Lei 12.965/14)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) — mas pode ser enquadrado em qualquer uma dessas categorias dependendo da interpretação.
+A [Article 19](https://www.article19.org/) e o [CDT](https://cdt.org/) documentam que a ausência de enquadramento para serviços distribuídos e abertos cria um cenário onde operadores conservadores bloqueiam federação com instâncias de fora do seu bloco regulatório — **fragmentando a rede e anulando o propósito da descentralização** — enquanto operadores de serviços centralizados abertos simplesmente **desistem de oferecer o serviço publicamente** por receio de enquadramento regulatório desproporcional.
 
-Relatórios da [Internet Society (ISOC)](https://www.internetsociety.org/) apontam que essa indefinição cria uma assimetria perversa: operadores voluntários assumem riscos jurídicos equivalentes aos de plataformas comerciais, mas sem nenhuma das suas capacidades financeiras ou legais para lidar com esses riscos.
+##### Status jurídico do operador de infraestrutura livre
+
+Na maioria das jurisdições, não existe uma categoria jurídica adequada para quem opera infraestrutura pública digital baseada em software livre — independentemente de ser centralizada ou descentralizada, e independentemente de ser operada por voluntários, por organizações comunitárias ou por empresas cuja atividade é construída sobre a infraestrutura aberta. Um administrador de instância Matrix não é um "provedor de serviços de telecomunicações", não é uma "plataforma digital" nos termos do [DSA](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package), e não é um "provedor de aplicações de internet" nos termos do [Marco Civil da Internet (Lei 12.965/14)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) — mas pode ser enquadrado em qualquer uma dessas categorias dependendo da interpretação. O mesmo vale para uma empresa que oferece serviços baseados em software livre como parte do seu modelo de negócio: ela não é uma "plataforma" no sentido regulatório, mas a legislação não oferece enquadramento alternativo.
+
+Relatórios da [Internet Society (ISOC)](https://www.internetsociety.org/) apontam que essa indefinição cria uma assimetria perversa: operadores de infraestrutura livre — sejam voluntários individuais, projetos comunitários ou empresas cujo modelo de negócio é construído sobre software e hardware aberto — assumem riscos jurídicos equivalentes aos de grandes plataformas proprietárias, mas sem as mesmas capacidades financeiras ou legais para lidar com esses riscos. Uma empresa que fabrica computadores com firmware aberto e mantém uma distribuição Linux enfrenta obrigações de certificação, conformidade e responsabilidade dimensionadas para conglomerados com cadeias de controle verticalizadas — apesar de operar com uma fração dos recursos. A indefinição atinge tanto quem opera serviço federado quanto quem opera serviço centralizado aberto, e tanto quem o faz como voluntário quanto quem o faz como atividade empresarial — porque a lei não distingue **modelo de infraestrutura** de **escala de operação**.
 
 #### Redes livres
 
@@ -140,7 +144,7 @@ Em todas as camadas, o padrão se repete: **a ausência de marcos jurídicos esp
 
 - no software, disputas de PI e licenciamento duram décadas e geram efeito sistêmico  
 - no hardware, licenças não testadas, patent trolls e ambiguidade sobre certificação travam o ecossistema  
-- nos serviços, a indefinição jurisdicional e a ausência de categorias adequadas para operadores voluntários fragmentam a rede  
+- nos serviços, a indefinição jurisdicional e a ausência de categorias adequadas para operadores de infraestrutura livre — voluntários ou empresariais — fragmentam a rede  
 - nas redes, o limbo entre telecomunicações e uso pessoal impede a escalabilidade de modelos comunitários  
 
 Essas disputas demonstram como **interpretações jurídicas desalinhadas com a realidade técnica podem gerar efeitos sistêmicos duradouros** — não apenas para as partes envolvidas, mas para todo o ecossistema que depende de segurança jurídica para operar.
@@ -171,15 +175,15 @@ A [Open Source Hardware Association (OSHWA)](https://www.oshwa.org/) alertou que
 
 O [caso do NLnet Labs](https://blog.nlnetlabs.nl/open-source-software-vs-the-eu-cyber-resilience-act/) gerou mobilização significativa e levou a alterações no texto final do CRA — mas o episódio demonstrou a vulnerabilidade estrutural do ecossistema a regulações que não distinguem entre projeto e produção.
 
-#### Serviços descentralizados
+#### Serviços abertos
 
-Operadores de instâncias de serviços federados também enfrentam responsabilização desproporcional. Na Alemanha, administradores de instâncias [Mastodon](https://joinmastodon.org/) já foram notificados por autoridades por conteúdo publicado por usuários de outras instâncias que apenas federaram com a sua — conteúdo que o operador não publicou, não moderou e, em muitos casos, sequer sabia existir.
+Operadores de serviços abertos — tanto federados quanto centralizados baseados em software livre — enfrentam responsabilização desproporcional. Na Alemanha, administradores de instâncias [Mastodon](https://joinmastodon.org/) já foram notificados por autoridades por conteúdo publicado por usuários de outras instâncias que apenas federaram com a sua — conteúdo que o operador não publicou, não moderou e, em muitos casos, sequer sabia existir. De forma análoga, quem opera um [Nextcloud](https://nextcloud.com/) público ou um [WordPress](https://wordpress.org/) multiusuário com registro aberto pode ser responsabilizado por conteúdo carregado por usuários, com o mesmo enquadramento aplicado a plataformas comerciais.
 
-O caso da [Fediverse e o NetzDG](https://netzpolitik.org/) (lei alemã de moderação de redes, precursora do DSA) ilustra o problema: a legislação exigia que "provedores de redes sociais" removessem conteúdo ilegal em 24 horas, sob pena de multas milionárias. Quando aplicada a instâncias Mastodon operadas por voluntários com poucos usuários, a obrigação era não apenas desproporcional — era **estruturalmente impossível**, pois o operador de uma instância não tem controle sobre conteúdo que chega via federação.
+O caso da [Fediverse e o NetzDG](https://netzpolitik.org/) (lei alemã de moderação de redes, precursora do DSA) ilustra o problema: a legislação exigia que "provedores de redes sociais" removessem conteúdo ilegal em 24 horas, sob pena de multas milionárias. Quando aplicada a instâncias Mastodon operadas por voluntários ou pequenas organizações com poucos usuários, a obrigação era não apenas desproporcional — era **estruturalmente impossível**, pois o operador de uma instância não tem controle sobre conteúdo que chega via federação. Para serviços centralizados abertos, a obrigação é tecnicamente possível mas **economicamente insustentável**: um operador de [Moodle](https://moodle.org/) ou [Jitsi](https://jitsi.org/) — seja voluntário ou empresa — não possui equipe de moderação, departamento jurídico ou recursos para processos de *notice and takedown* em escala.
 
-A [Article 19](https://www.article19.org/) e o [Center for Democracy & Technology (CDT)](https://cdt.org/area-of-focus/platform-oversight/) documentam que esse enquadramento — tratar cada instância como se fosse uma plataforma centralizada — cria **responsabilidade sem poder de ação**, violando um princípio básico de qualquer regulação proporcional.
+A [Article 19](https://www.article19.org/) e o [Center for Democracy & Technology (CDT)](https://cdt.org/area-of-focus/platform-oversight/) documentam que esse enquadramento — tratar cada instância como se fosse uma plataforma centralizada comercial — cria **responsabilidade sem poder de ação**, violando um princípio básico de qualquer regulação proporcional. A distinção relevante não é entre centralizado e descentralizado, nem entre comunitário e comercial — é entre **operações construídas sobre infraestrutura livre** (de qualquer escala) e **plataformas proprietárias com cadeias de controle verticalizadas**. Empresas que constroem seu modelo de negócio sobre software e hardware aberto enfrentam as mesmas obrigações desproporcionais: uma empresa que fabrica computadores com firmware livre e mantém uma distribuição Linux é enquadrada nos mesmos termos que um conglomerado que controla toda a cadeia, do chip ao serviço. A legislação não reconhece que o modelo aberto implica **separação estrutural de controle** — e que essa separação afeta tanto voluntários quanto empresas.
 
-Relatórios da [Internet Society (ISOC)](https://www.internetsociety.org/) apontam que a aplicação indistinta de obrigações de moderação a serviços federados levou ao fechamento voluntário de instâncias na Alemanha, França e Áustria por operadores que não tinham condições jurídicas ou financeiras de cumprir as exigências — reduzindo, paradoxalmente, a diversidade e a descentralização da internet.
+Relatórios da [Internet Society (ISOC)](https://www.internetsociety.org/) apontam que a aplicação indistinta de obrigações de moderação a serviços abertos — federados ou não — levou ao fechamento voluntário de instâncias na Alemanha, França e Áustria por operadores que não tinham condições jurídicas ou financeiras de cumprir as exigências — reduzindo, paradoxalmente, a diversidade e a abertura da internet.
 
 #### Redes livres
 
@@ -197,7 +201,7 @@ Em todas as camadas, o padrão se repete:
 
 - alguém cria, projeta ou opera uma infraestrutura aberta  
 - terceiros utilizam essa infraestrutura para fins ilícitos ou geram impactos não previstos  
-- o sistema jurídico responsabiliza o criador ou operador comunitário, não quem efetivamente praticou o ato  
+- o sistema jurídico responsabiliza o criador, o operador ou a empresa que mantém a infraestrutura, não quem efetivamente praticou o ato  
 - a distinção entre **autoria/projeto**, **operação** e **uso** é ignorada  
 
 Relatórios da [Human Rights Foundation](https://hrf.org/) destacam que ferramentas de privacidade e criptografia — muitas delas software livre — são essenciais para ativistas, jornalistas e dissidentes em regimes autoritários. Criminalizar ou responsabilizar quem constrói essas ferramentas não elimina os usos ilícitos (que migram para alternativas), mas **remove proteções de quem mais depende delas**.
@@ -206,7 +210,7 @@ A [Open Source Security Foundation (OpenSSF)](https://openssf.org/) e a [Linux F
 
 - acelerar o abandono de projetos sensíveis (criptografia, privacidade, redes mesh, hardware aberto)  
 - concentrar o desenvolvimento em jurisdições mais permissivas, fragmentando o ecossistema  
-- inviabilizar redes comunitárias e serviços federados operados por voluntários  
+- inviabilizar redes comunitárias, serviços abertos e empresas que constroem sobre infraestrutura livre  
 
 ---
 
@@ -230,17 +234,19 @@ Em 2015, a [FCC](https://www.fcc.gov/) propôs regras que teriam efetivamente **
 
 Obrigações de [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) criam um problema análogo. Projetos de hardware aberto que interagem com conteúdo protegido (ex.: interfaces HDMI com [HDCP](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection)) enfrentam barreiras legais mesmo quando o design em si é aberto — porque a lei proíbe a construção de dispositivos que não implementem restrições de acesso impostas por terceiros.
 
-#### Serviços descentralizados
+#### Serviços abertos
 
-Legislações de moderação de conteúdo como o [Digital Services Act (DSA)](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) e o [PL 2630/2020](https://www.camara.leg.br/propostas-legislativas/2256735) no Brasil impõem obrigações de remoção rápida, transparência algorítmica, identificação de usuários e relatórios periódicos de moderação. Essas exigências foram concebidas para plataformas centralizadas como Meta, X (Twitter) ou YouTube.
+Legislações de moderação de conteúdo como o [Digital Services Act (DSA)](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) e o [PL 2630/2020](https://www.camara.leg.br/propostas-legislativas/2256735) no Brasil impõem obrigações de remoção rápida, transparência algorítmica, identificação de usuários e relatórios periódicos de moderação. Essas exigências foram concebidas para plataformas centralizadas como Meta, X (Twitter) ou YouTube — mas são aplicadas indistintamente a qualquer serviço digital, incluindo serviços abertos operados por voluntários, comunidades ou empresas cujo modelo é construído sobre software livre.
 
 Para redes federadas — [Mastodon](https://joinmastodon.org/), [Bluesky](https://bsky.social/), [Matrix](https://matrix.org/), [Lemmy](https://join-lemmy.org/) — a arquitetura torna essas obrigações **estruturalmente impossíveis**: o protocolo ([ActivityPub](https://www.w3.org/TR/activitypub/), [AT Protocol](https://atproto.com/)) é aberto e não pode ser "moderado" em si; cada instância opera independentemente; não há entidade central com controle sobre o fluxo de conteúdo. Como alerta a [EFF](https://www.eff.org/deeplinks/2023/04/platforms-are-not-protocols): **confundir plataformas com protocolos gera regulação que pode banir arquiteturas descentralizadas**.
 
-O [GDPR](https://gdpr.eu/) impõe o direito ao apagamento de dados pessoais. Em redes federadas, quando um usuário solicita exclusão em sua instância, suas publicações podem ter sido replicadas por centenas de instâncias independentes via federação. A obrigação de apagamento é **tecnicamente impossível de cumprir** pelo operador original em toda a rede — e não há mecanismo no protocolo para forçar exclusão em servidores de terceiros.
+Para serviços centralizados abertos, o problema é diferente mas igualmente grave: quem opera uma instância [GitLab CE](https://about.gitlab.com/install/) pública ou um [WordPress](https://wordpress.org/) multiusuário comunitário enfrenta as mesmas obrigações de "transparência algorítmica" e relatórios de moderação que uma plataforma comercial — mesmo não possuindo algoritmos de recomendação, equipe de compliance ou modelo de receita. A obrigação é **formalmente cumprível mas materialmente desproporcional** para a maioria dos operadores de serviços abertos — desde voluntários sem recursos até empresas cuja escala e orçamento não comportam as estruturas de conformidade pressupostas pela regulação.
 
-Leis de verificação de idade — como o [UK Online Safety Act](https://www.legislation.gov.uk/ukpga/2023/50/enacted) — exigem "garantia de idade" para serviços acessíveis a menores. Um servidor Matrix operado por voluntários **não pode implementar** os mesmos mecanismos de verificação de uma plataforma comercial com milhões de usuários e equipes dedicadas de compliance.
+O [GDPR](https://gdpr.eu/) impõe o direito ao apagamento de dados pessoais. Em redes federadas, quando um usuário solicita exclusão em sua instância, suas publicações podem ter sido replicadas por centenas de instâncias independentes via federação. A obrigação de apagamento é **tecnicamente impossível de cumprir** pelo operador original em toda a rede — e não há mecanismo no protocolo para forçar exclusão em servidores de terceiros. Em serviços centralizados abertos, o operador pode cumprir localmente, mas enfrenta a mesma incerteza sobre dados que transitaram para outros sistemas via integrações ou APIs abertas.
 
-A [FSFE](https://fsfe.org/activities/dma/dma.en.html) aponta que regulações digitais europeias continuam falhando em acomodar modelos não centralizados. Relatórios da [Article 19](https://www.article19.org/) e do [CDT](https://cdt.org/area-of-focus/platform-oversight/) documentam como obrigações desenhadas para modelos centralizados criam **barreiras de entrada insuperáveis** para projetos comunitários e federados.
+Leis de verificação de idade — como o [UK Online Safety Act](https://www.legislation.gov.uk/ukpga/2023/50/enacted) — exigem "garantia de idade" para serviços acessíveis a menores. Operadores de infraestrutura livre — um servidor Matrix, uma instância [Moodle](https://moodle.org/), ou mesmo uma empresa que oferece serviço baseado em software aberto — **não podem implementar** mecanismos de verificação dimensionados para plataformas com equipes dedicadas de compliance e orçamentos de conformidade na ordem de milhões.
+
+A [FSFE](https://fsfe.org/activities/dma/dma.en.html) aponta que regulações digitais europeias continuam falhando em acomodar modelos abertos — federados ou centralizados. Relatórios da [Article 19](https://www.article19.org/) e do [CDT](https://cdt.org/area-of-focus/platform-oversight/) documentam como obrigações desenhadas para plataformas proprietárias criam **barreiras de entrada insuperáveis** para o ecossistema livre — projetos comunitários, operadores individuais e empresas cuja atividade depende de infraestrutura aberta.
 
 #### Redes livres
 
@@ -258,7 +264,7 @@ Em todas as camadas, o problema é o mesmo: a regulação não apenas erra o alv
 
 - no software, varredura obrigatória em código aberto é contornável por definição  
 - no hardware, bloqueio de firmware contradiz o princípio do modelo aberto  
-- nos serviços, moderação centralizada é impossível em redes federadas  
+- nos serviços, moderação centralizada é impossível em redes federadas e desproporcional para operadores de serviços abertos — voluntários ou empresariais  
 - nas redes, interceptação e identificação anulam a arquitetura mesh  
 
 O resultado é que a regulação, ao não distinguir entre sistemas centralizados e descentralizados, cria uma **incompatibilidade estrutural** que, na prática, inviabiliza ou criminaliza arquiteturas abertas.
@@ -291,13 +297,13 @@ O custo de **certificação e homologação** é proibitivo para projetos comuni
 
 O acesso a **componentes especializados** também é restrito por design. Chips de RF, FPGAs avançados e MCUs especializados frequentemente exigem quantidades mínimas de compra, NDAs para acesso a datasheets e canais de distribuição fechados voltados para fabricantes comerciais. A [OSHWA](https://www.oshwa.org/) documenta como projetistas de hardware aberto enfrentam barreiras para integrar componentes cujas especificações não podem ser publicadas abertamente — criando uma **incompatibilidade entre o modelo aberto e a cadeia de suprimentos comercial**.
 
-#### Serviços descentralizados
+#### Serviços abertos
 
-Operar serviços digitais exige cada vez mais **estrutura jurídica formal**: entidade legal constituída, representante designado, endereço registrado. O [DSA](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) exige que provedores estabeleçam um "ponto único de contacto" e nomeiem representante legal nas jurisdições onde operam. Para operadores voluntários de instâncias [Mastodon](https://joinmastodon.org/) ou [PeerTube](https://joinpeertube.org/), essas exigências transformam um ato de contribuição comunitária em **empreendimento regulatório**.
+Operar serviços digitais exige cada vez mais **estrutura jurídica formal**: entidade legal constituída, representante designado, endereço registrado. O [DSA](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) exige que provedores estabeleçam um "ponto único de contacto" e nomeiem representante legal nas jurisdições onde operam. Para operadores de infraestrutura livre — voluntários, comunitários ou empresariais — que mantêm instâncias [Mastodon](https://joinmastodon.org/), [PeerTube](https://joinpeertube.org/), [Nextcloud](https://nextcloud.com/), [GitLab CE](https://about.gitlab.com/install/) ou [Jitsi](https://jitsi.org/), essas exigências transformam a operação de infraestrutura aberta em **empreendimento regulatório** — independentemente de o serviço ser federado ou centralizado.
 
-Requisitos de **localização de dados** fragmentam o modelo federado. Quando uma legislação exige que dados de cidadãos nacionais sejam armazenados no país (como discutido no contexto do [PL 2630/2020](https://www.camara.leg.br/propostas-legislativas/2256735) e na [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)), redes federadas que replicam conteúdo entre instâncias em múltiplas jurisdições **não podem cumprir sem desnaturar a federação**.
+Requisitos de **localização de dados** fragmentam tanto o modelo federado quanto a operação de serviços abertos em geral. Quando uma legislação exige que dados de cidadãos nacionais sejam armazenados no país (como discutido no contexto do [PL 2630/2020](https://www.camara.leg.br/propostas-legislativas/2256735) e na [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)), redes federadas que replicam conteúdo entre instâncias em múltiplas jurisdições **não podem cumprir sem desnaturar a federação**. Serviços centralizados abertos operados em cloud estrangeira (um [Moodle](https://moodle.org/) hospedado em VPS europesa para uma comunidade brasileira) enfrentam a mesma barreira.
 
-Diversas jurisdições exigem **registro de "plataformas digitais"** acima de certos limiares de usuários. As definições são frequentemente amplas o suficiente para capturar serviços federados operados por voluntários. A [Internet Society (ISOC)](https://www.internetsociety.org/) aponta que requisitos de registro, relatórios obrigatórios e designação de representantes legais criam uma **barreira burocrática desproporcional** que desincentiva a operação descentralizada — e, paradoxalmente, empurra usuários de volta para plataformas centralizadas que possuem recursos para atender a essas exigências.
+Diversas jurisdições exigem **registro de "plataformas digitais"** acima de certos limiares de usuários. As definições são frequentemente amplas o suficiente para capturar serviços abertos operados por voluntários e empresas de pequeno e médio porte — federados ou não. A [Internet Society (ISOC)](https://www.internetsociety.org/) aponta que requisitos de registro, relatórios obrigatórios e designação de representantes legais criam uma **barreira burocrática desproporcional** que desincentiva a operação de serviços abertos — e, paradoxalmente, empurra usuários de volta para plataformas comerciais fechadas que possuem recursos para atender a essas exigências.
 
 #### Redes livres
 
@@ -322,12 +328,12 @@ A [Web Foundation](https://webfoundation.org/) e a [Alliance for Affordable Inte
 
 Em todas as camadas, o resultado é o mesmo: **o desenho regulatório favorece estruturalmente quem já é grande, estabelecido e centralizado**.
 
-- no software, a distribuição é intermediada por gatekeepers, e code signing penaliza projetos comunitários  
-- no hardware, certificação e acesso a componentes criam barreiras de escala invertidas  
-- nos serviços, requisitos de estrutura jurídica e localização de dados desincentivam operação voluntária  
-- nas redes, licenciamento de telecom e limites de espectro impedem que alternativas comunitárias escalem  
+- no software, a distribuição é intermediada por gatekeepers, e code signing penaliza projetos comunitários e empresas de menor porte
+- no hardware, certificação e acesso a componentes criam barreiras que atingem desde projetistas individuais até fabricantes de hardware aberto
+- nos serviços, requisitos de estrutura jurídica e localização de dados desincentivam a operação aberta — voluntária ou empresarial
+- nas redes, licenciamento de telecom e limites de espectro impedem que alternativas comunitárias escalem
 
-Essas barreiras não precisam criminalizar a infraestrutura aberta para suprimí-la. Basta que tornem **mais fácil, mais barato e menos arriscado usar e operar alternativas proprietárias** — e o resultado é o mesmo: concentração tecnológica, dependência estrutural e exclusão de modelos comunitários.
+Essas barreiras não precisam criminalizar a infraestrutura aberta para suprimi-la. Basta que tornem **mais fácil, mais barato e menos arriscado usar e operar alternativas proprietárias** — e o resultado é o mesmo: concentração tecnológica, dependência estrutural e exclusão de modelos abertos.
 
 ---
 
@@ -337,13 +343,13 @@ A infraestrutura livre enfrenta um problema econômico estrutural que se manifes
 
 #### Tributação transversal
 
-A tributação não afeta apenas uma camada da infraestrutura livre — ela incide, direta ou indiretamente, sobre **todas as quatro**: software livre, serviços descentralizados, redes livres e hardware aberto.
+A tributação não afeta apenas uma camada da infraestrutura livre — ela incide, direta ou indiretamente, sobre **todas as quatro**: software livre, serviços abertos, redes livres e hardware aberto.
 
 **Hardware aberto**: no Brasil, o [Imposto de Importação](https://www.gov.br/receitafederal/pt-br) sobre componentes pode ultrapassar 60% do valor do produto em importações por pessoas físicas e pequenos projetos. A [Lei de Informática (Lei 8.248/91)](https://www.planalto.gov.br/ccivil_03/leis/l8248.htm) concede incentivos fiscais, mas voltados para empresas com processo produtivo básico (PPB), excluindo projetos comunitários e educacionais. O [IPI](https://www.gov.br/receitafederal/pt-br) e demais tributos indiretos atingem a cadeia inteira. Isso encarece projetos com [Arduino](https://www.arduino.cc/) ou [Raspberry Pi](https://www.raspberrypi.org/), inviabiliza prototipagem com [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array) e [RISC-V](https://riscv.org/), e prejudica iniciativas de reparo — princípio central do [Right to Repair](https://repair.eu/).
 
 **Redes livres**: equipamentos de rádio (antenas, gateways LoRa, roteadores mesh) são importados com alta tributação. O custo de um gateway [LoRaWAN](https://lora-alliance.org/about-lorawan/) ou roteador [OpenWrt](https://openwrt.org/) pode dobrar após impostos. A carga tributária sobre telecomunicações — ICMS, PIS, COFINS e taxas regulatórias — pode ultrapassar 40% da receita ([Anatel](https://www.gov.br/anatel/), [Telebrasil](https://www.telebrasil.org.br/)). Quando aplicada a redes comunitárias de pequeno porte, é desproporcional e inviabilizadora.
 
-**Serviços descentralizados**: operar instâncias [Mastodon](https://joinmastodon.org/), [Matrix](https://matrix.org/) ou [PeerTube](https://joinpeertube.org/) implica custos de hosting, domínio e certificados. A tributação sobre serviços digitais não distingue plataformas comerciais lucrativas de servidores comunitários mantidos por voluntários. Propostas no âmbito da [Reforma Tributária (EC 132/2023)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) criam incerteza sobre como serviços federados sem modelo comercial serão enquadrados. A [Internet Society (ISOC)](https://www.internetsociety.org/) e a [Access Now](https://www.accessnow.org/) alertam que tributação indistinta pode ser uma barreira à descentralização da internet.
+**Serviços abertos**: operar instâncias [Mastodon](https://joinmastodon.org/), [Matrix](https://matrix.org/), [PeerTube](https://joinpeertube.org/), [Nextcloud](https://nextcloud.com/), [GitLab CE](https://about.gitlab.com/install/), [Moodle](https://moodle.org/) ou [Jitsi](https://jitsi.org/) implica custos de hosting, domínio e certificados. A tributação sobre serviços digitais não distingue plataformas comerciais lucrativas de servidores comunitários mantidos por voluntários — sejam eles federados ou centralizados. Propostas no âmbito da [Reforma Tributária (EC 132/2023)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) criam incerteza sobre como serviços abertos sem modelo comercial serão enquadrados. A [Internet Society (ISOC)](https://www.internetsociety.org/) e a [Access Now](https://www.accessnow.org/) alertam que tributação indistinta pode ser uma barreira à operação de serviços abertos, concentrando ainda mais a infraestrutura digital em plataformas comerciais.
 
 **Software livre**: embora o software em si não seja diretamente tributado (por ser distribuído livremente), a cadeia em torno dele é afetada — servidores de compilação, CDNs, mirrors, serviços de suporte e integração. Incentivos como a [Lei do Bem (Lei 11.196/05)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11196.htm) raramente são acessíveis a projetos comunitários ou mantenedores individuais. A [Open Source Initiative (OSI)](https://opensource.org/) e relatórios da [Nesta](https://www.nesta.org.uk/) documentam que políticas fiscais de incentivo à inovação falham sistematicamente em incluir modelos abertos, tratando inovação como sinônimo de P&D corporativo.
 
@@ -365,7 +371,7 @@ A [Ford Foundation](https://www.fordfoundation.org/work/learning/research-report
 
 Plataformas como [GitHub Sponsors](https://github.com/sponsors), [Open Collective](https://opencollective.com/) e [Liberapay](https://liberapay.com/) oferecem mecanismos de doação direta, mas estudos da [NumFOCUS](https://numfocus.org/) e do [Tidelift](https://tidelift.com/about/lifter-survey) indicam que **menos de 5% dos projetos críticos de software livre recebem financiamento suficiente** para manter ao menos um desenvolvedor em tempo integral. A grande maioria opera na base do voluntariado.
 
-Para as demais camadas — hardware aberto, redes comunitárias e serviços federados — o problema é ainda mais agudo, pois envolvem custos operacionais contínuos (equipamento, hospedagem, energia, manutenção física) que não se resolvem com doações esporádicas.
+Para as demais camadas — hardware aberto, redes comunitárias e serviços abertos — o problema é ainda mais agudo, pois envolvem custos operacionais contínuos (equipamento, hospedagem, energia, manutenção física) que não se resolvem com doações esporádicas.
 
 #### Ausência de figura jurídica adequada
 
@@ -409,7 +415,7 @@ A [OpenSSF](https://openssf.org/blog/2026/01/21/preserving-open-source-sustainab
 
 A tributação encarece a operação. A ausência de financiamento impede a profissionalização. A falta de figura jurídica exclui do fomento público e do cumprimento regulatório. A sobrecarga leva ao burnout. O burnout leva ao abandono. O abandono gera vulnerabilidades. As vulnerabilidades justificam mais regulação. A regulação impõe mais custos. O ciclo se retroalimenta.
 
-O resultado é que a tributação, a ausência de financiamento, a impossibilidade de formalização e a insustentabilidade operacional operam como um fator de **concentração tecnológica transversal**: estimulam o consumo de soluções proprietárias, penalizam a construção aberta e comunitária, e ignoram a especificidade econômica de modelos não comerciais em todas as camadas da infraestrutura livre.
+O resultado é que a tributação, a ausência de financiamento, a impossibilidade de formalização e a insustentabilidade operacional operam como um fator de **concentração tecnológica transversal**: estimulam o consumo de soluções proprietárias, penalizam a construção aberta — comunitária ou empresarial — e ignoram a especificidade econômica de modelos baseados em infraestrutura livre em todas as camadas do ecossistema.
 
 ---
 
@@ -501,7 +507,7 @@ Reconhecer juridicamente a especificidade da infraestrutura livre configura:
 
 ## Conclusão
 
-A infraestrutura livre — software, hardware aberto, serviços descentralizados e redes livres — não é um modelo alternativo de desenvolvimento. É **infraestrutura crítica da sociedade digital**, da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros e infraestruturas essenciais.
+A infraestrutura livre — software, hardware aberto, serviços abertos e redes livres — não é um modelo alternativo de desenvolvimento. É **infraestrutura crítica da sociedade digital**, da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros e infraestruturas essenciais.
 
 O que as evidências demonstram é um **desalinhamento estrutural entre norma e realidade técnica** que se manifesta em cinco eixos convergentes:
 
@@ -511,7 +517,7 @@ O que as evidências demonstram é um **desalinhamento estrutural entre norma e 
 4. **Barreiras operacionais** que favorecem modelos comerciais e proprietários  
 5. **Fragilidade econômica** que inviabiliza a sustentabilidade do ecossistema  
 
-Esse desalinhamento não melhora a regulação, não aumenta a segurança e não atinge os agentes com poder real de controle. Ao contrário — **penaliza quem constrói a base tecnológica, fragiliza o ecossistema e concentra poder em fornecedores proprietários**.
+Esse desalinhamento não melhora a regulação, não aumenta a segurança e não atinge os agentes com poder real de controle. Ao contrário — **penaliza quem constrói a base tecnológica** — de contribuidores individuais a empresas cujo modelo de negócio é construído sobre infraestrutura aberta —, **fragiliza o ecossistema e concentra poder em fornecedores proprietários**.
 
 A adaptação normativa, portanto, não é opcional.
 

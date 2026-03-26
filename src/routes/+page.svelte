@@ -118,16 +118,16 @@
 				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-sky-500/20 dark:text-sky-400">
 					<Server class="size-6" />
 				</div>
-				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-sky-700 dark:text-zinc-50 dark:group-hover/section:text-sky-400">Serviços Descentralizados</h3>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-sky-700 dark:text-zinc-50 dark:group-hover/section:text-sky-400">Serviços Abertos</h3>
 				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
-					Plataformas hospedadas de forma federada onde a comunidade governa e opera os servidores, assim evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
+					Plataformas hospedadas de forma aberta a sistemas educacionais e bem como federada, onde a comunidade governa e opera os servidores, assim evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
 				</p>
 			</div>
 			<!-- Imagem -->
 			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-sky-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-sky-500/10 dark:border-zinc-800 dark:bg-zinc-900">
 				<img
 					src="/images/servico-livre-1.jpg"
-					alt="Ilustração representando serviços descentralizados."
+					alt="Ilustração representando serviços abertos."
 					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
 					loading="eager"
 				/>
