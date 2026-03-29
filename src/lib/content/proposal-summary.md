@@ -44,12 +44,12 @@ Se implementado, o Marco posicionaria o Brasil na **vanguarda mundial do direito
 - Obrigações de conformidade **proporcionais à escala e natureza** do agente — não dimensionadas para plataformas proprietárias
 - Controle técnico não implica capacidade de conformidade — conformidade proporcional e coletiva via custodiante
 - Distribuição de software sem gatekeepers obrigatórios — direito de sideloading e distribuição direta
-- Fabricação e certificação acessíveis para hardware aberto: regime proporcional à escala, autocertificação para projetos educacionais, acesso a laboratórios públicos, homologação por equivalência para forks de designs certificados. Isenção de importação sobre componentes, linhas de crédito BNDES/FINEP, fablabs/makerspaces financiados pelo Fundo. Firmware aberto não é vulnerabilidade — é recurso de segurança
-- Redes comunitárias como **categoria distinta** de telecomunicações
+- Fabricação e certificação acessíveis para hardware aberto: regime proporcional à escala, autocertificação para projetos educacionais e de prototipagem, acesso a laboratórios públicos, homologação por equivalência para forks de designs certificados. Isenção de importação sobre componentes, linhas de crédito BNDES/FINEP, fablabs/makerspaces financiados pelo Fundo. Firmware aberto não é vulnerabilidade — é recurso de segurança
+- Redes livres como **categoria distinta** de telecomunicações — comunitárias, experimentais ou comerciais
 - Mandato de padrões abertos na administração pública
 - **Proteção do contribuidor**: contribuição a PIL fora do escopo e horário de trabalho não pode ser reivindicada pelo empregador — cláusulas genéricas de cessão de PI nulas na parte excedente
 - **Proteção contra litigância predatória (anti-SLAPP)**: extinção antecipada de ações abusivas, inversão do ônus, honorários majorados, depósito prévio em ações repetitivas
-- **Livre exercício profissional**: o trabalho em infraestrutura digital livre é atividade de exercício livre — vedadas taxas, anuidades, punições ou limitações de conselhos profissionais. Regulação exclusiva pelo Marco e pela ANIL. Setores regulados disciplinam a aplicação, nunca a criação da infraestrutura livre
+- **Livre exercício profissional**: o trabalho em infraestrutura digital livre é atividade de exercício livre — abrangendo profissões com e sem conselho (de computação e design digital a engenharia/CONFEA/CREA, arquitetura/CAU, técnicos de redes/CFT/CRT e interfaces com área médica/CRM). Vedadas taxas, anuidades, punições ou limitações de conselhos profissionais sobre a criação de infraestrutura livre. Onde há conselho, sua jurisdição se mantém sobre a aplicação regulada — mas não pode se estender à criação, que não gera risco concreto. Princípio do risco real: o conselho que pretender alcançar atividade de infraestrutura livre deve demonstrar risco concreto, específico e proporcional — risco meramente potencial não legitima extensão de jurisdição
 
 ### 5. Sustentabilidade e fomento do ecossistema
 
