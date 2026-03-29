@@ -2,9 +2,9 @@
 
 A infraestrutura digital contemporânea depende, em todas as suas camadas, de arquiteturas livres e abertas.
 
-**Software livre** — sistemas operacionais, servidores, bancos de dados, linguagens de programação, bibliotecas — constitui a base sobre a qual mais de 90% da economia digital opera. **Hardware aberto** — arquiteturas como RISC-V, plataformas como Arduino e Raspberry Pi — possibilita que dispositivos sejam projetados e fabricados sem dependência proprietária. **Serviços abertos** — tanto serviços baseados em software livre operados de forma centralizada (Nextcloud, GitLab CE, Moodle, WordPress, Jitsi) quanto protocolos federados (ActivityPub, Matrix, XMPP) — permitem comunicação e colaboração com código auditável, sob controle do operador. **Redes livres** — redes comunitárias, protocolos mesh, firmwares abertos — fornecem conectividade onde operadoras comerciais não chegam.
+**Software livre** — sistemas operacionais, servidores, bancos de dados, linguagens de programação, bibliotecas — constitui a base sobre a qual mais de 90% da economia digital opera. **Hardware aberto** — arquiteturas como RISC-V, plataformas como Arduino e Raspberry Pi — possibilita que dispositivos sejam projetados e fabricados sem dependência proprietária. **Serviços abertos** — tanto serviços baseados em software livre operados de forma centralizada (Nextcloud, GitLab CE, Moodle, WordPress, Jitsi) quanto protocolos federados (ActivityPub, Matrix, XMPP) — permitem comunicação e colaboração com código auditável, sob controle do operador. **Redes livres** — redes comunitárias, protocolos mesh, firmwares abertos — fornecem conectividade onde operadoras comerciais não chegam. **Dados abertos** — bases de dados como OpenStreetMap e Wikidata, datasets científicos, modelos abertos de inteligência artificial (LLaMA, BLOOM, Stable Diffusion, Whisper) — constituem a camada de conhecimento e inferência sobre a qual as demais camadas operam: o software processa dados, os serviços os consomem, as redes os transportam.
 
-Essas quatro camadas não são periféricas. Juntas, constituem a **infraestrutura crítica da sociedade digital** — da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros, infraestruturas de saúde e mecanismos de participação democrática.
+Essas cinco camadas não são periféricas. Juntas, constituem a **infraestrutura crítica da sociedade digital** — da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros, infraestruturas de saúde e mecanismos de participação democrática.
 
 Ainda assim, essa infraestrutura opera sob um **vácuo jurídico crescente**. Os ordenamentos jurídicos — o brasileiro e outros — não foram concebidos para lidar com suas características estruturais: desenvolvimento distribuído e global, ausência de hierarquia definida, participação voluntária e descentralizada, modelos empresariais construídos sobre infraestrutura aberta, impossibilidade prática de controle sobre o uso final, e inexistência de relação direta entre quem cria, quem opera e quem usa.
 
@@ -30,11 +30,11 @@ Essas cinco dimensões não são problemas isolados. São manifestações de uma
 
 No centro do problema está a confusão entre três papéis que, na infraestrutura livre, são estruturalmente independentes:
 
-| Papel | Software | Hardware | Serviços | Redes |
-|-------|----------|----------|----------|-------|
-| **Criação** | quem escreve código | quem projeta o design | quem desenvolve o protocolo | quem especifica a arquitetura |
-| **Operação** | quem implanta e mantém | quem fabrica e distribui | quem opera a instância | quem mantém os nós |
-| **Uso** | quem executa o software | quem utiliza o dispositivo | quem publica e consome | quem se conecta |
+| Papel | Software | Hardware | Serviços | Redes | Dados |
+|-------|----------|----------|----------|-------|-------|
+| **Criação** | quem escreve código | quem projeta o design | quem desenvolve o protocolo | quem especifica a arquitetura | quem compila o dataset ou treina o modelo |
+| **Operação** | quem implanta e mantém | quem fabrica e distribui | quem opera a instância | quem mantém os nós | quem hospeda e distribui os dados |
+| **Uso** | quem executa o software | quem utiliza o dispositivo | quem publica e consome | quem se conecta | quem consulta, processa ou treina sobre os dados |
 
 Em modelos comerciais, esses papéis se sobrepõem: quem cria a plataforma também a opera e controla o uso. Na infraestrutura livre, eles são **separados por design** — e nenhum agente possui controle sobre os demais.
 
@@ -76,7 +76,7 @@ Não ocorre um colapso imediato. O que emerge é um **travamento gradual, silenc
 
 ## 6. O que propomos
 
-Defendemos a criação de um **Marco Jurídico da Infraestrutura Livre** — um enquadramento legal abrangente que reconheça e proteja software livre, hardware aberto, serviços abertos e redes livres como infraestrutura crítica.
+Defendemos a criação de um **Marco Jurídico da Infraestrutura Livre** — um enquadramento legal abrangente que reconheça e proteja software livre, hardware aberto, serviços abertos, redes livres e dados abertos como infraestrutura crítica.
 
 Não propomos ausência de regulação. Propomos **regulação compatível com a realidade técnica**.
 
@@ -84,7 +84,7 @@ A proposta se estrutura em **cinco pilares** que respondem diretamente às cinco
 
 ### Pilar 1 — Reconhecimento jurídico da infraestrutura livre
 
-Definição legal das quatro camadas e dos **quatro direitos básicos** que uma licença deve garantir para ser livre e aberta: usar, estudar, modificar e distribuir. Declaração de interesse público. Reconhecimento da descentralização como modelo legítimo. Validade de licenças livres perante o ordenamento brasileiro. Licenças meramente *source-available* não se qualificam.
+Definição legal das cinco camadas e dos **quatro direitos básicos** que uma licença deve garantir para ser livre e aberta: usar, estudar, modificar e distribuir. Declaração de interesse público. Reconhecimento da descentralização como modelo legítimo. Validade de licenças livres perante o ordenamento brasileiro. Licenças meramente *source-available* não se qualificam.
 
 **Elimina a raiz da incerteza** criando categorias próprias com tratamento próprio.
 
@@ -151,7 +151,7 @@ O que está em disputa é se ela poderá sustentar o futuro.
 
 A liberdade digital não está apenas no código.
 
-Ela está na infraestrutura como um todo — no software que se executa, no hardware que se fabrica, nos serviços que se opera, nas redes que se constrói.
+Ela está na infraestrutura como um todo — no software que se executa, no hardware que se fabrica, nos serviços que se opera, nas redes que se constrói, nos dados que se compartilha.
 
 Sem reconhecimento jurídico, essa infraestrutura permanece vulnerável — sujeita a regulações incompatíveis, responsabilização indevida, barreiras operacionais e fragilidade econômica.
 

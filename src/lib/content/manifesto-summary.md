@@ -1,6 +1,6 @@
 ## O ponto de partida
 
-A infraestrutura digital contemporânea depende, em todas as suas camadas, de arquiteturas livres e abertas — **software livre**, **hardware aberto**, **serviços abertos** e **redes livres**. Juntas, essas quatro camadas constituem a **infraestrutura crítica da sociedade digital**, da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros e infraestruturas essenciais.
+A infraestrutura digital contemporânea depende, em todas as suas camadas, de arquiteturas livres e abertas — **software livre**, **hardware aberto**, **serviços abertos**, **redes livres** e **dados abertos**. Juntas, essas cinco camadas constituem a **infraestrutura crítica da sociedade digital**, da qual dependem sistemas governamentais, cadeias produtivas, serviços financeiros e infraestruturas essenciais.
 
 Sem ela, grande parte do que hoje é considerado básico simplesmente não funcionaria.
 
