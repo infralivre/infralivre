@@ -926,3 +926,429 @@ O Marco não cria um **novo ramo do Judiciário** — o que exigiria emenda cons
 ### **Por que o PIL é uma figura inédita**
 
 Não existe, no direito mundial, uma figura jurídica projetada especificamente para infraestrutura livre. Associações, fundações e cooperativas foram desenhadas para outros contextos e carregam requisitos incompatíveis (patrimônio, assembleia, atividade econômica). Empresas pressupõem fins lucrativos. O PIL é **estruturalmente distinto** de todas essas formas: é uma entidade de governança pura, sem capacidade financeira, que separa deliberadamente a representação do projeto da movimentação de recursos. A entidade custodiante — de qualquer tipo jurídico — complementa o PIL como braço financeiro e operacional pleno, recebendo em troca a extensão das proteções do Marco para as atividades relacionadas ao projeto. E a qualificação como "Empresa de Infraestrutura Livre" — selo que exige que a totalidade dos produtos e serviços da custodiante constitua infraestrutura livre — é a chave de acesso ao regime tributário diferenciado, criando um incentivo estrutural para que empresas se comprometam integralmente com o ecossistema aberto. É uma arquitetura **acoplada à natureza da infraestrutura que protege**, e por isso funciona onde as demais falham.
+
+---
+---
+---
+
+## Veículo normativo: lei complementar e lei ordinária
+
+A Constituição Federal de 1988 reserva à **lei complementar** (LC) um conjunto taxativo de matérias, aprovadas por **maioria absoluta** de todos os membros de cada casa legislativa ([Art. 69 CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)). Tudo o mais é matéria de **lei ordinária** (LO), aprovada por **maioria simples** dos presentes, desde que presente maioria absoluta como quórum ([Art. 47 CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)). A reserva de lei complementar é **estrita e taxativa**: somente quando a Constituição expressamente determina "lei complementar" a matéria é reservada — o STF consolidou que não há hierarquia normativa genérica entre LC e LO, mas **reserva material**: cada uma tem seu campo próprio ([STF, ADI 4.071 AgR/DF, 2009](https://portal.stf.jus.br/processos/detalhe.asp?incidente=2589722), rel. Min. Menezes Direito). Quando uma lei complementar trata de matéria que não lhe é reservada, ela é "materialmente ordinária" naquela parte — podendo ser modificada por lei ordinária.
+
+A escolha do veículo normativo tem consequências concretas sobre o Marco: **facilidade de aprovação** (LC exige maioria absoluta — significativamente mais difícil), **estabilidade normativa** (LC só pode ser modificada por outra LC na parte materialmente complementar, protegendo o Marco contra erosão legislativa) e **sinalização institucional** (LC transmite ao ordenamento e ao Judiciário que a matéria tem peso normativo elevado).
+
+### Reservas constitucionais de lei complementar relevantes para o Marco
+
+Das dezenas de reservas de LC na Constituição, as seguintes incidem — ou potencialmente incidem — sobre disposições do Marco:
+
+- **[Art. 146, III, "a" CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)**: normas gerais de direito tributário — definição de tributos e suas espécies, fatos geradores, bases de cálculo, contribuintes. **Incide** se o Marco criar nova espécie tributária (como o adicional de IRPJ vinculado ao Fundo Nacional de Infraestrutura Livre, que é funcionalmente contribuição parafiscal)
+- **[Art. 146, III, "d" CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)** (EC 42/2003): tratamento diferenciado e favorecido para microempresas e empresas de pequeno porte, incluindo regimes especiais de tributação (Simples Nacional — [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm)). **Incide** se o regime tributário do PIL ou da Empresa de Infraestrutura Livre interagir com o Simples Nacional ou modificar sua abrangência
+- **[Art. 146-A CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)** (EC 42/2003): critérios especiais de tributação para prevenir desequilíbrios da concorrência. **Pode incidir** sobre o regime tributário diferenciado — mas o dispositivo é permissivo ("lei complementar *poderá* estabelecer"), não obrigatório, e o próprio artigo ressalva a competência da União para estabelecer normas de igual objetivo por lei ordinária
+- **[Art. 156-A CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)** e **[Art. 195, V CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)** (EC 132/2023 — Reforma Tributária): regulamentação do **IBS** (Imposto sobre Bens e Serviços, que substituirá ICMS e ISS) e da **CBS** (Contribuição sobre Bens e Serviços, que substituirá PIS e COFINS), regulamentados pela [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm). **Incide diretamente**: isenções e regimes especiais de IBS e CBS devem estar previstos em LC — este é o ponto de inflexão mais concreto para o Marco
+- **[Art. 195, §7º CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)**: regulamentação da imunidade de contribuições para a seguridade social de entidades beneficentes de assistência social. O STF decidiu em repercussão geral que a regulamentação deste dispositivo exige LC ([RE 636.941/RS, Tema 32, 2014](https://portal.stf.jus.br/processos/detalhe.asp?incidente=4514789)). **Incide** se a isenção de CSLL para Empresas de Infraestrutura Livre for construída como concretização deste dispositivo — **não incide** se construída como isenção autônoma de política fiscal
+- **[Art. 93 CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)**: Estatuto da Magistratura, de iniciativa do STF. **Incide** se o Marco alterar diretamente regras sobre organização de varas ou requisitos de concurso vinculados à LOMAN ([LC 35/79](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp35.htm))
+- **[Art. 128, §5º CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)**: organização do Ministério Público. **Incide** se o Marco alterar a estrutura organizacional do MPF regulada pela [LC 75/93](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp75.htm) — **não incide** se se limitar a recomendação ao CNMP e criação de grupo de atuação por ato interno do PGR
+
+**Não incidem** sobre o Marco:
+
+- **[Art. 192 CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)** (sistema financeiro nacional): a ANIL não regula o sistema financeiro — a reserva de LC do Art. 192 não se aplica. O fato de a ANIL replicar o modelo de autonomia do BC ([LC 179/2021](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm)) não torna a LC obrigatória: a LC do BC foi necessária porque Art. 192 assim exige, não porque toda autarquia de natureza especial requeira LC
+- **[Art. 37, XIX CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)**: exige "lei específica" para criação de autarquia — mas **não exige lei complementar**. Todas as agências reguladoras brasileiras foram criadas por lei ordinária: ANATEL ([Lei 9.472/97](https://www.planalto.gov.br/ccivil_03/leis/l9472.htm)), ANVISA ([Lei 9.782/99](https://www.planalto.gov.br/ccivil_03/leis/l9782.htm)), ANP ([Lei 9.478/97](https://www.planalto.gov.br/ccivil_03/leis/l9478.htm)), ANEEL ([Lei 9.427/96](https://www.planalto.gov.br/ccivil_03/leis/l9427.htm)), ANA ([Lei 9.984/00](https://www.planalto.gov.br/ccivil_03/leis/l9984.htm)), ANS ([Lei 9.961/00](https://www.planalto.gov.br/ccivil_03/leis/l9961.htm)), ANAC ([Lei 11.182/05](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11182.htm)), ANPD ([Lei 13.709/18](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm))
+
+### O problema da hierarquia normativa: licenças são contratos, e contratos estão abaixo de leis
+
+A totalidade do Marco se constrói sobre uma premissa: a infraestrutura livre é definida por suas **licenças** — GPL, MIT, Apache, CERN-OHL, Creative Commons, ODbL. É a licença que garante os quatro direitos básicos (usar, estudar, modificar, distribuir), é a licença que cria a arquitetura aberta e descentralizada, é a licença que a cláusula de compatibilidade arquitetural invoca quando diz que "obrigações que pressuponham controle centralizado são presumidamente inaplicáveis".
+
+Mas licenças são **negócios jurídicos privados** — contratos. E no ordenamento brasileiro, contratos estão **abaixo** de leis na hierarquia normativa. O [Código Civil (Lei 10.406/02), Art. 421](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) submete a liberdade contratual à "função social do contrato"; o [CDC (Lei 8.078/90)](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm) pode tornar cláusulas contratuais nulas quando contrárias a normas de proteção ao consumidor; a [LGPD (Lei 13.709/18)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) impõe obrigações que nenhum contrato pode afastar. O princípio é pacífico: *lex superior derogat legi inferiori* — **a lei prevalece sobre o contrato**.
+
+Essa hierarquia cria uma **vulnerabilidade estrutural** para o Marco se suas fundações estiverem apenas em lei ordinária:
+
+1. **Validade das cláusulas de isenção de garantia**: as licenças livres contêm *disclaimers* — "THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND". Se o reconhecimento de validade dessas cláusulas estiver apenas em lei ordinária, **qualquer lei ordinária futura** pode invalidá-las: uma alteração no CDC, uma lei setorial de cibersegurança, ou mesmo uma interpretação judicial que aplique o CDC diretamente. O *disclaimer* é cláusula contratual — se a lei que o valida é ordinária, está no mesmo patamar das leis que podem impugná-lo. Em **lei complementar**, o reconhecimento ganha **hierarquia normativa superior**: leis ordinárias não podem afastá-lo sem conflitar com a LC
+
+2. **Definição de infraestrutura livre**: se a própria definição do que é infraestrutura livre — as cinco camadas, os quatro direitos básicos, o critério funcional que distingue licenças livres de *source-available* — estiver apenas em lei ordinária, qualquer lei ordinária futura pode **redefinir, estreitar ou esvaziar** o conceito. Uma lei setorial pode, por maioria simples, criar uma definição concorrente de "infraestrutura aberta" que exclua copyleft, ou que exija certificação proprietária, ou que condicione o reconhecimento a critérios burocráticos. A definição é o **alicerce de todo o Marco** — cada pillar, cada proteção, cada direito depende do que conta como infraestrutura livre. Se o alicerce pode ser movido por maioria simples, o edifício todo é instável
+
+3. **Declaração de interesse público**: se a declaração de que a infraestrutura livre é "bem comum digital de interesse público" estiver em lei ordinária, ela tem exatamente o mesmo peso que a lei que a contradir. O CDC declara que a proteção do consumidor é de interesse público; a LGPD declara que a proteção de dados é de interesse público — e ambas, como leis ordinárias, podem ser interpretadas como prevalecendo sobre a declaração de interesse público do Marco, porque estão no **mesmo nível hierárquico**. Em lei complementar, a declaração de interesse público da infraestrutura livre **prevalece sobre declarações concorrentes de leis ordinárias** — porque LC é hierarquicamente superior a LO na matéria que lhe é própria
+
+4. **Cláusula de compatibilidade arquitetural**: a cláusula diz que obrigações regulatórias incompatíveis com a arquitetura livre são presumidamente inaplicáveis. Mas a "arquitetura livre" é produto da **licença** — que é contrato. Se o reconhecimento de que a arquitetura licenciada gera efeitos regulatórios estiver apenas em lei ordinária, a cláusula é **autorreferencial e vulnerável**: invoca uma arquitetura definida por contrato, reconhecida por lei ordinária, para afastar obrigações impostas por... outras leis ordinárias de mesmo patamar. Em lei complementar, a cláusula opera com **força hierárquica real**: a arquitetura reconhecida por LC prevalece sobre obrigações de LO
+
+5. **Separação funcional (pilar 2)**: a tipificação tripartite — criação é livre, operação e uso é onde há regulação — é **o princípio organizador de todo o Marco**. Se estiver apenas em lei ordinária, qualquer lei setorial futura pode ignorá-la: uma lei de cibersegurança pode estabelecer que "quem desenvolve software é corresponsável por seu uso", e como ambas são LO, aplica-se *lex posterior derogat legi priori* — a lei mais recente prevalece. Em LC, a separação funcional vincula toda legislação ordinária futura: nenhuma LO pode confundir criação com operação sem conflitar com a LC
+
+O padrão é claro: o problema não é que a Constituição **exija** lei complementar para essas matérias — não exige. O problema é que, sem LC, o Marco constrói um edifício normativo cujo alicerce (licenças = contratos, definições = LO, princípios = LO) está no **mesmo patamar ou abaixo** das normas que ele pretende condicionar. É como construir um dique no mesmo nível da água que ele deve conter.
+
+A analogia constitucional mais precisa é o **[CTN (Lei 5.172/66)](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm)**: o Código Tributário Nacional foi recepcionado como lei complementar e define "tributo", suas espécies, fatos geradores e princípios gerais. *Toda* lei ordinária tributária deve operar dentro dessas definições — nenhuma LO pode redefinir o que é "tributo" ou criar espécie tributária fora das categorias do CTN. O mesmo princípio deve se aplicar ao Marco: se a LC define "infraestrutura livre", "licença livre e aberta", "quatro direitos básicos" e a separação entre criação, operação e uso — toda lei ordinária deve operar dentro dessas definições. A LC do Marco funciona como **CTN do ecossistema livre**: define as categorias que o restante do ordenamento deve respeitar.
+
+### Mapeamento pilar por pilar
+
+#### Pilar 1 — Reconhecimento jurídico: núcleo definitório em LC, detalhamento em LO
+
+A Constituição não reserva a definição de infraestrutura livre à lei complementar. Mas a análise hierárquica impõe: se as **definições fundacionais** — as cinco camadas, os quatro direitos básicos, o critério funcional de licença livre, a declaração de interesse público, a validade de cláusulas de isenção de garantia — estiverem apenas em lei ordinária, elas ficam no **mesmo patamar normativo** das leis que o Marco pretende condicionar (CDC, LGPD, LGT, Marco Civil). O resultado é um marco que se autossabota: declara que licenças livres são válidas, mas não pode impedir que o CDC as trate como cláusulas abusivas; declara que a arquitetura aberta é legítima, mas não pode impedir que a LGPD imponha obrigações de controlador centralizado.
+
+**Pertencem à LC — núcleo definitório:**
+
+- **Definição legal das cinco camadas** (software livre, hardware aberto, serviços abertos, redes livres, dados abertos) — estas são as **categorias jurídicas** sobre as quais todo o Marco opera. Em LC, nenhuma lei ordinária futura pode redefini-las ou estreitá-las
+- **Definição de licença livre e aberta** — os quatro direitos básicos como critério funcional. Em LC, o critério é **oponível a leis ordinárias**: nenhuma LO pode criar definição concorrente que exclua licenças que atendam aos quatro direitos, ou que inclua licenças *source-available* que não os atendam
+- **Declaração de interesse público** — reconhecimento da infraestrutura livre como bem comum digital. Em LC, a declaração prevalece sobre declarações concorrentes de interesse público em leis ordinárias (CDC, LGPD) e vincula a interpretação de todo o ordenamento
+- **Validade de licenças livres e suas cláusulas de isenção de garantia** — reconhecimento de que os *disclaimers* das licenças livres são válidos perante o ordenamento. Em LC, a validade é hierarquicamente superior ao CDC (LO): a cláusula "AS IS" de uma licença livre não pode ser impugnada por aplicação direta do CDC sem conflitar com a LC — exigindo que a impugnação demonstre que o caso concreto ultrapassa os limites reconhecidos pela LC (situações de dolo, má-fé ou violação de ordem pública)
+- **Reconhecimento da descentralização como modelo legítimo** — o reconhecimento de que projetos sem entidade jurídica central são estruturalmente válidos. Em LC, esse reconhecimento vincula reguladores e juízes: nenhuma LO pode tratar a ausência de centralização como irregularidade
+
+**Permanecem em LO — detalhamento operacional:**
+
+- Uso justo de dados (regime específico, presunções, critérios) — matéria de direito autoral, detalhamento operacional
+- Proteção defensiva contra patentes — matéria de propriedade industrial
+- Direito ao fork — detalhamento das garantias práticas (marcas, namespaces, certificados)
+- Precedentes e fundamentação constitucional — declaratórios, não criam direito novo
+
+A divisão é **funcional**: na LC ficam as **definições que todo o ordenamento deve respeitar** — na LO fica o **detalhamento de como essas definições se operacionalizam**. A LC diz *o que é* infraestrutura livre e *por que* ela é protegida; a LO diz *como* a proteção funciona em cada caso.
+
+#### Pilar 2 — Separação funcional: princípio estruturante em LC, operacionalização em LO
+
+A tipificação tripartite (criação, operação, uso) é o **princípio organizador** de todo o Marco — não é detalhe operacional, é fundação. Se estiver apenas em lei ordinária, qualquer lei setorial futura pode ignorá-la: a regra *lex posterior derogat legi priori* permitiria que uma lei de cibersegurança ou de IA responsabilizasse criadores por operação, desfazendo a separação por maioria simples.
+
+**Pertence à LC — princípio estruturante:**
+
+- **Tipificação tripartite**: reconhecimento de que criação, operação e uso são atividades juridicamente distintas com responsabilidades distintas
+- **Princípio da responsabilidade vinculada ao controle**: nenhum agente pode ser responsabilizado por atos praticados em camada sobre a qual não possui controle efetivo
+
+Estes dois dispositivos são o **esqueleto do Marco** — deles derivam safe harbors, proteção contra sancionamento, livre exercício profissional, interação com setores regulados. Em LC, vinculam toda legislação ordinária posterior.
+
+**Permanecem em LO — operacionalização:**
+
+- Safe harbor para criadores e mantenedores — detalhamento operacional do princípio
+- Proteção contra sancionamento de artefatos — aplicação concreta
+- Casos específicos de responsabilidade de operadores
+
+#### Pilar 3 — Compatibilidade arquitetural: princípio geral em LC, aplicação em LO
+
+A vulnerabilidade da cláusula de compatibilidade vai **além da dimensão tributária**: a cláusula invoca a arquitetura livre — produto de licenças (contratos) — para afastar obrigações legais. Se o reconhecimento de que essa arquitetura gera efeitos regulatórios estiver apenas em lei ordinária, a cláusula opera no **mesmo patamar das leis que pretende condicionar**: LGPD, LGT, CDC, regulamentos de telecomunicações, regulamentos sanitários. Qualquer dessas leis pode ser interpretada como prevalecendo sobre a cláusula, porque são todas lei ordinária.
+
+**Pertence à LC — princípio da compatibilidade:**
+
+- **Cláusula vinculante de compatibilidade arquitetural** (princípio geral): toda obrigação regulatória que incida sobre infraestrutura livre está sujeita a verificação de exequibilidade técnica real. Em LC, o princípio **vincula e condiciona** todas as leis ordinárias — a LGPD, a LGT, o CDC, o Marco Civil e qualquer regulação futura devem ser interpretadas e aplicadas em conformidade com a cláusula de compatibilidade
+- **Cláusula de compatibilidade na dimensão tributária** — prevalência sobre o CTN e a LC 214/2025
+
+**Permanecem em LO — mecanismos e aplicação:**
+
+- Direito de contestação judicial, efeito suspensivo — matéria processual
+- Vedação de obrigações estruturalmente impossíveis (lista exemplificativa)
+- Proteção à pesquisa de segurança
+- Proteção contra bloqueio colateral, vedação de bloqueio de protocolos
+- Proteção de repositórios e registros de pacotes
+- Proteção contra apreensão de domínios e revogação de certificados
+
+#### Pilar 4 — Regime proporcional: predominantemente lei ordinária
+
+Proporcionalidade regulatória, distribuição de software sem intermediários, reconhecimento de redes livres como categoria distinta, mandato de padrões abertos, proteção do contribuidor em relações de trabalho, mecanismo anti-SLAPP, livre exercício profissional — **tudo lei ordinária**. A [Lei da Liberdade Econômica (Lei 13.874/19)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm) criou regime análogo de desburocratização e proporcionalidade regulatória por lei ordinária. A regulamentação profissional é matéria de lei ordinária ([Lei 8.906/94](https://www.planalto.gov.br/ccivil_03/leis/l8906.htm) — OAB; [Lei 5.194/66](https://www.planalto.gov.br/ccivil_03/leis/l5194.htm) — CONFEA/CREA).
+
+Fabricação e certificação de hardware aberto — aspectos regulatórios e de homologação: **lei ordinária**. Aspectos tributários (isenção de importação, incentivos PADIS): ver análise do regime tributário abaixo.
+
+#### Pilar 5 — Sustentabilidade e fomento: núcleo de tensão LC/LO
+
+Este é o pilar onde a distinção entre LC e LO é **determinante**:
+
+**Matérias de lei ordinária:**
+
+- **PIL como figura jurídica**: o [Código Civil (Lei 10.406/02)](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) define tipos de pessoa jurídica e é lei ordinária. A Sociedade Limitada Unipessoal foi criada pela [Lei da Liberdade Econômica (Lei 13.874/19)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm), lei ordinária. O MEI foi criado por LC ([LC 128/2008](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm)) apenas porque integra o Simples Nacional ([LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm)) — **não porque toda nova modalidade de pessoa jurídica exija LC**. O PIL, que não integra o Simples, pode ser criado por lei ordinária
+- **Composição societária, regimes de organização, incapacidade financeira, custódia**: matéria de direito civil e associativo — lei ordinária
+- **Regime de voluntariado**: a [Lei 9.608/98](https://www.planalto.gov.br/ccivil_03/leis/l9608.htm) é lei ordinária
+- **Registro de marcas e patentes livres**: matéria de propriedade industrial — lei ordinária
+- **Presunção de hipossuficiência**: matéria processual — lei ordinária
+- **Continuidade de infraestrutura crítica**: matéria de direito civil e administrativo — lei ordinária
+- **Fundo Nacional de Infraestrutura Livre** (gestão e destinação): fundos setoriais são criados por lei ordinária — o [FUST (Lei 9.998/00)](https://www.planalto.gov.br/ccivil_03/leis/l9998.htm), o [FUNTTEL (Lei 10.052/00)](https://www.planalto.gov.br/ccivil_03/leis/l10052.htm) e o [FSA (Lei 11.437/06)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11437.htm) são todos lei ordinária
+- **Mecanismos de financiamento** (editais, preferência em licitações, acesso a CT&I): lei ordinária. A [Lei de Inovação (Lei 10.973/04)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.973.htm) e o [Governo Digital (Lei 14.129/21)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm) são leis ordinárias
+
+**Matérias que exigem ou se beneficiam de lei complementar:**
+
+- **Regime tributário diferenciado** — aqui reside a principal exigência de LC:
+  - *Deduções majoradas (modelo Lei do Bem)*: a [Lei do Bem (Lei 11.196/05)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11196.htm) é lei ordinária — o mecanismo pode ser replicado em LO. Contudo, se o Marco pretende que a dedução majorada sobreviva à transição tributária (com IRPJ eventualmente recalibrando sua base de cálculo em razão da extinção de PIS/COFINS), a previsão em LC oferece maior estabilidade
+  - *Suspensão de PIS/COFINS (modelo REIDI/REPES)*: o [REIDI (Lei 11.488/07)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11488.htm) e o [REPES (Lei 11.196/05)](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11196.htm) são leis ordinárias — mas PIS e COFINS serão **gradualmente substituídos pela CBS** (2026–2033). A CBS é regulada pela [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm). **Isenções e regimes especiais de CBS devem estar previstos em lei complementar.** Este é o ponto de inflexão: os benefícios de PIS/COFINS podem ser criados por LO durante a transição, mas os **benefícios equivalentes de CBS exigirão LC** — ou alteração da LC 214. Não prever essa transição criaria um regime tributário que se esvazia à medida que a CBS absorve PIS/COFINS
+  - *Isenção de tributos de importação*: lei ordinária — e o [II (Imposto de Importação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) pode ter alíquotas alteradas até por decreto ([Art. 153, §1º CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)). Contudo, com a Reforma Tributária, o IPI será substituído pelo **IS (Imposto Seletivo)** — cujo regime é definido por LC. Isenções de IS que beneficiem hardware aberto precisarão estar em LC
+  - *Isenção de CSLL*: **depende da construção jurídica adotada**. Se construída como concretização da imunidade do [Art. 195, §7º CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) — cujos requisitos o STF determinou que exigem LC [(RE 636.941/RS, Tema 32)](https://portal.stf.jus.br/processos/detalhe.asp?incidente=4514789) — exige LC. Se construída como **isenção autônoma de política fiscal**, nos moldes da [certificação CEBAS (Lei 12.101/09)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12101.htm) — que é lei ordinária — pode ser LO. **Recomendação**: construir como isenção autônoma vinculada ao selo de Empresa de Infraestrutura Livre, não como concretização do §7º — preservando a possibilidade de aprovação por lei ordinária
+  - *Adicional de IRPJ para o Fundo*: o adicional vinculado à ANIL é funcionalmente uma **contribuição parafiscal de regulação** — análoga à taxa de fiscalização da [ANATEL (Lei 5.070/66)](https://www.planalto.gov.br/ccivil_03/leis/l5070.htm), à [CONDECINE (Lei 12.485/11)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12485.htm) e à [taxa de fiscalização da CVM (Lei 7.940/89)](https://www.planalto.gov.br/ccivil_03/leis/l7940.htm) — todas criadas por lei ordinária. Se classificado como contribuição de regulação ou CIDE ([Art. 149 CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): "compete exclusivamente à União instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais"), lei ordinária basta. Se a classificação gerar controvérsia sobre a **natureza do tributo** (Art. 146, III, "a"), a definição em LC afastaria a dúvida. **Recomendação**: classificar explicitamente como contribuição de intervenção no domínio econômico (CIDE) — espécie tributária cuja instituição por lei ordinária é pacífica ([Lei 10.336/01 — CIDE-Combustíveis](https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10336.htm))
+  - *Incentivos PADIS para hardware aberto*: o [PADIS (Lei 11.484/07)](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11484.htm) é lei ordinária — o mecanismo pode ser replicado em LO. Mas, novamente, a transição para CBS/IBS exigirá que os incentivos equivalentes estejam previstos em LC
+- **Sandbox regulatório**: pode ser lei ordinária — mas se envolver **flexibilização de obrigações tributárias**, a previsão deve estar em LC para compatibilidade com o regime geral. O [Marco Legal das Startups (LC 182/2021)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm) usou LC não porque sandbox exija LC, mas porque modificava a [LC 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm) (Simples)
+
+#### Pilar 6 — Institucionalização: predominantemente lei ordinária, com exceção estratégica
+
+- **Criação da ANIL**: **lei ordinária basta**. [Art. 37, XIX CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) exige "lei específica" — não exige LC.
+
+  **Contudo**, há argumento estratégico de peso para o uso de LC: a **autonomia reforçada da ANIL** — vedação de tutela ministerial, vedação de exoneração *ad nutum*, vedação de recurso hierárquico impróprio, receita própria com encaminhamento direto ao Congresso — ficaria **blindada contra revogação por lei ordinária futura**. Uma LO pode ser modificada por outra LO com maioria simples de uma sessão qualquer; uma LC só pode ser modificada por outra LC com maioria absoluta. A experiência brasileira demonstra que a autonomia de agências criadas por LO é **vulnerável**: a ANPD, criada como órgão subordinado à Presidência por LO, levou anos para ser convertida em autarquia de natureza especial — e a conversão por [MP 1.124/2022](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/mpv/mpv1124.htm) permaneceu sob risco de não conversão em lei. O BC, cuja autonomia foi estabelecida por LC ([LC 179/2021](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm)), não pode ter sua autonomia revertida por mera LO — exige-se o mesmo quórum de maioria absoluta que a criou.
+
+  **Recomendação**: estabelecer a autonomia da ANIL em lei complementar — não porque a Constituição o exija, mas porque a blindagem contra erosão institucional é **condição de efetividade do Marco inteiro**. Uma ANIL subordinável a ministério por maioria simples compromete os seis pilares.
+
+- **Varas especializadas**: **não exige lei**. A criação de varas é competência dos próprios tribunais ([Art. 96, I, "a" CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)). O Marco pode **determinar** a especialização; os tribunais a implementam por resolução interna. A inclusão de infraestrutura livre como matéria em concursos da magistratura deve ser formulada como **diretriz ao CNJ e à ENFAM** — evitando necessidade de alterar a [LOMAN (LC 35/79)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp35.htm), que exigiria LC de iniciativa do STF
+- **MP e Defensoria especializados**: **lei ordinária** para recomendação ao CNMP e designação de defensores. A criação de grupo especializado no MPF é ato interno do PGR; promotorias estaduais são recomendação do CNMP. Nenhuma dessas medidas exige alteração da [LC 75/93 (MPF)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp75.htm) ou da [LC 80/94 (Defensoria)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp80.htm) se formuladas como diretriz, não como comando organizacional direto
+- **Formação e capacitação**: lei ordinária para estabelecer a diretriz; implementação via resolução do CNJ, CNMP e conselhos superiores
+
+### A Reforma Tributária como fator determinante
+
+A [EC 132/2023 (Reforma Tributária)](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm) altera fundamentalmente a equação LC/LO para o regime tributário do Marco. A transição — de 2026 a 2033 — transformará a base tributária brasileira:
+
+- **CBS** (Contribuição sobre Bens e Serviços) substituirá PIS e COFINS. Regulada pela [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm). Isenções e regimes especiais: **devem estar previstos em LC**
+- **IBS** (Imposto sobre Bens e Serviços) substituirá ICMS e ISS. Regulado pela LC 214/2025. Isenções: **igualmente em LC**
+- **IS** (Imposto Seletivo) incidirá sobre bens e serviços prejudiciais à saúde ou ao meio ambiente. Regulado por LC. Não incide diretamente sobre o Marco, mas seu regime afeta a **carga tributária residual** de hardware e equipamentos
+
+A consequência é **inequívoca**: benefícios tributários que hoje podem ser criados por lei ordinária — suspensão de PIS/COFINS, isenção de IPI — precisarão, após a transição, estar previstos em lei complementar para ter efeito sobre CBS e IBS. O Marco pode criar os benefícios por LO para o regime transitório (PIS/COFINS vigentes), mas se não prever simultaneamente os benefícios equivalentes em LC para CBS/IBS, o regime tributário diferenciado se **esvazia progressivamente** até 2033 — tornando-se letra morta.
+
+Essa realidade torna a **lei complementar tributária** não apenas recomendável, mas **necessária** para a sustentabilidade do regime tributário do Marco. Não por reserva constitucional abstrata, mas por necessidade concreta: os tributos sobre os quais incidem os benefícios estão sendo substituídos por tributos cuja regulação é exclusivamente complementar.
+
+### Recomendação: dois instrumentos complementares
+
+A análise recomenda a adoção de **dois instrumentos legislativos complementares**, aprovados em tramitação coordenada:
+
+#### 1. Lei complementar — núcleo definitório, tributário e institucional permanente
+
+Contém as disposições que (a) constitucionalmente **exigem** lei complementar, (b) estrategicamente **se beneficiam** da blindagem hierárquica da LC para garantir durabilidade, ou (c) constituem **fundações definitórias** que devem vincular todo o ordenamento ordinário — sob pena de o Marco se autossabotar por operar no mesmo patamar normativo das leis que pretende condicionar.
+
+**Conteúdo da LC:**
+
+**Bloco I — Fundações definitórias (pilares 1, 2, 3):**
+
+- **Definição legal das cinco camadas de infraestrutura livre** — software livre, hardware aberto, serviços abertos, redes livres, dados abertos. São as **categorias jurídicas** sobre as quais todo o Marco opera. Em LC, nenhuma lei ordinária futura pode redefini-las, estreitá-las ou criar categorias concorrentes. Fundamento: sem hierarquia sobre a definição, o objeto de proteção do Marco inteiro é instável
+- **Definição de licença livre e aberta e os quatro direitos básicos** — critério funcional que distingue licenças livres de *source-available*. Em LC, o critério é oponível a todo o ordenamento ordinário. Fundamento: licenças são contratos; contratos estão abaixo de leis; se a definição que eleva as licenças livres a instrumento jurídico reconhecido estiver apenas em LO, qualquer LO pode rebaixá-las novamente a mero contrato privado sujeito a CDC, LGPD e legislação setorial
+- **Declaração de interesse público** — infraestrutura livre como bem comum digital. Em LC, prevalece sobre declarações concorrentes de interesse público em leis ordinárias. Fundamento: CDC, LGPD e regulações setoriais também invocam "interesse público" — se todas estão em LO, o conflito se resolve por critérios de especialidade e posterioridade, sem hierarquia; em LC, a declaração do Marco prevalece
+- **Validade de licenças livres e suas cláusulas de isenção de garantia** — reconhecimento de que os *disclaimers* ("AS IS", "WITHOUT WARRANTY") são válidos perante o ordenamento, respeitados os limites de ordem pública. Em LC, a validade é **hierarquicamente superior ao CDC** (LO): a cláusula de isenção não pode ser impugnada por aplicação direta do CDC sem demonstrar que o caso concreto ultrapassa os limites da LC (dolo, má-fé, violação de ordem pública). Fundamento: sem LC, o *disclaimer* é cláusula contratual que qualquer juiz pode anular aplicando o Art. 51, I do CDC — e o Marco inteiro, que pressupõe que mantenedores não garantem o software, desmorona
+- **Reconhecimento da descentralização como modelo legítimo de organização** — projetos sem entidade jurídica central são estruturalmente válidos. Em LC, vincula reguladores e juízes sem que LO futura possa reverter
+- **Tipificação tripartite** — criação, operação e uso como atividades juridicamente distintas. É o **princípio organizador** do qual derivam safe harbors, livre exercício profissional, interação com setores regulados. Em LC, vincula toda legislação ordinária: nenhuma LO futura pode confundir criação com operação. Fundamento: sem LC, uma lei de cibersegurança ou de IA pode, por maioria simples, responsabilizar criadores por atos de operadores — desfazendo a separação funcional
+- **Princípio da responsabilidade vinculada ao controle** — ninguém responde por atos em camada que não controla. Em LC, impede que leis ordinárias criem responsabilidade objetiva de criadores por uso de terceiros
+- **Cláusula vinculante de compatibilidade arquitetural** (princípio geral) — obrigações incompatíveis com a arquitetura livre são presumidamente inaplicáveis. Em LC, **condiciona a aplicação de todas as leis ordinárias** — LGPD, LGT, CDC, Marco Civil, regulações setoriais. Fundamento: a cláusula invoca a arquitetura livre (produto de licenças = contratos) para afastar obrigações legais; se o reconhecimento de que essa arquitetura gera efeitos regulatórios estiver apenas em LO, a cláusula opera no mesmo patamar das leis que pretende condicionar — é dique no nível da água
+
+**Bloco II — Regime tributário:**
+
+- **Regime tributário diferenciado na integralidade** — deduções majoradas, isenções de CBS (sucessora de PIS/COFINS), isenção ou redução de IBS (sucessor de ICMS/ISS), tratamento de IS (sucessor de IPI), isenção de CSLL, incentivos PADIS para hardware aberto, suspensão de tributos de importação. Fundamento: interação obrigatória com a [LC 214/2025](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm) (Reforma Tributária) e blindagem contra erosão por lei ordinária futura
+- **Adicional de IRPJ para o Fundo Nacional de Infraestrutura Livre** — definição, teto, fato gerador, destinação. Fundamento: se classificado como contribuição parafiscal ou CIDE, pode ser LO — mas a previsão em LC remove qualquer controvérsia sobre natureza tributária e oferece estabilidade ao mecanismo de financiamento da ANIL
+- **Cláusula de compatibilidade arquitetural na dimensão tributária** — prevalência sobre obrigações do CTN e da LC 214
+- **Sandbox regulatório com flexibilização tributária** — se o sandbox permitir suspensão ou redução de tributos durante período experimental, a previsão deve estar em LC
+- **Cláusula de transição tributária** — dispositivo que garanta expressamente que, à medida que CBS e IBS substituam PIS/COFINS, ICMS e ISS, os benefícios tributários do Marco se **apliquem automaticamente** aos tributos sucessores — sem necessidade de nova lei para cada etapa da transição
+
+**Bloco III — Autonomia institucional:**
+
+- **Autonomia reforçada da ANIL** — vedação de tutela ministerial, mandatos fixos, vedação de exoneração *ad nutum*, vedação de recurso hierárquico impróprio, receita própria, encaminhamento orçamentário direto ao Congresso. Fundamento: não é constitucionalmente obrigatório, mas replica o modelo do BC ([LC 179/2021](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm)) e **blinda a agência contra subordinação por lei ordinária futura** — impedindo que um governo futuro, com maioria simples em sessão ordinária, reverta a independência da ANIL
+
+#### 2. Lei ordinária — corpo normativo integral do Marco
+
+Contém **todas as demais disposições** — que representam a grande maioria do Marco e não tocam em reserva de lei complementar:
+
+**Pilar 1** (detalhamento operacional): uso justo de dados (regime específico, presunções, critérios), proteção defensiva contra patentes, direito ao fork (garantias práticas — marcas, namespaces, certificados), proteção contra *patent trolls* e *patent ambush*. As definições fundacionais (cinco camadas, licenças livres, declaração de interesse público, validade de *disclaimers*, reconhecimento da descentralização) **ficam na LC**
+
+**Pilar 2** (operacionalização): safe harbor para criadores e mantenedores, proteção contra sancionamento de artefatos, casos específicos de responsabilidade de operadores. Os princípios estruturantes (tipificação tripartite, responsabilidade vinculada ao controle) **ficam na LC**
+
+**Pilar 3** (mecanismos e aplicação): direito de contestação judicial e efeito suspensivo, vedação de obrigações impossíveis (lista exemplificativa), proteção à pesquisa de segurança, proteção contra bloqueio colateral, vedação de bloqueio de protocolos, proteção de repositórios, proteção contra apreensão de domínios. O princípio geral da compatibilidade arquitetural **fica na LC**
+
+**Pilar 4** (aspectos não tributários): proporcionalidade regulatória, distribuição de software, redes livres como categoria distinta, mandato de padrões abertos, proteção do contribuidor, mecanismo anti-SLAPP, livre exercício profissional, fabricação de hardware aberto (certificação, homologação, vedações regulatórias)
+
+**Pilar 5** (aspectos não tributários): PIL — definição, constituição, composição societária, regimes de organização, incapacidade financeira, entidade custodiante, extensão de proteções, qualificação como Empresa de Infraestrutura Livre (critérios do selo — exceto regime tributário), voluntariado, registro de marcas e patentes livres, presunção de hipossuficiência, continuidade de infraestrutura crítica, Fundo Nacional (gestão, critérios de alocação, prestação de contas), mecanismos de financiamento (editais, preferência em licitações, acesso a CT&I)
+
+**Pilar 6** (aspectos não tributários): criação da ANIL como autarquia de natureza especial, estrutura de governança (Conselho Deliberativo, Câmaras, Diretoria Executiva), competências, poder sancionatório, varas especializadas (como determinação à organização judiciária), MP e Defensoria (como diretriz), formação e capacitação
+
+**Todas as definições**
+
+### Alternativa: lei complementar única
+
+Há fundamento para apresentar o Marco inteiro como **lei complementar única**, em vez de dois instrumentos:
+
+**Vantagens:**
+
+- **Unidade normativa**: todo o Marco em um instrumento coeso, sem risco de fragmentação ou de a LO não ser aprovada após a LC
+- **Hierarquia reforçada**: todo o corpo normativo fica protegido contra modificação por maioria simples — inclusive disposições que, se estivessem em LO, poderiam ser erodidas por legislação setorial futura
+- **Eliminação do problema hierárquico licença–lei**: com todo o Marco em LC, a questão de que licenças (contratos) estão abaixo de leis se resolve integralmente — todo o reconhecimento opera em patamar complementar
+- **Sinalização institucional**: a LC transmite ao Judiciário e ao ordenamento que o Marco tem **peso normativo equivalente ao CTN, à LOMAN e ao Simples** — não é legislação ordinária passageira
+- **Simplificação processual**: um projeto de lei, um relatório, uma votação — em vez de coordenar dois instrumentos com tramitações potencialmente dessincronizadas
+
+**Desvantagens:**
+
+- **Maioria absoluta em ambas as casas**: significativamente mais difícil de obter que maioria simples — especialmente para um marco regulatório novo e extenso. A diferença não é trivial: maioria simples exige apenas maioria dos **presentes** (que pode ser uma fração do total); maioria absoluta exige maioria de **todos os membros** (257 deputados, 41 senadores) independentemente de quem esteja presente
+- **Materialidade ordinária**: o STF consolidou ([ADI 4.071 AgR/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=2589722)) que disposições de LC que não tratem de matéria reservada são "materialmente ordinárias" — podendo ser modificadas por LO futura. Na prática, boa parte do Marco, mesmo se aprovado como LC, poderia ser alterada por LO — reduzindo a vantagem hierárquica a uma fração das disposições
+- **Rigidez excessiva**: matérias do Marco que eventualmente precisem de ajuste rápido — definições técnicas, critérios de qualificação, procedimentos de registro — ficariam presas ao quórum de maioria absoluta para qualquer modificação, mesmo as não controversas
+
+### Síntese
+
+| Matéria | Veículo | Fundamento |
+|---------|---------|------------|
+| Definições das cinco camadas (pilar 1) | **LC** | Categorias fundacionais — devem vincular todo o ordenamento ordinário |
+| Licença livre e aberta, quatro direitos básicos (pilar 1) | **LC** | Licenças são contratos (< lei); reconhecimento em LC eleva à hierarquia normativa necessária |
+| Declaração de interesse público (pilar 1) | **LC** | Prevalência sobre declarações concorrentes em LO (CDC, LGPD) |
+| Validade de *disclaimers* de licenças livres (pilar 1) | **LC** | Sem LC, cláusula contratual anulável por CDC (LO) a qualquer tempo |
+| Reconhecimento da descentralização (pilar 1) | **LC** | Vincula reguladores; impede que LO futura trate ausência de centralização como irregularidade |
+| Uso justo de dados, proteção contra patentes, direito ao fork (pilar 1) | LO | Detalhamento operacional — direito autoral e propriedade industrial |
+| Tipificação tripartite — criação, operação, uso (pilar 2) | **LC** | Princípio organizador do Marco — deve vincular toda LO futura |
+| Responsabilidade vinculada ao controle (pilar 2) | **LC** | Impede que LO crie responsabilidade objetiva de criadores |
+| Safe harbor, proteção contra sancionamento (pilar 2) | LO | Operacionalização dos princípios da LC |
+| Compatibilidade arquitetural — princípio geral (pilar 3) | **LC** | Condiciona aplicação de LOs (LGPD, LGT, CDC); em LO seria dique no nível da água |
+| Compatibilidade arquitetural — dimensão tributária (pilar 3) | **LC** | Prevalência sobre CTN e LC 214 |
+| Compatibilidade arquitetural — mecanismos e aplicação (pilar 3) | LO | Contestação judicial, listas exemplificativas, proteções específicas |
+| Proporcionalidade regulatória, anti-SLAPP, livre exercício (pilar 4) | LO | Regulamentação profissional e processual — LO |
+| PIL — criação, organização, composição, custódia (pilar 5) | LO | Direito civil e associativo — LO |
+| Regime tributário diferenciado — CBS/IBS (pilar 5) | **LC** | Interação obrigatória com LC 214/2025 |
+| Regime tributário — CSLL, IRPJ adicional, PADIS (pilar 5) | **LC** | Blindagem e coerência com o núcleo tributário |
+| Regime tributário — importação (pilar 5/4) | **LC** | Coerência com bloco tributário e transição para IS |
+| Fundo Nacional, financiamento, editais (pilar 5) | LO | Fundos setoriais — LO |
+| Continuidade, voluntariado, hipossuficiência (pilar 5) | LO | Direito civil, processual e trabalhista — LO |
+| ANIL — criação e estrutura (pilar 6) | LO | Art. 37, XIX CF — "lei específica" |
+| ANIL — autonomia reforçada (pilar 6) | **LC** | Blindagem contra erosão institucional |
+| Varas, MP, Defensoria especializados (pilar 6) | LO + resoluções | Organização interna dos tribunais e MP |
+
+**Resultado**: a LC do Marco não é apenas um "núcleo tributário" — é o **alicerce normativo** sem o qual o edifício inteiro é instável. Ela contém três blocos indissociáveis: (1) as **fundações definitórias** que elevam as categorias de infraestrutura livre, as licenças livres e os princípios estruturantes (separação funcional, compatibilidade arquitetural) ao patamar de lei complementar — tornando-os oponíveis a todo o ordenamento ordinário e impedindo que licenças (contratos) sejam rebaixadas por leis ordinárias; (2) o **regime tributário** — por exigência da Reforma Tributária (LC 214/2025); e (3) a **autonomia da ANIL** — por blindagem contra erosão institucional. A LO contém o **detalhamento operacional** — safe harbors, mecanismos de contestação, listas exemplificativas, procedimentos, o PIL e toda a sua arquitetura, financiamento, institucionalização concreta — que dá corpo ao Marco dentro dos limites e categorias definidos pela LC. A LC é o esqueleto; a LO é o organismo que o esqueleto sustenta.
+
+---
+
+## Ancoragem constitucional: Proposta de Emenda à Constituição
+
+### Por que constitucionalizar
+
+A análise do veículo normativo demonstrou que a lei complementar é necessária para elevar as definições fundacionais do Marco acima das leis ordinárias que ele pretende condicionar. Mas a LC resolve apenas **um nível** da hierarquia normativa:
+
+$$\text{CF} > \text{LC} > \text{LO} > \text{Contratos (licenças)}$$
+
+Com a LC, as definições ficam protegidas contra erosão por lei ordinária. Porém, **outra lei complementar** pode, por maioria absoluta, revogar ou esvaziar as definições — sem qualquer barreira constitucional. A LC que define infraestrutura livre pode ser revogada por outra LC que redefina os conceitos para atender interesses setoriais; a LC que estabelece a separação funcional pode ser revogada por outra LC que responsabilize criadores por operação; a LC que garante a autonomia da ANIL pode ser revogada por outra LC que a subordine a um ministério.
+
+Uma **Proposta de Emenda à Constituição** (PEC) eleva os princípios fundacionais ao patamar máximo do ordenamento:
+
+- **Quórum de aprovação**: 3/5 dos membros de cada casa, em dois turnos de votação ([Art. 60, §2º CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)) — significativamente mais exigente que a maioria absoluta da LC
+- **Cláusulas pétreas**: direitos e garantias individuais não podem ser abolidos nem por emenda constitucional ([Art. 60, §4º, IV CF](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)) — se o direito à infraestrutura livre for incluído no Art. 5º, torna-se **imodificável** em seu núcleo essencial
+- **Reserva constitucional de LC**: a PEC pode criar **reserva expressa de lei complementar** para as definições do Marco — transformando o que hoje é escolha estratégica em **exigência constitucional**. Com a reserva, qualquer tentativa de tratar as definições por lei ordinária seria **inconstitucional**, não apenas hierarquicamente inferior
+- **Vinculação do legislador**: princípios constitucionais vinculam não apenas o legislador ordinário, mas o próprio legislador complementar — a LC que regulamentar a PEC está vinculada aos princípios nela estabelecidos
+
+### Precedentes: o padrão EC 115/2022
+
+O modelo direto é a [EC 115/2022 (proteção de dados pessoais)](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc115.htm). A LGPD ([Lei 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)) já existia como lei ordinária — mas o Congresso identificou que a proteção de dados precisava de **ancoragem constitucional** para ter força normativa plena. A EC 115/2022 fez três coisas:
+
+1. **Art. 5º, LXXIX** (direito fundamental): "é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais"
+2. **Art. 21, XXVI** (competência da União): "organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei"
+3. **Art. 22, XXX** (competência legislativa privativa): "proteção e tratamento de dados pessoais"
+
+O padrão é **direito fundamental + competência + ancoragem institucional**. A PEC do Marco segue o mesmo modelo — mas com uma diferença crítica: onde a EC 115 usou "nos termos da lei" (permitindo LO), a PEC do Marco deve usar "nos termos de lei complementar" — criando a **reserva constitucional** que resolve o problema hierárquico.
+
+Outros precedentes reforçam a viabilidade:
+
+- **[EC 85/2015](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc85.htm)**: constitucionalizou o framework de Ciência, Tecnologia e Inovação, adicionando Art. 219-A e 219-B, modificando mais de uma dezena de dispositivos para incluir "inovação" como conceito constitucional — apenas 4 anos após o Marco Legal de CT&I ([Lei 13.243/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13243.htm)). A PEC da infraestrutura livre segue a mesma lógica: o conceito é suficientemente estruturante para merecer ancoragem constitucional
+- **[EC 45/2004](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc45.htm)** (Reforma do Judiciário): elevou a "razoável duração do processo" a direito fundamental (Art. 5º, LXXVIII) — um princípio que já existia no ordenamento infraconstitucional mas que precisava de peso constitucional para vincular a organização judiciária
+- **[EC 132/2023](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc132.htm)** (Reforma Tributária): demonstra que o Congresso está disposto a produzir emendas constitucionais extensas e estruturantes quando a matéria justifica — e o regime tributário do Marco interage diretamente com as estruturas criadas por esta EC
+
+### Dispositivos propostos
+
+A PEC propõe alterações em **cinco artigos** da Constituição, mais um artigo no ADCT. O desenho é **enxuto**: não coloca o Marco inteiro na Constituição — coloca apenas os **pontos de ancoragem** que tornam a LC e a LO robustas.
+
+#### 1. Art. 5º, LXXX (novo) — Direito fundamental à infraestrutura livre
+
+> *"LXXX — é assegurado, nos termos de lei complementar, o direito de criar, usar, estudar, modificar e distribuir infraestrutura livre, assim entendidos os artefatos tecnológicos disponibilizados sob licenças que garantam esses direitos a qualquer pessoa."*
+
+**Efeitos jurídicos:**
+
+- **Direito fundamental**: integra o catálogo do Art. 5º — com aplicação imediata (Art. 5º, §1º CF) e proteção como cláusula pétrea (Art. 60, §4º, IV CF). Nenhuma emenda constitucional futura pode aboli-lo ou restringi-lo em seu núcleo essencial
+- **Reserva expressa de LC**: "nos termos de lei complementar" — onde a EC 115/2022 usou "nos termos da lei" (permitindo LO), a PEC do Marco usa "lei complementar". Isso transforma a reserva de LC de **escolha estratégica** em **exigência constitucional**: qualquer tentativa de definir infraestrutura livre por lei ordinária seria inconstitucional por violação de reserva de lei complementar
+- **Definição constitucional dos quatro direitos básicos**: "criar, usar, estudar, modificar e distribuir" — os quatro direitos básicos (que na prática são cinco — usar, estudar, modificar, distribuir — a que se soma "criar", o ato originário) ficam ancorados na Constituição. Nenhuma LC pode suprimi-los — apenas regulamentá-los
+- **Conceito constitucional de licença livre**: "licenças que garantam esses direitos a qualquer pessoa" — o critério funcional que distingue licenças livres de *source-available* fica na Constituição. A LC regulamenta os detalhes; a Constituição estabelece o critério
+
+**Modelo**: Art. 5º, LXXIX (EC 115/2022): "é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais". Mesmo padrão — direito assegurado + remissão à legislação infraconstitucional para regulamentação — mas com reserva expressa de LC.
+
+#### 2. Art. 170, X (novo) — Princípio da ordem econômica
+
+> *"X — promoção e proteção da infraestrutura livre como bem comum digital."*
+
+**Efeitos jurídicos:**
+
+- **Princípio da ordem econômica**: integra o catálogo do Art. 170 — ao lado de soberania nacional (I), propriedade privada (II), função social da propriedade (III), livre concorrência (IV), defesa do consumidor (V), defesa do meio ambiente (VI), redução de desigualdades (VII), busca do pleno emprego (VIII) e tratamento favorecido para pequenas empresas (IX)
+- **Peso interpretativo**: toda legislação econômica — incluindo legislação tributária, regulação setorial, direito do consumidor — deve ser interpretada à luz dos princípios do Art. 170. A inclusão da infraestrutura livre como princípio econômico vincula a interpretação de **todas as leis** que incidam sobre o ecossistema livre — CDC, LGPD, LGT, Marco Civil, legislação de IA, regulação de telecomunicações
+- **Conceito constitucional de "bem comum digital"**: a declaração de interesse público, que na LC correria risco de conflito com declarações concorrentes de LOs, passa a ser **princípio constitucional da ordem econômica** — hierarquicamente superior a qualquer declaração legislativa concorrente
+- **Compatibilidade com Art. 170, parágrafo único**: "É assegurado a todos o livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos, salvo nos casos previstos em lei" — a infraestrutura livre como princípio reforça a liberdade econômica no ecossistema digital e vincula a interpretação das exceções ("salvo nos casos previstos em lei") ao respeito pela arquitetura livre
+
+**Modelo**: Art. 170, VI (EC 42/2003): "defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação". Mesmo padrão — princípio econômico que condiciona toda a legislação da área.
+
+#### 3. Art. 219-C (novo) — Reconhecimento estratégico e reserva normativa
+
+> *"Art. 219-C. O Estado reconhece a infraestrutura livre como componente estratégico do desenvolvimento científico, tecnológico e da inovação nacional.*
+>
+> *§1º Lei complementar definirá as categorias de infraestrutura livre, os critérios de reconhecimento de licenças livres e abertas, os princípios da separação entre as atividades de criação, operação e uso, e as regras de compatibilidade das obrigações regulatórias com a arquitetura técnica dos artefatos livres.*
+>
+> *§2º As obrigações regulatórias que incidam sobre infraestrutura livre estarão sujeitas a verificação de compatibilidade com sua arquitetura técnica, nos termos de lei complementar.*
+>
+> *§3º As formas de organização descentralizada adotadas por projetos de infraestrutura livre são reconhecidas como legítimas e não podem ser tratadas como irregularidade por legislação ordinária ou regulação infralegal.*
+>
+> *§4º O Estado promoverá políticas de fomento à produção, manutenção e adoção de infraestrutura livre, inclusive na administração pública."*
+
+**Efeitos jurídicos:**
+
+- ***Caput* — reconhecimento estratégico**: insere a infraestrutura livre no Capítulo IV do Título VIII (Da Ciência, Tecnologia e Inovação), ao lado dos Arts. 218, 219, 219-A e 219-B. O reconhecimento como "componente estratégico" vincula o Estado à promoção e proteção — não é mera declaração programática, é **mandamento constitucional de atuação estatal**, nos mesmos termos do Art. 218 *caput* ("O Estado promoverá e incentivará o desenvolvimento científico")
+- **§1º — reserva explícita de LC**: este é o **dispositivo central** da PEC. Cria reserva constitucional de lei complementar para quatro matérias: (1) categorias de infraestrutura livre (as cinco camadas), (2) critérios de reconhecimento de licenças livres (os quatro direitos), (3) princípio da separação funcional (tipificação tripartite), e (4) regras de compatibilidade arquitetural. Com este dispositivo, a reserva de LC deixa de ser **escolha estratégica** e passa a ser **exigência constitucional** — qualquer lei ordinária que trate dessas matérias é **formalmente inconstitucional**
+- **§2º — cláusula de compatibilidade constitucional**: a cláusula de compatibilidade arquitetural — que na análise anterior precisava estar em LC para condicionar leis ordinárias — ganha **ancoragem constitucional direta**. Agora condiciona não apenas leis ordinárias, mas a **própria lei complementar**: a LC deve regulamentar a verificação de compatibilidade, e as regras que criar estão vinculadas ao princípio constitucional. Se a LC regulamentar a cláusula de forma restritiva, a regulamentação pode ser declarada inconstitucional por violar o §2º
+- **§3º — reconhecimento constitucional da descentralização**: projetos sem entidade jurídica central são constitucionalmente legítimos. Nenhuma lei — ordinária ou complementar — pode tratar a descentralização como irregularidade. Este dispositivo resolve o problema do [Art. 12 do Código Civil (Lei 10.406/02)](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm), que exige representação legal por pessoa jurídica — que é estruturalmente incompatível com projetos que deliberadamente não têm personalidade jurídica central
+- **§4º — mandamento de fomento**: impõe ao Estado obrigação positiva de fomento. Nos mesmos termos do Art. 218, §1º ("A pesquisa científica básica e tecnológica receberá tratamento prioritário do Estado") e do Art. 219, parágrafo único ("O Estado estimulará a formação e o fortalecimento da inovação nas empresas") — o Estado deve **ativamente promover** a infraestrutura livre. As políticas do Pilar 5 (fomento, Fundo Nacional, preferência em licitações) ganham mandamento constitucional
+
+**Modelo**: Art. 219-B (EC 85/2015): "O Sistema Nacional de Ciência, Tecnologia e Inovação (SNCTI) será organizado em regime de colaboração entre entes, tanto públicos quanto privados, com vistas a promover o desenvolvimento científico e tecnológico e a inovação. §1º Lei federal disporá sobre as normas gerais do SNCTI." Mesmo padrão — reconhecimento constitucional de conceito + remissão a lei infraconstitucional para regulamentação.
+
+#### 4. Art. 146, III, "e" (novo) — Reserva de LC para regime tributário
+
+> *"e) definição do regime tributário diferenciado da infraestrutura livre, nos termos do art. 219-C;"*
+
+**Efeitos jurídicos:**
+
+- **Reserva constitucional expressa**: o Art. 146, III lista matérias reservadas à lei complementar em matéria tributária. A alínea "a" reserva normas gerais; "b" reserva limitações ao poder de tributar; "c" reserva normas para cooperação tributária entre entes; "d" (EC 42/2003) reserva tratamento diferenciado para micro e pequenas empresas. A nova alínea "e" reserva expressamente a LC para o regime tributário da infraestrutura livre
+- **Integração com a Reforma Tributária**: o Art. 146, III, "e" torna o regime tributário da infraestrutura livre **constitucionalmente obrigatório em LC** — não apenas porque a LC 214/2025 regula CBS/IBS (argumento funcional), mas porque a **Constituição assim determina** (argumento formal). A diferença é decisiva: sem a alínea "e", o regime tributário em LC é exigência da LC 214 — que pode ser alterada por outra LC. Com a alínea "e", o regime tributário em LC é exigência da **Constituição** — que só pode ser alterada por PEC com 3/5 em dois turnos
+- **Blindagem contra erosão tributária**: nenhuma lei ordinária pode conceder, revogar ou modificar benefícios tributários destinados à infraestrutura livre sem que estejam previstos em LC — e a LC está vinculada ao princípio constitucional do Art. 219-C
+- **Remissão ao Art. 219-C**: a referência cruzada garante que o regime tributário está vinculado ao conceito constitucional de infraestrutura livre — impedindo que uma LC tributária redefina o conceito para ampliar ou restringir a base de beneficiários sem respeitar a definição do Art. 219-C, §1º
+
+**Modelo**: Art. 146, III, "d" (EC 42/2003): "definição de tratamento diferenciado e favorecido para as microempresas e para as empresas de pequeno porte, inclusive regimes especiais ou simplificados". Mesmo padrão — reserva de LC para regime tributário de categoria específica.
+
+#### 5. Art. 21, XXVII (novo) — Competência da União
+
+> *"XXVII — promover a infraestrutura livre e organizar sua regulação, nos termos de lei complementar."*
+
+**Efeitos jurídicos:**
+
+- **Competência administrativa da União**: nos mesmos termos do Art. 21, XXVI (EC 115/2022): "organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei" — a nova inciso atribui à União a competência para organizar a regulação da infraestrutura livre
+- **Fundamento constitucional da ANIL**: a criação de autarquia reguladora federal ganha ancoragem constitucional direta — não é apenas criação por "lei específica" (Art. 37, XIX), mas exercício de competência constitucional expressa da União
+- **Reserva de LC**: "nos termos de lei complementar" reforça a reserva criada pelo Art. 219-C, §1º
+
+**Modelo**: Art. 21, XXVI (EC 115/2022): "organizar e fiscalizar a proteção e o tratamento de dados pessoais, nos termos da lei."
+
+#### 6. ADCT, Art. ___ (novo) — Cláusula de transição
+
+> *"Art. ___. A lei complementar de que trata o art. 219-C, §1º, da Constituição Federal será apresentada ao Congresso Nacional no prazo de dois anos a contar da promulgação desta Emenda.*
+>
+> *§1º Até a entrada em vigor da lei complementar de que trata o caput, aplicam-se diretamente os princípios estabelecidos nos arts. 5º, LXXX, 170, X, e 219-C da Constituição Federal, inclusive para fins de controle de constitucionalidade da legislação vigente.*
+>
+> *§2º Os benefícios tributários relativos à infraestrutura livre criados por lei ordinária durante o período de transição serão recepcionados pela lei complementar de que trata o art. 146, III, 'e', da Constituição Federal, desde que compatíveis com seus princípios."*
+
+**Efeitos jurídicos:**
+
+- ***Caput* — prazo para regulamentação**: dois anos para apresentação da LC, nos moldes do prazo concedido por outras ECs (o Art. 219-B, §1º da EC 85/2015 não fixou prazo, o que resultou em demora na regulamentação do SNCTI — a fixação de prazo no ADCT evita esse problema)
+- **§1º — aplicabilidade imediata dos princípios**: mesmo antes da LC, os princípios constitucionais têm **eficácia plena**. Um juiz pode, desde a promulgação da PEC, aplicar diretamente o Art. 5º, LXXX para proteger o direito de criar e distribuir infraestrutura livre, ou invocar o Art. 219-C, §2º para afastar obrigação regulatória incompatível com a arquitetura livre. A legislação vigente (CDC, LGPD, LGT) deve ser interpretada em conformidade com os novos princípios constitucionais — e pode ser declarada inconstitucional na parte em que conflitar
+- **§2º — recepção de legislação transitória**: se, durante a tramitação da PEC e da LC, legislação ordinária criar benefícios tributários para infraestrutura livre (o que é constitucionalmente possível para tributos que não exigem LC), esses benefícios são "recepcionados" quando a LC for aprovada — evitando vácuo normativo ou necessidade de reaprovar disposições já vigentes. O modelo é a recepção do [CTN (Lei 5.172/66)](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm) como LC — uma lei ordinária que, por tratar de matéria depois reservada à LC pela CF/88, foi recepcionada com status de LC
+
+### Efeitos sobre a LC e a LO
+
+Com a PEC aprovada, a arquitetura normativa se completa em **três camadas**:
+
+| Camada | Conteúdo | Proteção |
+|--------|----------|----------|
+| **Constituição (PEC)** | Direito fundamental (Art. 5º, LXXX); princípio econômico (Art. 170, X); reconhecimento estratégico e reserva de LC (Art. 219-C); reserva tributária (Art. 146, III, "e"); competência da União (Art. 21, XXVII) | 3/5 em dois turnos; cláusula pétrea para Art. 5º, LXXX |
+| **Lei complementar** | Definições das cinco camadas; critério de licença livre; tipificação tripartite; compatibilidade arquitetural; validade de *disclaimers*; regime tributário completo; autonomia da ANIL | Maioria absoluta; vinculada à PEC |
+| **Lei ordinária** | Safe harbors; mecanismos de contestação; PIL; financiamento; procedimentos; institucionalização operacional da ANIL | Maioria simples; vinculada à LC e à PEC |
+
+**O que muda com a PEC:**
+
+1. **A reserva de LC deixa de ser estratégica e passa a ser constitucional**: sem a PEC, colocar as definições na LC é uma **escolha do legislador** — que outro legislador, com maioria absoluta, pode reverter. Com a PEC, a reserva é constitucional — uma LC que abdique de definir as categorias de infraestrutura livre (delegando a LO) é **inconstitucional**
+
+2. **Os quatro direitos básicos tornam-se cláusula pétrea**: no Art. 5º, LXXX, "criar, usar, estudar, modificar e distribuir" ficam protegidos pelo Art. 60, §4º, IV ("Não será objeto de deliberação a proposta de emenda tendente a abolir [...] os direitos e garantias individuais"). Nenhuma emenda futura pode suprimir ou restringir o núcleo essencial desses direitos. A LC pode regulamentá-los — mas não pode aboli-los ou esvaziá-los
+
+3. **A cláusula de compatibilidade ganha força supralegal**: no Art. 219-C, §2º, a verificação de compatibilidade é princípio constitucional — condiciona não apenas leis ordinárias, mas a própria LC. Se a LC regulamentar a cláusula de forma restritiva (limitando-a a situações específicas quando a Constituição a estabelece como princípio geral), a regulamentação pode ser impugnada por ADI no STF
+
+4. **A descentralização é constitucionalmente legítima**: no Art. 219-C, §3º — nenhuma lei, de qualquer espécie, pode tratar a ausência de entidade jurídica central como irregularidade. A legitimidade da organização descentralizada é **norma constitucional autoaplicável**
+
+5. **O Art. 170, X resolve o conflito de princípios**: quando o CDC invoca "defesa do consumidor" (Art. 170, V) para impor obrigações incompatíveis com a infraestrutura livre, a "promoção e proteção da infraestrutura livre" (Art. 170, X) opera como **princípio constitucional em tensão** — exigindo ponderação, não prevalência automática do CDC. O mesmo se aplica a conflitos com "defesa do meio ambiente" (VI) quando reguladores ambientais tentarem impor obrigações de rastreabilidade incompatíveis com a arquitetura livre
+
+### Viabilidade e estratégia de tramitação
+
+A PEC é **enxuta** — cinco dispositivos no corpo permanente mais um artigo no ADCT. Não é uma emenda constitucional extensa como a EC 132/2023 (Reforma Tributária, com dezenas de artigos); assemelha-se mais à EC 115/2022 (proteção de dados, com três dispositivos) e à EC 85/2015 (CT&I, com modificações pontuais em artigos existentes).
+
+**Fatores favoráveis:**
+
+- **Precedente da EC 115/2022**: o Congresso já demonstrou disposição para constitucionalizar direitos digitais — a proteção de dados pessoais foi constitucionalizada apenas 4 anos após a LGPD. A infraestrutura livre segue a mesma lógica de constitucionalização de categorias digitais estruturantes
+- **Inserção no ecossistema CT&I**: o Art. 219-C se insere naturalmente no Capítulo IV do Título VIII, já expandido pela EC 85/2015 — a infraestrutura livre é extensão lógica da agenda de ciência, tecnologia e inovação
+- **Enxutez**: poucos dispositivos, sem reorganização de competências federativas, sem criação de tributos, sem impacto fiscal direto — reduz resistência e simplifica tramitação
+- **Apoio transversal**: infraestrutura livre beneficia o setor público (redução de custos, soberania digital), o setor privado (inovação, competitividade), a academia (pesquisa, publicação aberta) e a sociedade civil (acesso ao conhecimento, participação) — base de apoio potencialmente ampla e transpartidária
+
+**Estratégia recomendada:**
+
+A PEC pode tramitar **antes ou simultaneamente** à LC e à LO. Se aprovada antes, cria o arcabouço constitucional que a LC e a LO regulamentam. Se tramitar simultaneamente, a aprovação da PEC reforça a LC já aprovada — e a cláusula de recepção do ADCT resolve eventuais conflitos temporais.
+
+A ordem ideal é: **(1) PEC → (2) LC → (3) LO**. A PEC cria a ancoragem; a LC regulamenta as definições e princípios dentro do quadro constitucional; a LO operacionaliza o Marco dentro dos limites da LC e da PEC. Cada camada reforça a anterior — e a arquitetura completa é resistente a erosão legislativa em qualquer nível.
