@@ -10,9 +10,10 @@
 	import Server from '@lucide/svelte/icons/server';
 	import Wifi from '@lucide/svelte/icons/wifi';
 	import Cpu from '@lucide/svelte/icons/cpu';
+	import Database from '@lucide/svelte/icons/database';
 	import Layers from '@lucide/svelte/icons/layers';
 
-	type FilterType = 'all' | 'software' | 'service' | 'network' | 'hardware';
+	type FilterType = 'all' | 'software' | 'service' | 'network' | 'hardware' | 'data';
 	let activeFilter = $state<FilterType>('all');
 
 	let filteredArticles = $derived(
@@ -26,10 +27,11 @@
 
 	const filters = [
 		{ id: 'all', title: 'Visão Geral', icon: Layers },
-		{ id: 'software', title: 'Software Aberto', icon: Box },
-		{ id: 'service', title: 'Serviços Descentralizados', icon: Server },
-		{ id: 'network', title: 'Redes Livres', icon: Wifi },
-		{ id: 'hardware', title: 'Hardware Aberto', icon: Cpu }
+		{ id: 'software', title: 'Software', icon: Box },
+		{ id: 'hardware', title: 'Hardware', icon: Cpu },
+		{ id: 'network', title: 'Redes', icon: Wifi },
+		{ id: 'data', title: 'Dados', icon: Database },
+		{ id: 'service', title: 'Serviços', icon: Server }
 	] as const;
 
 	function getTypeConfig(type?: string) {
@@ -37,6 +39,7 @@
 			case 'service': return { icon: Server, label: 'Serviço', class: 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-500/10 dark:text-sky-400 dark:border-sky-500/20' };
 			case 'network': return { icon: Wifi, label: 'Rede', class: 'bg-violet-50 text-violet-700 border-violet-200 dark:bg-violet-500/10 dark:text-violet-400 dark:border-violet-500/20' };
 			case 'hardware': return { icon: Cpu, label: 'Hardware', class: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-500/10 dark:text-amber-400 dark:border-amber-500/20' };
+			case 'data': return { icon: Database, label: 'Dados', class: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-500/10 dark:text-rose-400 dark:border-rose-500/20' };
 			case 'software':
 			default: return { icon: Box, label: 'Software', class: 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-400 dark:border-emerald-500/20' };
 		}

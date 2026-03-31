@@ -10,11 +10,12 @@
 	import Box from '@lucide/svelte/icons/box';
 	import Wifi from '@lucide/svelte/icons/wifi';
 	import Cpu from '@lucide/svelte/icons/cpu';
+	import Database from '@lucide/svelte/icons/database';
 </script>
 
 <svelte:head>
 	<title>InfraLivre — O Marco Jurídico da Infraestrutura Livre no Brasil</title>
-	<meta name="description" content="Iniciativa da sociedade civil pela construção de um marco jurídico que proteja o software livre, hardware aberto, serviços descentralizados e redes livres no Brasil." />
+	<meta name="description" content="Iniciativa da sociedade civil pela construção de um marco jurídico que proteja o software livre, hardware aberto, serviços abertos, redes livres e dados abertos no Brasil." />
 	<meta property="og:title" content="InfraLivre — O Marco Jurídico da Infraestrutura Livre" />
 	<meta property="og:description" content="Protegendo quem desenvolve a infraestrutura digital do nosso país." />
 </svelte:head>
@@ -84,18 +85,19 @@
 		<span class="text-sm font-semibold uppercase tracking-wider text-primary">A Base</span>
 		<h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A Anatomia da Infraestrutura</h2>
 		<p class="mt-4 text-lg text-muted-foreground">
-			Você usa esses componentes diariamente de forma invisível. O "InfraLivre" existe porque não estamos defendendo apenas linhas de código paradas, mas <strong>ecossistemas produtivos vivos repartidos em quatro pilares da tecnologia livre.</strong>
+			Você usa esses componentes diariamente de forma invisível. O "InfraLivre" existe porque não estamos defendendo apenas linhas de código paradas, mas <strong>ecossistemas produtivos vivos repartidos em cinco dimensões.</strong>
 		</p>
+		<p class="mt-3 text-xl font-semibold text-primary sm:text-2xl">Todos livres e abertos.</p>
 	</div>
 
 	<div class="mx-auto mt-16 max-w-5xl flex flex-col gap-12 md:gap-20">
-		<!-- Software (Texto na Esquerda, Imagem na Direita) -->
+		<!-- 1. Software (Texto na Esquerda, Imagem na Direita) -->
 		<div class="group/section grid gap-8 items-center md:grid-cols-2">
 			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-emerald-500/50 group-hover/section:bg-emerald-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-emerald-500/30 dark:group-hover/section:bg-emerald-500/10">
 				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-emerald-500/20 dark:text-emerald-400">
 					<Box class="size-6" />
 				</div>
-				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-emerald-700 dark:text-zinc-50 dark:group-hover/section:text-emerald-400">Software Livre e Aberto</h3>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-emerald-700 dark:text-zinc-50 dark:group-hover/section:text-emerald-400">Software</h3>
 				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
 					Bibliotecas, frameworks, aplicativos e sistemas operacionais (como Linux) que compõem 90% dos servidores modernos. Milhões de contribuintes escrevem o código base que permitem que o mundo moderno funcione.
 				</p>
@@ -104,7 +106,7 @@
 			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-emerald-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-emerald-500/10 dark:border-zinc-800 dark:bg-zinc-900">
 				<img
 					src="/images/software-livre-1.jpg"
-					alt="Ilustração representando software livre e código aberto."
+					alt="Ilustração representando software."
 					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
 					loading="eager"
 				/>
@@ -112,59 +114,13 @@
 			</div>
 		</div>
 
-		<!-- Serviço (Imagem na Esquerda, Texto na Direita) -->
-		<div class="group/section grid gap-8 items-center md:grid-cols-2">
-			<div class="order-first md:order-last relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-sky-500/50 group-hover/section:bg-sky-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-sky-500/30 dark:group-hover/section:bg-sky-500/10">
-				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-sky-500/20 dark:text-sky-400">
-					<Server class="size-6" />
-				</div>
-				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-sky-700 dark:text-zinc-50 dark:group-hover/section:text-sky-400">Serviços Abertos</h3>
-				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
-					Plataformas hospedadas de forma aberta a sistemas educacionais e bem como federada, onde a comunidade governa e opera os servidores, assim evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
-				</p>
-			</div>
-			<!-- Imagem -->
-			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-sky-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-sky-500/10 dark:border-zinc-800 dark:bg-zinc-900">
-				<img
-					src="/images/servico-livre-1.jpg"
-					alt="Ilustração representando serviços abertos."
-					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
-					loading="eager"
-				/>
-				<div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
-			</div>
-		</div>
-
-		<!-- Rede (Texto na Esquerda, Imagem na Direita) -->
-		<div class="group/section grid gap-8 items-center md:grid-cols-2">
-			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-violet-500/50 group-hover/section:bg-violet-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-violet-500/30 dark:group-hover/section:bg-violet-500/10">
-				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-violet-500/10 text-violet-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-violet-500/20 dark:text-violet-400">
-					<Wifi class="size-6" />
-				</div>
-				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-violet-700 dark:text-zinc-50 dark:group-hover/section:text-violet-400">Redes Livres</h3>
-				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
-					Protocolos de conexão autônomos e malhas comunitárias de internet (mesh networks) construídas para conectar áreas remotas. Infraestruturas onde a estabilidade dependa dos participantes, não de provedores privados corporativos.
-				</p>
-			</div>
-			<!-- Imagem -->
-			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-violet-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-violet-500/10 dark:border-zinc-800 dark:bg-zinc-900">
-				<img
-					src="/images/redes-livres-1.jpg"
-					alt="Ilustração representando serviços descentralizados."
-					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
-					loading="eager"
-				/>
-				<div class="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
-			</div>
-		</div>
-
-		<!-- Hardware (Imagem na Esquerda, Texto na Direita) -->
+		<!-- 2. Hardware (Imagem na Esquerda, Texto na Direita) -->
 		<div class="group/section grid gap-8 items-center md:grid-cols-2">
 			<div class="order-first md:order-last relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-amber-500/50 group-hover/section:bg-amber-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-amber-500/30 dark:group-hover/section:bg-amber-500/10">
 				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-amber-500/20 dark:text-amber-400">
 					<Cpu class="size-6" />
 				</div>
-				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-amber-700 dark:text-zinc-50 dark:group-hover/section:text-amber-400">Hardware Aberto</h3>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-amber-700 dark:text-zinc-50 dark:group-hover/section:text-amber-400">Hardware</h3>
 				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
 					Diagramas de circuitos, placas, chips (como RISC-V) e impressões 3D com propriedades livres. Significa ter o direito a reparar seus próprios bens e impulsionar a educação científica democratizada além das restrições de patentes.
 				</p>
@@ -173,11 +129,80 @@
 			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-amber-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-amber-500/10 dark:border-zinc-800 dark:bg-zinc-900">
 				<img
 					src="/images/hardware-livre-1.jpg"
-					alt="Ilustração representando hardware livre."
+					alt="Ilustração representando hardware."
 					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
 					loading="eager"
 				/>
 				<div class="absolute inset-0 bg-gradient-to-tr from-amber-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
+		</div>
+
+		<!-- 3. Redes (Texto na Esquerda, Imagem na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-violet-500/50 group-hover/section:bg-violet-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-violet-500/30 dark:group-hover/section:bg-violet-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-violet-500/10 text-violet-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-violet-500/20 dark:text-violet-400">
+					<Wifi class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-violet-700 dark:text-zinc-50 dark:group-hover/section:text-violet-400">Redes</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Protocolos de conexão autônomos e malhas comunitárias de internet (mesh networks) construídas para conectar áreas remotas. Infraestruturas onde a estabilidade dependa dos participantes, não de provedores privados corporativos.
+				</p>
+			</div>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-violet-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-violet-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/redes-livres-1.jpg"
+					alt="Ilustração representando redes."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
+		</div>
+
+		<!-- 4. Dados (Imagem na Esquerda, Texto na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="order-first md:order-last relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-rose-500/50 group-hover/section:bg-rose-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-rose-500/30 dark:group-hover/section:bg-rose-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-rose-500/10 text-rose-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:rotate-3 dark:bg-rose-500/20 dark:text-rose-400">
+					<Database class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-rose-700 dark:text-zinc-50 dark:group-hover/section:text-rose-400">Dados</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Conjuntos de dados governamentais, científicos e comunitários publicados em formatos livres e acessíveis. Transparência pública, pesquisa reprodutível e inovação cidadã dependem de dados que qualquer pessoa possa consultar, reutilizar e redistribuir sem restrições.
+				</p>
+			</div>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-rose-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-rose-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/dados-abertos-1.jpg"
+					alt="Ilustração representando dados."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="lazy"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-rose-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
+			</div>
+		</div>
+
+		<!-- 5. Serviços (Texto na Esquerda, Imagem na Direita) -->
+		<div class="group/section grid gap-8 items-center md:grid-cols-2">
+			<div class="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-8 transition-all duration-500 group-hover/section:border-sky-500/50 group-hover/section:bg-sky-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:group-hover/section:border-sky-500/30 dark:group-hover/section:bg-sky-500/10">
+				<div class="mb-4 flex size-12 items-center justify-center rounded-lg bg-sky-500/10 text-sky-600 transition-transform duration-500 group-hover/section:scale-110 group-hover/section:-rotate-3 dark:bg-sky-500/20 dark:text-sky-400">
+					<Server class="size-6" />
+				</div>
+				<h3 class="mb-3 text-2xl font-bold text-zinc-900 transition-colors duration-300 group-hover/section:text-sky-700 dark:text-zinc-50 dark:group-hover/section:text-sky-400">Serviços</h3>
+				<p class="text-muted-foreground transition-colors duration-300 group-hover/section:text-zinc-700 dark:group-hover/section:text-zinc-300">
+					Plataformas hospedadas de forma aberta a sistemas educacionais e bem como federada, onde a comunidade governa e opera os servidores, assim evitando monopólios digitais e promovendo redes sociais onde você é dono dos seus próprios dados.
+				</p>
+			</div>
+			<!-- Imagem -->
+			<div class="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-100 transition-all duration-500 group-hover/section:scale-[1.02] group-hover/section:border-sky-500/30 group-hover/section:shadow-2xl group-hover/section:shadow-sky-500/10 dark:border-zinc-800 dark:bg-zinc-900">
+				<img
+					src="/images/servico-livre-1.jpg"
+					alt="Ilustração representando serviços."
+					class="absolute inset-0 h-full w-full object-cover opacity-90 transition-all duration-500 group-hover/section:opacity-100 group-hover/section:scale-105"
+					loading="eager"
+				/>
+				<div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 mix-blend-overlay transition-opacity duration-500 group-hover/section:opacity-100"></div>
 			</div>
 		</div>
 	</div>
@@ -263,7 +288,7 @@
 <!-- 7. Inversão drástica: The Ultimate CTA -->
 <CallToAction
 	title="Um Marco focado em competência e realidade viável"
-	description="Os 5 Pilares do InfraLivre estabelecem defesas, princípios e reconhecimentos que protegem os times de ponta contra exigências regulatórias insanas."
+	description="Os 6 Pilares do InfraLivre estabelecem defesas, princípios e reconhecimentos que protegem os times de ponta contra exigências regulatórias insanas."
 	href="/proposta"
 	label="Ver a Proposta Completa"
 	secondaryHref="/apoio"
