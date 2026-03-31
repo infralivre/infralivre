@@ -19,12 +19,12 @@ Se implementado, o Marco posicionaria o Brasil na **vanguarda mundial do direito
 - Proteção defensiva contra patentes de terceiros: presunção de *prior art*, vedação de patentes como bloqueio, impugnação coletiva — *patent trolls* e *patent ambush* como **risco sistêmico**
 - Direito ao fork como **garantia fundamental**: proteção da viabilidade prática — vedação de uso de marcas, namespaces, plataformas ou certificados para impedir derivações legítimas
 
-### 2. Separação funcional entre criação, operação e uso
+### 2. Separação funcional entre produção, execução e interação
 
-- Criação, operação e uso são atividades **juridicamente distintas** com responsabilidades distintas
+- Produção, execução e interação são atividades **juridicamente distintas** com responsabilidades distintas
 - Nenhum agente pode ser responsabilizado por atos em camada que não controla
-- Onde há controle efetivo, há obrigações legítimas — mas proporcionais à capacidade real do operador
-- Safe harbor para criadores e mantenedores de infraestrutura livre
+- Onde há controle efetivo, há obrigações legítimas — mas proporcionais à capacidade real do executor
+- Safe harbor para criadores, mantenedores e contribuidores de infraestrutura livre
 - Vedação de sanções sobre código-fonte, designs e artefatos abertos enquanto artefatos
 
 ### 3. Princípio da compatibilidade arquitetural
@@ -32,7 +32,7 @@ Se implementado, o Marco posicionaria o Brasil na **vanguarda mundial do direito
 - **Cláusula normativa vinculante**: obrigações que pressuponham controle centralizado são **presumidamente inaplicáveis** — eficácia imediata sobre legislação anterior, vigente e futura
 - **Direito de contestação judicial** com efeito suspensivo — **ônus de demonstrar exequibilidade recai sobre o regulador**
 - Vedação de obrigações estruturalmente impossíveis: varredura em código aberto, moderação centralizada de redes federadas, interceptação em redes mesh, bloqueio de firmware
-- Cláusula de adaptação: obrigações devem ser **materialmente exequíveis** pelo operador
+- Cláusula de adaptação: obrigações devem ser **materialmente exequíveis** pelo executor
 - Proteção à pesquisa de segurança como atividade de interesse público
 - **Proteção contra bloqueio colateral na internet**: bloqueios de DNS, IP, ASN ou BGP não podem alcançar colateralmente infraestrutura livre — princípio da **cirurgicidade** e legitimidade para suspensão imediata
 - **Vedação de bloqueio de protocolos abertos**: nenhuma ação pode bloquear, restringir ou degradar protocolos (BitTorrent, IPFS, Tor, Matrix, ActivityPub) por usos ilícitos de terceiros — protocolo é infraestrutura, não agente
@@ -49,7 +49,7 @@ Se implementado, o Marco posicionaria o Brasil na **vanguarda mundial do direito
 - Mandato de padrões abertos na administração pública
 - **Proteção do contribuidor**: contribuição a PIL fora do escopo e horário de trabalho não pode ser reivindicada pelo empregador — cláusulas genéricas de cessão de PI nulas na parte excedente
 - **Proteção contra litigância predatória (anti-SLAPP)**: extinção antecipada de ações abusivas, inversão do ônus, honorários majorados, depósito prévio em ações repetitivas
-- **Livre exercício profissional**: o trabalho em infraestrutura digital livre é atividade de exercício livre — abrangendo profissões com e sem conselho (de computação e design digital a engenharia/CONFEA/CREA, arquitetura/CAU, técnicos de redes/CFT/CRT e interfaces com área médica/CRM). Vedadas taxas, anuidades, punições ou limitações de conselhos profissionais sobre a criação de infraestrutura livre. Onde há conselho, sua jurisdição se mantém sobre a aplicação regulada — mas não pode se estender à criação, que não gera risco concreto. Princípio do risco real: o conselho que pretender alcançar atividade de infraestrutura livre deve demonstrar risco concreto, específico e proporcional — risco meramente potencial não legitima extensão de jurisdição
+- **Livre exercício profissional**: o trabalho em infraestrutura digital livre é atividade de exercício livre — abrangendo profissões com e sem conselho (de computação e design digital a engenharia/CONFEA/CREA, arquitetura/CAU, técnicos de redes/CFT/CRT e interfaces com área médica/CRM). Vedadas taxas, anuidades, punições ou limitações de conselhos profissionais sobre a produção de infraestrutura livre. Onde há conselho, sua jurisdição se mantém sobre a aplicação regulada — mas não pode se estender à produção, que não gera risco concreto. Princípio do risco real: o conselho que pretender alcançar atividade de infraestrutura livre deve demonstrar risco concreto, específico e proporcional — risco meramente potencial não legitima extensão de jurisdição
 
 ### 5. Sustentabilidade e fomento do ecossistema
 
